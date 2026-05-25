@@ -1188,7 +1188,7 @@ export function renderHtml(
   <header class="report-header">
     <span class="eyebrow">${STR.siteTitle}</span>
     <h1 class="report-title">${date}</h1>
-    ${process.env.WEB_MODE === "true" ? `<a class="archive-link" href="../archive.html">${STR.archiveLink}</a>` : ""}
+    ${process.env.WEB_MODE === "true" ? `<a class="archive-link" href="./archive.html">${STR.archiveLink}</a>` : ""}
   </header>
 
   <nav class="tabs" role="tablist">
@@ -1218,6 +1218,11 @@ export function renderHtml(
   </footer>
 </main>
 <script>
+if (location.pathname.includes("/daily_reports/") || /\/\d{4}-\d{2}-\d{2}\/\d{4}-\d{2}-\d{2}\.html$/.test(location.pathname)) {
+  const archiveLink = document.querySelector(".archive-link");
+  if (archiveLink) archiveLink.setAttribute("href", "../archive.html");
+}
+
   document.querySelectorAll('.tabs > .tab').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var target = btn.dataset.tab;
