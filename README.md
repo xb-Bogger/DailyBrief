@@ -4,6 +4,8 @@ DailyBrief 是一个每日自动更新的网页简报，聚合技术动态、AI 
 
 🌐 访问地址：[https://xb-bogger.github.io/DailyBrief/](https://xb-bogger.github.io/DailyBrief/)
 
+⏰ 默认更新时间：北京时间每天 09:00 左右自动生成并发布；“每日论文”展示 arXiv `cs.CR` 最新可用公告批次。arXiv 通常在美东时间周日至周四 20:00 更新，周末没有常规新公告。
+
 ## ✨ 看什么
 
 - 🧑‍💻 **技术动态**：GitHub Trending、AI 媒体、X 热门 AI 讨论，帮助快速扫过当天技术圈重点。

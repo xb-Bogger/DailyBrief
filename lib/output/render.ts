@@ -42,6 +42,9 @@ const TEXTS_ZH = {
   subOverseasNews: "海外科技",
   subOverseas: "海外",
   subCsCr: "Cryptography and Security",
+  paperBatchTitle: "每日论文 · arXiv cs.CR 最新公告批次",
+  paperBatchNote:
+    "arXiv 通常在美东时间周日至周四 20:00 更新；周末无新公告。当前展示最新可用批次。",
   emptySource: "该源今日无内容。",
   emptyCategory: "该分类今日无内容。",
   emptyGroup: "该组今日无数据。",
@@ -97,6 +100,9 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subOverseasNews: "Overseas Tech",
   subOverseas: "Overseas",
   subCsCr: "Cryptography and Security",
+  paperBatchTitle: "Daily Papers · Latest arXiv cs.CR Announcement",
+  paperBatchNote:
+    "arXiv usually announces updates Sunday through Thursday at 20:00 US Eastern Time; there are no regular weekend announcements. This panel shows the latest available batch.",
   emptySource: "No content from this source today.",
   emptyCategory: "No content in this category today.",
   emptyGroup: "No data for this group today.",
@@ -578,6 +584,14 @@ function renderRawCategoryPanel(
   return `<nav class="sub-tabs">${subTabs}</nav>\n<div class="sub-contents">${panels}</div>`;
 }
 
+function renderPapersPanel(subs: SubGroup[]): string {
+  return `<section class="paper-batch-note">
+    <h2>${STR.paperBatchTitle}</h2>
+    <p>${STR.paperBatchNote}</p>
+  </section>
+  ${renderRawCategoryPanel("papers", subs)}`;
+}
+
 // ----- top-level renderer -----
 
 export function renderHtml(
@@ -844,6 +858,25 @@ export function renderHtml(
     margin: 0;
     color: var(--fg-soft);
     font-size: 0.86rem;
+    line-height: 1.55;
+  }
+
+  .paper-batch-note {
+    margin: 0 0 0.9rem;
+    padding: 0.75rem 0.95rem;
+    background: var(--card);
+    border-left: 3px solid var(--link);
+    border-radius: 0.45rem;
+  }
+  .paper-batch-note h2 {
+    margin: 0 0 0.25rem;
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+  .paper-batch-note p {
+    margin: 0;
+    color: var(--fg-soft);
+    font-size: 0.84rem;
     line-height: 1.55;
   }
 
@@ -1328,7 +1361,7 @@ export function renderHtml(
     ${renderRawCategoryPanel("tech", techMainSubs)}
   </section>
   <section class="panel" data-panel="papers">
-    ${renderRawCategoryPanel("papers", raw.papers)}
+    ${renderPapersPanel(raw.papers)}
   </section>
   ${trading ? `<section class="panel" data-panel="trading">${renderTradingPanel(trading)}</section>` : ""}
   <section class="panel" data-panel="politics">

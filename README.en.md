@@ -4,6 +4,8 @@ DailyBrief is a daily-updated web brief that gathers technology news, AI updates
 
 🌐 Live site: [https://xb-bogger.github.io/DailyBrief/](https://xb-bogger.github.io/DailyBrief/)
 
+⏰ Default update time: around 09:00 Beijing time every day. The Daily Papers panel shows the latest available arXiv `cs.CR` announcement batch. arXiv usually announces updates Sunday through Thursday at 20:00 US Eastern Time, with no regular weekend announcements.
+
 ## ✨ What It Covers
 
 - 🧑‍💻 **Tech**: GitHub Trending, AI media, and notable AI-related discussions from X.
