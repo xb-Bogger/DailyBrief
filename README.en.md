@@ -9,7 +9,7 @@ DailyBrief is a daily-updated web brief that gathers technology news, AI updates
 ## ✨ What It Covers
 
 - 🧑‍💻 **Tech**: GitHub Trending, AI media, and notable AI-related discussions from X.
-- 📚 **Daily Papers**: Currently focused on arXiv `Cryptography and Security`, including paper title, first author, security area, keywords, and a Chinese introduction.
+- 📚 **Daily Papers**: Currently focused on arXiv `Cryptography and Security` plus embodied AI / VLA papers, including paper title, first author, area, keywords, and a Chinese introduction.
 - 📈 **Markets**: Stocks, crypto assets, Hong Kong equities, commodities, FX, and macro indicators with technical signals and AI commentary.
 - 💰 **Finance**: Sources such as Bloomberg, WSJ, FT, BBC Business, and The Economist.
 - 🌍 **World**: International news from BBC, Guardian, NYT, NPR, Al Jazeera, The Diplomat, and related sources.
@@ -19,6 +19,7 @@ DailyBrief is a daily-updated web brief that gathers technology news, AI updates
 
 - Click any news, paper, or project **title** to open the original source. Paper titles open the corresponding arXiv page.
 - The Daily Papers panel paginates automatically when there are many papers, with up to 15 papers per page.
+- Use the “Hide English abstracts” control at the end of a paper's keyword row to hide or restore all original abstracts.
 - Use the top tabs to switch quickly between tech, papers, markets, finance, world, and community content.
 - Use the archive link to browse previous daily briefs.
 - Summaries are meant for triage; open the original source when you need exact wording or citation-grade detail.

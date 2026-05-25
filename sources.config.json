@@ -347,6 +347,21 @@
     "notes": "Daily recent submissions for Cryptography and Security."
   },
   {
+    "id": "arxiv-vla",
+    "name": "arXiv VLA",
+    "type": "scrape",
+    "url": "https://arxiv.org/list/cs.RO/recent",
+    "category": "papers",
+    "subcategory": "vla",
+    "enabled": true,
+    "lang": "en",
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "Vision-Language-Action / embodied intelligence papers filtered from cs.RO, cs.CV, cs.LG, cs.AI, and cs.CL recent lists."
+  },
+  {
     "id": "bloomberg-markets",
     "name": "Bloomberg Markets",
     "type": "rss",

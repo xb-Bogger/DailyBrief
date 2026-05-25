@@ -88,7 +88,6 @@ async function enrichPapers(articles: ArticleInput[]): Promise<void> {
   const subSources = sources.filter(
     (s) =>
       s.category === "papers" &&
-      s.subcategory === "cs-cr" &&
       s.enabled !== false,
   );
   const enabledIds = new Set(subSources.map((s) => s.id));

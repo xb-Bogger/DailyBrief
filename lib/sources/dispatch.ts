@@ -1,4 +1,4 @@
-import { fetchArxivRecent } from "./arxiv";
+import { fetchArxivRecent, fetchArxivVlaRecent } from "./arxiv";
 import { fetchAttentionVc } from "./attentionvc";
 import { fetchGithubTrending } from "./github-trending";
 import { fetchHackerNews } from "./hackernews";
@@ -19,6 +19,9 @@ export async function fetchSource(source: SourceDef): Promise<RawArticle[]> {
   if (source.id === "attentionvc-ai") return fetchAttentionVc(source.id);
   if (source.id === "arxiv-cs-cr") {
     return fetchArxivRecent(source.id, source.url);
+  }
+  if (source.id === "arxiv-vla") {
+    return fetchArxivVlaRecent(source.id);
   }
   return fetchRss(source.id, source.url, source.category, {
     useCurl: source.useCurl,

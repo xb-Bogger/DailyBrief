@@ -42,6 +42,7 @@ const TEXTS_ZH = {
   subOverseasNews: "海外科技",
   subOverseas: "海外",
   subCsCr: "Cryptography and Security",
+  subVla: "VLA模型",
   paperBatchTitle: "每日论文 · arXiv cs.CR 最新公告批次",
   paperBatchNote:
     "arXiv 通常在美东时间周日至周四 20:00 更新；周末无新公告。当前展示最新可用批次。",
@@ -79,6 +80,8 @@ const TEXTS_ZH = {
   paperNextPage: "下一页",
   paperPageLabel: "第",
   paperPageSuffix: "页",
+  paperHideAbstracts: "隐藏英文摘要",
+  paperShowAbstracts: "显示英文摘要",
 };
 
 const TEXTS_EN: typeof TEXTS_ZH = {
@@ -100,6 +103,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subOverseasNews: "Overseas Tech",
   subOverseas: "Overseas",
   subCsCr: "Cryptography and Security",
+  subVla: "Embodied AI / VLA",
   paperBatchTitle: "Daily Papers · Latest arXiv cs.CR Announcement",
   paperBatchNote:
     "arXiv usually announces updates Sunday through Thursday at 20:00 US Eastern Time; there are no regular weekend announcements. This panel shows the latest available batch.",
@@ -138,6 +142,8 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   paperNextPage: "Next",
   paperPageLabel: "Page",
   paperPageSuffix: "",
+  paperHideAbstracts: "Hide English abstracts",
+  paperShowAbstracts: "Show English abstracts",
 };
 
 const STR = REPORT_LOCALE === "en" ? TEXTS_EN : TEXTS_ZH;
@@ -192,7 +198,7 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
   tech: ["github-trending", "x-viral", "ai-news", "cn-community", "overseas-community"],
-  papers: ["cs-cr"],
+  papers: ["cs-cr", "vla"],
   finance: ["news"],
   politics: ["world"],
 };
@@ -207,6 +213,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "ai-news": STR.subAiNews,
   "x-viral": STR.subXViral,
   "cs-cr": STR.subCsCr,
+  vla: STR.subVla,
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
@@ -470,9 +477,13 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
   const summaryText = a.summary ?? (a as unknown as { cnSummary?: string }).cnSummary;
   const summary = summaryText ? escapeHtml(summaryText) : "";
   const keywords = (a.keywords ?? []).filter(Boolean);
+  const abstractToggle =
+    a.category === "papers" && excerpt
+      ? `<button class="paper-abstract-toggle" type="button" data-hide-label="${escapeHtml(STR.paperHideAbstracts)}" data-show-label="${escapeHtml(STR.paperShowAbstracts)}">${escapeHtml(STR.paperHideAbstracts)}</button>`
+      : "";
   const keywordHtml =
-    keywords.length > 0
-      ? `<p class="article-keywords">${keywords.map((k) => `<span>${escapeHtml(k)}</span>`).join("")}</p>`
+    keywords.length > 0 || abstractToggle
+      ? `<p class="article-keywords">${keywords.map((k) => `<span>${escapeHtml(k)}</span>`).join("")}${abstractToggle}</p>`
       : "";
   const meta = a.meta ? escapeHtml(a.meta) : "";
   const time = formatDate(a.publishedAt);
@@ -486,12 +497,12 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
       : newsy
         ? STR.summaryLabelNews
         : STR.summaryLabelIntro;
-  return `<article class="article">
+  return `<article class="article article-${a.category}">
   <h3 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h3>
   ${meta ? `<p class="article-stats">${meta}</p>` : ""}
   ${metaLine ? `<p class="article-meta">${metaLine}</p>` : ""}
   ${keywordHtml}
-  ${excerpt ? `<p class="article-excerpt">${excerpt}</p>` : ""}
+  ${excerpt ? `<p class="article-excerpt${a.category === "papers" ? " paper-abstract" : ""}">${excerpt}</p>` : ""}
   ${summary ? `<p class="article-summary"><span class="summary-label">${summaryLabel}</span> ${summary}</p>` : ""}
 </article>`;
 }
@@ -1009,6 +1020,23 @@ export function renderHtml(
     line-height: 1.2;
     padding: 0.18rem 0.5rem;
   }
+  .paper-abstract-toggle {
+    border: 1px solid var(--link);
+    background: transparent;
+    color: var(--link);
+    border-radius: 999px;
+    font: inherit;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    padding: 0.18rem 0.58rem;
+    cursor: pointer;
+  }
+  .paper-abstract-toggle:hover {
+    background: var(--card);
+  }
+  .paper-abstracts-hidden .paper-abstract {
+    display: none;
+  }
   .article-excerpt {
     margin: 0;
     color: var(--fg-soft);
@@ -1451,6 +1479,19 @@ export function renderHtml(
         setArticlePage(root, current + Number(btn.dataset.pageStep));
       });
     });
+  });
+  function setPaperAbstractsHidden(hidden) {
+    document.body.classList.toggle('paper-abstracts-hidden', hidden);
+    document.querySelectorAll('.paper-abstract-toggle').forEach(function (btn) {
+      btn.textContent = hidden ? btn.dataset.showLabel : btn.dataset.hideLabel;
+      btn.setAttribute('aria-pressed', hidden ? 'true' : 'false');
+    });
+  }
+  document.querySelectorAll('.paper-abstract-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      setPaperAbstractsHidden(!document.body.classList.contains('paper-abstracts-hidden'));
+    });
+    btn.setAttribute('aria-pressed', 'false');
   });
   // Trading panel: asset-group sub-tabs (US/crypto/china/commodity)
   document.querySelectorAll('.trading-group-tab').forEach(function (btn) {

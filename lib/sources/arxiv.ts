@@ -6,6 +6,7 @@ type ListedPaper = {
   title: string;
   authors: string[];
   url: string;
+  listId?: string;
 };
 
 type ApiPaper = {
@@ -20,6 +21,14 @@ const HEADERS = {
     "Mozilla/5.0 (compatible; DailyBriefBot/1.0; +https://github.com/)",
   Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 };
+
+const VLA_RECENT_LISTS = [
+  { id: "cs.RO", url: "https://arxiv.org/list/cs.RO/recent" },
+  { id: "cs.CV", url: "https://arxiv.org/list/cs.CV/recent" },
+  { id: "cs.LG", url: "https://arxiv.org/list/cs.LG/recent" },
+  { id: "cs.AI", url: "https://arxiv.org/list/cs.AI/recent" },
+  { id: "cs.CL", url: "https://arxiv.org/list/cs.CL/recent" },
+];
 
 function normalizeText(s: string): string {
   return s.replace(/\s+/g, " ").trim();
@@ -43,13 +52,36 @@ function inferSecurityArea(title: string, abstract: string | undefined): string 
   return rules.find(([pattern]) => pattern.test(text))?.[1] ?? "安全研究";
 }
 
+function isVlaRelated(title: string, abstract: string | undefined): boolean {
+  const text = `${title} ${abstract ?? ""}`.toLowerCase();
+  return /\b(vision[-\s]?language[-\s]?action|vla|embodied ai|embodied agent|embodied intelligence|robot(?:ic)?s?|robot learning|robot manipulation|mobile manipulation|generalist robot|language[-\s]?conditioned|vision[-\s]?language model|multimodal robot|imitation learning|diffusion polic(?:y|ies)|policy learning|openvla|rt-1|rt-2|gr00t|pi0|π0)\b/.test(text);
+}
+
+function inferVlaArea(title: string, abstract: string | undefined): string {
+  const text = `${title} ${abstract ?? ""}`.toLowerCase();
+  const rules: Array<[RegExp, string]> = [
+    [/\b(vision[-\s]?language[-\s]?action|vla|openvla|rt-1|rt-2|gr00t|pi0|π0|generalist robot)\b/, "VLA 通用模型"],
+    [/\b(manipulation|grasp|gripper|dexterous|mobile manipulation|pick(?:ing)?|place|bimanual)\b/, "机器人操作"],
+    [/\b(navigation|locomotion|mobile robot|trajectory|path planning|slam)\b/, "导航与运动"],
+    [/\b(imitation learning|behavior cloning|demonstration|teleoperation|offline reinforcement learning|offline rl)\b/, "模仿学习"],
+    [/\b(diffusion polic(?:y|ies)|policy learning|reinforcement learning|robot policy)\b/, "策略学习"],
+    [/\b(vision-language model|vlm|multimodal|language[-\s]?conditioned|instruction following|grounding)\b/, "多模态具身"],
+    [/\b(sim(?:ulation)?[-\s]?to[-\s]?real|sim2real|dataset|benchmark|evaluation)\b/, "数据集与评测"],
+  ];
+  return rules.find(([pattern]) => pattern.test(text))?.[1] ?? "具身智能";
+}
+
 async function fetchText(url: string): Promise<string> {
   const res = await fetch(url, { headers: HEADERS });
   if (!res.ok) throw new Error(`arXiv fetch failed ${res.status}: ${url}`);
   return res.text();
 }
 
-function parseFirstRecentBlock(html: string, limit: number): ListedPaper[] {
+function parseFirstRecentBlock(
+  html: string,
+  limit: number,
+  listId?: string,
+): ListedPaper[] {
   const $ = cheerio.load(html);
   const firstDate = $("h3").first();
   const scope = firstDate.length ? firstDate.nextUntil("h3") : $("body").children();
@@ -80,6 +112,7 @@ function parseFirstRecentBlock(html: string, limit: number): ListedPaper[] {
         title,
         authors,
         url: absUrl(href),
+        listId,
       });
     }
   });
@@ -151,37 +184,95 @@ async function fetchAbsPageDetails(url: string): Promise<ApiPaper | undefined> {
   }
 }
 
-export async function fetchArxivRecent(
-  sourceId: string,
-  listUrl: string,
-  limit = Number.POSITIVE_INFINITY,
-): Promise<RawArticle[]> {
-  const listed = parseFirstRecentBlock(await fetchText(listUrl), limit);
+async function hydratePaperDetails(
+  listed: ListedPaper[],
+): Promise<Map<string, ApiPaper>> {
   const details = await fetchApiDetails(listed.map((p) => p.id));
   for (const p of listed) {
     if (details.has(p.id)) continue;
     const detail = await fetchAbsPageDetails(p.url);
     if (detail) details.set(p.id, detail);
   }
+  return details;
+}
+
+function toRawArticle(
+  sourceId: string,
+  p: ListedPaper,
+  api: ApiPaper | undefined,
+  area: string,
+): RawArticle {
+  const firstAuthor = api?.authors[0] ?? (p.authors[0] ? { name: p.authors[0] } : undefined);
+  const title = api?.title || p.title;
+  const excerpt = api?.summary?.slice(0, 900);
+  const listLabel = p.listId ? ` · 来源: ${p.listId}` : "";
+  const authorLabel = firstAuthor
+    ? `第一作者: ${firstAuthor.name} · 方向: ${area}${listLabel}`
+    : `方向: ${area}${listLabel}`;
+
+  return {
+    sourceId,
+    title,
+    url: p.url,
+    excerpt,
+    publishedAt: api?.publishedAt,
+    category: "papers",
+    meta: authorLabel,
+  };
+}
+
+export async function fetchArxivRecent(
+  sourceId: string,
+  listUrl: string,
+  limit = Number.POSITIVE_INFINITY,
+): Promise<RawArticle[]> {
+  const listed = parseFirstRecentBlock(await fetchText(listUrl), limit);
+  const details = await hydratePaperDetails(listed);
 
   return listed.map((p) => {
     const api = details.get(p.id);
-    const firstAuthor = api?.authors[0] ?? (p.authors[0] ? { name: p.authors[0] } : undefined);
     const title = api?.title || p.title;
     const excerpt = api?.summary?.slice(0, 900);
     const area = inferSecurityArea(title, excerpt);
-    const authorLabel = firstAuthor
-      ? `第一作者: ${firstAuthor.name} · 方向: ${area}`
-      : `方向: ${area}`;
-
-    return {
-      sourceId,
-      title,
-      url: p.url,
-      excerpt,
-      publishedAt: api?.publishedAt,
-      category: "papers",
-      meta: authorLabel,
-    };
+    return toRawArticle(sourceId, p, api, area);
   });
+}
+
+export async function fetchArxivVlaRecent(
+  sourceId: string,
+): Promise<RawArticle[]> {
+  const byId = new Map<string, ListedPaper>();
+  for (const list of VLA_RECENT_LISTS) {
+    const papers = parseFirstRecentBlock(
+      await fetchText(list.url),
+      Number.POSITIVE_INFINITY,
+      list.id,
+    );
+    for (const p of papers) {
+      if (byId.has(p.id)) continue;
+      byId.set(p.id, p);
+    }
+  }
+
+  // Full abstract hydration across cs.CV/cs.LG is expensive and noisy. Take
+  // all Robotics entries plus title hits from the adjacent AI/CV/LG/CL lists,
+  // then do the final VLA check after abstracts are available.
+  const candidates = Array.from(byId.values()).filter(
+    (p) => p.listId === "cs.RO" || isVlaRelated(p.title, undefined),
+  );
+  const details = await hydratePaperDetails(candidates);
+
+  return candidates
+    .map((p) => {
+      const api = details.get(p.id);
+      const title = api?.title || p.title;
+      const excerpt = api?.summary?.slice(0, 900);
+      if (!isVlaRelated(title, excerpt)) return null;
+      return toRawArticle(sourceId, p, api, inferVlaArea(title, excerpt));
+    })
+    .filter((a): a is RawArticle => a !== null)
+    .sort(
+      (a, b) =>
+        (b.publishedAt?.getTime() ?? 0) - (a.publishedAt?.getTime() ?? 0),
+    );
 }

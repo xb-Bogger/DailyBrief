@@ -162,7 +162,7 @@ Output STRICTLY a JSON object, no markdown wrapping:
 
 **Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.`;
 
-const PAPER_SYSTEM_PROMPT_ZH = `你是一名中文论文编辑，为 arXiv Cryptography and Security 新论文生成中文介绍。
+const PAPER_SYSTEM_PROMPT_ZH = `你是一名中文论文编辑，为 arXiv 新论文生成中文介绍。
 
 输入：每篇论文有 url、title、abstract、firstAuthor。
 
@@ -182,7 +182,7 @@ const PAPER_SYSTEM_PROMPT_ZH = `你是一名中文论文编辑，为 arXiv Crypt
 
 **引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或""，绝不使用英文双引号。`;
 
-const PAPER_SYSTEM_PROMPT_EN = `You are a paper editor writing concise English notes for new arXiv Cryptography and Security papers.
+const PAPER_SYSTEM_PROMPT_EN = `You are a paper editor writing concise English notes for new arXiv papers.
 
 Input: each paper has url, title, abstract, and firstAuthor.
 
