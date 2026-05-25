@@ -332,6 +332,21 @@
     ]
   },
   {
+    "id": "arxiv-cs-cr",
+    "name": "arXiv cs.CR",
+    "type": "scrape",
+    "url": "https://arxiv.org/list/cs.CR/recent",
+    "category": "papers",
+    "subcategory": "cs-cr",
+    "enabled": true,
+    "lang": "en",
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "Daily recent submissions for Cryptography and Security."
+  },
+  {
     "id": "bloomberg-markets",
     "name": "Bloomberg Markets",
     "type": "rss",

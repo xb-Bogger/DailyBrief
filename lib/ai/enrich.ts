@@ -10,6 +10,11 @@ interface EnrichInput {
   source?: string;
 }
 
+export type PaperEnrichment = {
+  summary: string;
+  keywords: string[];
+};
+
 const GH_SYSTEM_PROMPT_ZH = `你是一名技术编辑，负责为 GitHub Trending 项目写中文介绍。
 
 输入：每个项目有 owner/repo 名 + 一行英文 description（可能没有）。
@@ -157,12 +162,52 @@ Output STRICTLY a JSON object, no markdown wrapping:
 
 **Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.`;
 
+const PAPER_SYSTEM_PROMPT_ZH = `你是一名中文论文编辑，为 arXiv Cryptography and Security 新论文生成中文介绍。
+
+输入：每篇论文有 url、title、abstract、firstAuthor。
+
+任务：
+  - 总结 3-5 个关键词，尽量使用中文，必要时保留英文术语
+  - 写一段 80-140 字中文介绍，说明研究问题、核心方法/系统、可能应用或意义
+  - 基于标题和摘要，不要编造实验结果、机构单位或论文结论
+  - 语言面向技术读者，事实陈述，不营销
+
+输出严格 JSON 对象，不要 markdown：
+{
+  "papers": [
+    { "url": "<原 url，从输入中精确复制>", "keywords": ["<关键词>", "..."], "summary": "<80-140 字中文介绍>" },
+    ...
+  ]
+}
+
+**引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或""，绝不使用英文双引号。`;
+
+const PAPER_SYSTEM_PROMPT_EN = `You are a paper editor writing concise English notes for new arXiv Cryptography and Security papers.
+
+Input: each paper has url, title, abstract, and firstAuthor.
+
+Task:
+  - Produce 3-5 topical keywords
+  - Write an 80-140 word English introduction explaining the research problem, core method/system, and likely relevance
+  - Use only the title and abstract; do not invent affiliations, results, or conclusions
+  - Factual style for technical readers, no hype
+
+Output STRICTLY a JSON object, no markdown:
+{
+  "papers": [
+    { "url": "<exact url from input>", "keywords": ["<keyword>", "..."], "summary": "<80-140 word introduction>" },
+    ...
+  ]
+}
+
+**Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — never a raw double quote.`;
+
 // Pick the right localized prompt set at module init. Each enricher reaches
 // in via PROMPTS.<key> so the call sites stay locale-agnostic.
 const PROMPTS =
   REPORT_LOCALE === "en"
-    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN }
-    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH };
+    ? { gh: GH_SYSTEM_PROMPT_EN, finance: FINANCE_SYSTEM_PROMPT_EN, xViral: XVIRAL_SYSTEM_PROMPT_EN, paper: PAPER_SYSTEM_PROMPT_EN }
+    : { gh: GH_SYSTEM_PROMPT_ZH, finance: FINANCE_SYSTEM_PROMPT_ZH, xViral: XVIRAL_SYSTEM_PROMPT_ZH, paper: PAPER_SYSTEM_PROMPT_ZH };
 
 const USER_PROMPT_HEADER =
   REPORT_LOCALE === "en"
@@ -298,4 +343,61 @@ export async function enrichXViralSummaries(
     previewText: (it.excerpt ?? "").slice(0, 280),
   }));
   return runEnrichment(payload, PROMPTS.xViral, "X-viral summaries");
+}
+
+export async function enrichPaperSummaries(
+  items: EnrichInput[],
+): Promise<Map<string, PaperEnrichment>> {
+  if (items.length === 0) return new Map();
+  const payload = items.map((it) => ({
+    url: it.url,
+    title: it.title,
+    firstAuthor: it.source ?? "",
+    abstract: (it.excerpt ?? "").slice(0, 1600),
+  }));
+
+  const userPrompt = [
+    REPORT_LOCALE === "en"
+      ? "**Output language: ENGLISH ONLY.**"
+      : "**输出语言：仅中文。** keywords 和 summary 必须使用中文，专有名词可保留英文。",
+    "",
+    USER_PROMPT_HEADER(payload.length),
+    JSON.stringify(payload),
+    "",
+    REPORT_LOCALE === "en"
+      ? `Output \`{"papers": [{"url": ..., "keywords": [...], "summary": ...}, ...]}\` — url must be copied exactly from input.`
+      : `请输出 {"papers": [{"url": ..., "keywords": [...], "summary": ...}, ...]}，url 必须精确回填输入值。`,
+  ].join("\n");
+
+  const result = new Map<string, PaperEnrichment>();
+  try {
+    const { text } = await runLlm({
+      systemPrompt: PROMPTS.paper,
+      userPrompt,
+      timeoutMs: 240_000,
+    });
+    const cleaned = extractJson(text);
+    let parsed: { papers?: Array<{ url?: string; keywords?: string[]; summary?: string }> };
+    try {
+      parsed = JSON.parse(cleaned);
+    } catch {
+      parsed = JSON.parse(jsonrepair(cleaned));
+    }
+
+    for (const p of parsed.papers ?? []) {
+      if (!p.url || !p.summary) continue;
+      result.set(p.url, {
+        summary: p.summary.trim(),
+        keywords: (p.keywords ?? [])
+          .map((k) => String(k).trim())
+          .filter(Boolean)
+          .slice(0, 5),
+      });
+    }
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[enrich] paper summaries failed: ${msg}`);
+  }
+
+  return result;
 }

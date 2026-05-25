@@ -26,6 +26,7 @@ import {
 const TEXTS_ZH = {
   siteTitle: "每日简报",
   catTech: "技术动态",
+  catPapers: "每日论文",
   catFinance: "财经要点",
   catPolitics: "时政观察",
   catTrading: "市场行情",
@@ -40,12 +41,14 @@ const TEXTS_ZH = {
   subWorld: "国际要闻",
   subOverseasNews: "海外科技",
   subOverseas: "海外",
+  subCsCr: "Cryptography and Security",
   emptySource: "该源今日无内容。",
   emptyCategory: "该分类今日无内容。",
   emptyGroup: "该组今日无数据。",
   footer: "内容均来自原媒体，本站仅作摘要整理与回链。",
   summaryLabelNews: "中文摘要",
   summaryLabelIntro: "中文介绍",
+  summaryLabelPaper: "论文介绍",
   tradingMarketOverview: "市场总览",
   tradingTodayFocus: "今日关注",
   tradingAllAssets: "全部资产",
@@ -74,6 +77,7 @@ const TEXTS_ZH = {
 const TEXTS_EN: typeof TEXTS_ZH = {
   siteTitle: "Daily Brief",
   catTech: "Tech",
+  catPapers: "Papers",
   catFinance: "Finance",
   catPolitics: "World",
   catTrading: "Markets",
@@ -88,6 +92,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subWorld: "World News",
   subOverseasNews: "Overseas Tech",
   subOverseas: "Overseas",
+  subCsCr: "Cryptography and Security",
   emptySource: "No content from this source today.",
   emptyCategory: "No content in this category today.",
   emptyGroup: "No data for this group today.",
@@ -95,6 +100,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
     "Content sourced from original publishers; this site provides summary and backlinks only.",
   summaryLabelNews: "Summary",
   summaryLabelIntro: "Summary",
+  summaryLabelPaper: "Paper Note",
   tradingMarketOverview: "Market Overview",
   tradingTodayFocus: "Today's Focus",
   tradingAllAssets: "All Assets",
@@ -149,12 +155,14 @@ export type RawByCategory = Record<Category, SubGroup[]>;
 
 const CATEGORY_LABELS: Record<Category, string> = {
   tech: STR.catTech,
+  papers: STR.catPapers,
   finance: STR.catFinance,
   politics: STR.catPolitics,
 };
 
 const CATEGORY_DIGEST_LABELS: Record<Category, string> = {
   tech: STR.catTech,
+  papers: STR.catPapers,
   finance: STR.catFinance,
   politics: STR.catPolitics,
 };
@@ -170,6 +178,7 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
   tech: ["github-trending", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  papers: ["cs-cr"],
   finance: ["news"],
   politics: ["world"],
 };
@@ -183,6 +192,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "overseas-community": STR.subOverseasCommunity,
   "ai-news": STR.subAiNews,
   "x-viral": STR.subXViral,
+  "cs-cr": STR.subCsCr,
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
@@ -200,6 +210,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
+  "papers:cs-cr": 15,
 };
 
 /**
@@ -207,7 +218,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
  * algorithm we want to preserve. groupRaw skips its default date-desc sort
  * for these so the final render reflects the source's own ranking.
  */
-const PRESERVE_FETCH_ORDER_SOURCES = new Set(["attentionvc-ai"]);
+const PRESERVE_FETCH_ORDER_SOURCES = new Set(["attentionvc-ai", "arxiv-cs-cr"]);
 
 function displayLimitFor(
   category: Category,
@@ -277,6 +288,7 @@ export function groupRaw(
   type Bucket = { sourceName: string; items: ArticleInput[] };
   const buckets: Record<Category, Map<string, Bucket>> = {
     tech: new Map(),
+    papers: new Map(),
     finance: new Map(),
     politics: new Map(),
   };
@@ -339,7 +351,7 @@ export function groupRaw(
     });
   }
 
-  const out: RawByCategory = { tech: [], finance: [], politics: [] };
+  const out: RawByCategory = { tech: [], papers: [], finance: [], politics: [] };
 
   for (const cat of Object.keys(buckets) as Category[]) {
     const order = SUBCATEGORY_ORDER[cat];
@@ -442,17 +454,28 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
   // Backwards-compat: old sidecar JSON files may carry `cnSummary` instead.
   const summaryText = a.summary ?? (a as unknown as { cnSummary?: string }).cnSummary;
   const summary = summaryText ? escapeHtml(summaryText) : "";
+  const keywords = (a.keywords ?? []).filter(Boolean);
+  const keywordHtml =
+    keywords.length > 0
+      ? `<p class="article-keywords">${keywords.map((k) => `<span>${escapeHtml(k)}</span>`).join("")}</p>`
+      : "";
   const meta = a.meta ? escapeHtml(a.meta) : "";
   const time = formatDate(a.publishedAt);
   const sourceLabel = showSource && a.source ? escapeHtml(a.source) : "";
   const metaLine = [sourceLabel, time].filter(Boolean).join(" · ");
   // News-style summary label for finance/politics, project-intro style for GH/tech.
   const newsy = a.category === "finance" || a.category === "politics";
-  const summaryLabel = newsy ? STR.summaryLabelNews : STR.summaryLabelIntro;
+  const summaryLabel =
+    a.category === "papers"
+      ? STR.summaryLabelPaper
+      : newsy
+        ? STR.summaryLabelNews
+        : STR.summaryLabelIntro;
   return `<article class="article">
   <h3 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h3>
   ${meta ? `<p class="article-stats">${meta}</p>` : ""}
   ${metaLine ? `<p class="article-meta">${metaLine}</p>` : ""}
+  ${keywordHtml}
   ${excerpt ? `<p class="article-excerpt">${excerpt}</p>` : ""}
   ${summary ? `<p class="article-summary"><span class="summary-label">${summaryLabel}</span> ${summary}</p>` : ""}
 </article>`;
@@ -541,6 +564,7 @@ export function renderHtml(
     );
   const counts = {
     tech: sumItems(techMainSubs),
+    papers: sumItems(raw.papers),
     finance: sumItems(raw.finance),
     politics: sumItems(raw.politics),
     community: sumItems(techCommunitySubs),
@@ -898,6 +922,21 @@ export function renderHtml(
     margin: 0 0 0.4rem;
     font-feature-settings: "tnum";
   }
+  .article-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0 0 0.45rem;
+  }
+  .article-keywords span {
+    color: var(--fg-soft);
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 0.72rem;
+    line-height: 1.2;
+    padding: 0.18rem 0.5rem;
+  }
   .article-excerpt {
     margin: 0;
     color: var(--fg-soft);
@@ -1193,6 +1232,7 @@ export function renderHtml(
 
   <nav class="tabs" role="tablist">
     <button class="tab active" data-tab="tech">${CATEGORY_LABELS.tech}<span class="count">${counts.tech}</span></button>
+    <button class="tab" data-tab="papers">${CATEGORY_LABELS.papers}<span class="count">${counts.papers}</span></button>
     ${trading ? `<button class="tab" data-tab="trading">${STR.catTrading}<span class="count">${trading.tickers.length}</span></button>` : ""}
     <button class="tab" data-tab="politics">${CATEGORY_LABELS.politics}<span class="count">${counts.politics}</span></button>
     <button class="tab" data-tab="finance">${CATEGORY_LABELS.finance}<span class="count">${counts.finance}</span></button>
@@ -1201,6 +1241,9 @@ export function renderHtml(
 
   <section class="panel active" data-panel="tech">
     ${renderRawCategoryPanel("tech", techMainSubs)}
+  </section>
+  <section class="panel" data-panel="papers">
+    ${renderRawCategoryPanel("papers", raw.papers)}
   </section>
   ${trading ? `<section class="panel" data-panel="trading">${renderTradingPanel(trading)}</section>` : ""}
   <section class="panel" data-panel="politics">

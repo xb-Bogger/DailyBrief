@@ -1,4 +1,4 @@
-export type Category = "tech" | "finance" | "politics";
+export type Category = "tech" | "papers" | "finance" | "politics";
 export type SourceType = "rss" | "api" | "scrape";
 
 export interface SourceDef {
@@ -55,6 +55,10 @@ export interface RawArticle {
    * for en reports it'd be the English summary of a non-English source.
    */
   summary?: string;
+  /**
+   * Short topical labels. Currently used by arXiv paper enrichment.
+   */
+  keywords?: string[];
   /**
    * Structured one-line metadata to display above the excerpt — currently
    * used by GitHub Trending for "Language · ★stars · forks · stars today".

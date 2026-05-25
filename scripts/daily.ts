@@ -13,6 +13,7 @@ import { getModelTag } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
+  enrichPaperSummaries,
   enrichXViralSummaries,
 } from "../lib/ai/enrich";
 import {
@@ -81,6 +82,43 @@ async function enrichPolitics(articles: ArticleInput[]): Promise<void> {
 
 async function enrichAiNews(articles: ArticleInput[]): Promise<void> {
   await enrichMergedSubgroup(articles, "tech", "ai-news");
+}
+
+async function enrichPapers(articles: ArticleInput[]): Promise<void> {
+  const subSources = sources.filter(
+    (s) =>
+      s.category === "papers" &&
+      s.subcategory === "cs-cr" &&
+      s.enabled !== false,
+  );
+  const enabledIds = new Set(subSources.map((s) => s.id));
+  const limit = MERGED_SUBGROUP_LIMITS["papers:cs-cr"] ?? 15;
+  const papers = articles
+    .filter((a) => enabledIds.has(a.sourceId))
+    .slice(0, limit);
+  if (papers.length === 0) return;
+
+  console.log(
+    `[daily] enriching ${papers.length} arXiv papers with ${REPORT_LOCALE} introductions...`,
+  );
+  const t0 = Date.now();
+  const enriched = await enrichPaperSummaries(
+    papers.map((a) => ({
+      url: a.url,
+      title: a.title,
+      excerpt: a.excerpt,
+      source: a.meta,
+    })),
+  );
+  for (const a of papers) {
+    const p = enriched.get(a.url);
+    if (!p) continue;
+    a.summary = p.summary;
+    a.keywords = p.keywords;
+  }
+  console.log(
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${enriched.size}/${papers.length}`,
+  );
 }
 
 /**
@@ -225,6 +263,7 @@ async function main() {
   await enrichFinanceNews(articles);
   await enrichPolitics(articles);
   await enrichAiNews(articles);
+  await enrichPapers(articles);
   await enrichXViral(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
