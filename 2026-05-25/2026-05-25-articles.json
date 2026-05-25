@@ -6,176 +6,176 @@
       "title": "Lum1104/Understand-Anything",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "excerpt": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "meta": "TypeScript · ★ 29,015 · 🍴 2,426 · 📈 3,999 stars today",
+      "meta": "TypeScript · ★ 29,430 · 🍴 2,446 · 📈 5,625 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "将任意代码库转化为可探索、可搜索、可交互的知识图谱，帮助开发者更直观地理解代码结构与依赖关系。支持通过自然语言提问，兼容 Claude Code、Copilot 等主流 AI 编程工具，适用于大型或复杂项目的快速入门与导航。"
+      "summary": "将任意代码自动转换为可交互的知识图谱，用户可探索、搜索并提问，兼容 Claude Code、Codex、Cursor 等多种 AI 编码工具，帮助开发者快速理解复杂代码结构，提升开发效率和协作能力。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/knowledge-work-plugins",
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "excerpt": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "meta": "Python · ★ 14,549 · 🍴 1,790 · 📈 550 stars today",
+      "meta": "Python · ★ 14,678 · 🍴 1,799 · 📈 1,448 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 公司开源的插件集合，主要为 Claude Cowork 中的知识工作者设计，用于增强 Claude 在文档处理、信息检索和内容创建等任务中的能力，提升工作效率。"
+      "summary": "Anthropic 开源的插件库，专为知识工作者设计，在 Claude Cowork 环境中使用，扩展文档管理、数据协作等功能，简化研究、编辑等任务流程，提升工作效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "rohitg00/ai-engineering-from-scratch",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "excerpt": "Learn it. Build it. Ship it for others.",
-      "meta": "Python · ★ 17,682 · 🍴 3,026 · 📈 1,853 stars today",
+      "meta": "Python · ★ 17,840 · 🍴 3,049 · 📈 3,167 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一套从零开始的 AI 工程实战教程，遵循“学习、构建、交付”的理念。内容涵盖从基础理论到系统构建的全过程，旨在帮助开发者掌握将 AI 模型产品化的完整技能栈。"
+      "summary": "提供从零开始的 AI 工程学习资源，通过实战项目引导，涵盖模型构建和发布全过程，帮助开发者系统掌握 AI 工程技能，适合初学者和希望深化实践者。"
     },
     {
       "sourceId": "github-trending",
       "title": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "excerpt": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "meta": "JavaScript · ★ 191,585 · 🍴 29,663 · 📈 2,052 stars today",
+      "meta": "JavaScript · ★ 191,765 · 🍴 29,683 · 📈 2,052 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个用于优化 AI 编程代理（如 Claude Code、Cursor）性能的系统框架。它整合了技能管理、记忆模块、安全机制与研究驱动的开发方法，旨在提升代理的任务执行效率与可靠性。"
+      "summary": "AI 代理性能优化系统，集成技能、本能、记忆和安全模块，采用研究优先开发方法，适用于 Claude Code、Codex 等编码环境，提升代理响应速度和可靠性。"
     },
     {
       "sourceId": "github-trending",
       "title": "mukul975/Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "excerpt": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-      "meta": "Python · ★ 8,792 · 🍴 1,090 · 📈 930 stars today",
+      "meta": "Python · ★ 8,864 · 🍴 1,099 · 📈 999 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "包含 754 个结构化网络安全技能的集合，专为 AI 代理设计。技能已映射至 MITRE ATT&CK 等五大国际安全框架，遵循 agentskills.io 标准，可用于增强 Claude Code 等 AI 代理的安全分析与防御能力。"
+      "summary": "为 AI 代理提供 754 个结构化网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0 等五大框架，遵循 agentskills.io 标准，兼容 Claude Code 和 GitHub Copilot，增强安全能力。"
     },
     {
       "sourceId": "github-trending",
       "title": "colbymchenry/codegraph",
       "url": "https://github.com/colbymchenry/codegraph",
       "excerpt": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "meta": "TypeScript · ★ 23,960 · 🍴 1,316 · 📈 3,003 stars today",
+      "meta": "TypeScript · ★ 24,153 · 🍴 1,326 · 📈 3,171 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "为 Claude Code、Codex 等 AI 编程助手提供的预索引代码知识图谱工具。它能显著减少代码理解时的 token 消耗和工具调用次数，且完全本地化运行，兼顾效率与隐私。"
+      "summary": "预索引的代码知识图谱，为 Claude Code、Codex、Cursor 等 AI 工具优化，减少 token 使用和工具调用，支持 100% 本地运行，加速代码理解和生成过程。"
     },
     {
       "sourceId": "github-trending",
       "title": "manaflow-ai/cmux",
       "url": "https://github.com/manaflow-ai/cmux",
       "excerpt": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
-      "meta": "Swift · ★ 19,277 · 🍴 1,461 · 📈 696 stars today",
+      "meta": "Swift · ★ 19,320 · 🍴 1,462 · 📈 598 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一款基于 Ghostty 的 macOS 终端模拟器，专为 AI 编码代理优化。它支持垂直标签页和实时通知功能，旨在为使用 AI 工具的开发者提供更高效、友好的命令行交互界面。"
+      "summary": "基于 Ghostty 的 macOS 终端应用，支持垂直标签和 AI 代理通知，优化 AI 编码工作流管理，提供现代化界面，适用于使用 AI 工具的 macOS 开发者。"
     },
     {
       "sourceId": "github-trending",
       "title": "multica-ai/andrej-karpathy-skills",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "excerpt": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "meta": "★ 153,419 · 🍴 15,722 · 📈 2,551 stars today",
+      "meta": "★ 153,642 · 🍴 15,741 · 📈 2,753 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个基于 Andrej Karpathy 对大语言模型编码陷阱的观察而总结出的 CLAUDE.md 配置文件。它旨在通过具体的指导规则，改善 Claude Code 在实际编程任务中的行为与输出质量。"
+      "summary": "提供基于 Andrej Karpathy 观察的 CLAUDE.md 配置文件，用于优化 Claude Code 行为，避免常见 LLM 编码错误，帮助开发者生成更可靠和高质量的代码。"
     },
     {
       "sourceId": "github-trending",
       "title": "Fincept-Corporation/FinceptTerminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "excerpt": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-      "meta": "Python · ★ 23,623 · 🍴 3,263 · 📈 462 stars today",
+      "meta": "Python · ★ 23,671 · 🍴 3,265 · 📈 462 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一款现代化的金融终端应用，提供高级市场分析、投资研究和经济数据工具。设计注重交互式探索，帮助金融从业者基于数据做出决策，适用于市场研究和投资分析场景。"
+      "summary": "现代金融终端应用，集成市场分析、投资研究和经济数据工具，支持交互式探索和数据驱动决策，适用于金融专业人士和投资者进行深度市场分析。"
     },
     {
       "sourceId": "github-trending",
       "title": "paperless-ngx/paperless-ngx",
       "url": "https://github.com/paperless-ngx/paperless-ngx",
       "excerpt": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "meta": "Python · ★ 41,106 · 🍴 2,728 · 📈 151 stars today",
+      "meta": "Python · ★ 41,130 · 🍴 2,731 · 📈 151 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一款社区驱动的增强型文档管理系统。支持将纸质或电子文档进行扫描、OCR 识别、全文索引并分类归档，旨在实现无纸化办公，适用于个人或家庭文档数字化管理。"
+      "summary": "社区支持的增强型文档管理系统，支持扫描、索引和归档所有文档，集成 OCR 和搜索功能，帮助个人和组织高效管理纸质和电子文档，提升检索效率。"
     },
     {
       "sourceId": "github-trending",
       "title": "anthropics/claude-cookbooks",
       "url": "https://github.com/anthropics/claude-cookbooks",
       "excerpt": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "meta": "Jupyter Notebook · ★ 43,817 · 🍴 5,031 · 📈 108 stars today",
+      "meta": "Jupyter Notebook · ★ 43,846 · 🍴 5,033 · 📈 108 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Anthropic 官方提供的 Claude 使用示例与教程集合。通过一系列 Notebook 或“食谱”，展示如何高效且创造性地使用 Claude 完成各类任务，是 Claude 开发者的实用参考。"
+      "summary": "Anthropic 提供的 Claude 使用示例集合，包含笔记本和食谱，展示创新且高效的应用方法，提供代码示例和最佳实践，帮助用户从基础到高级掌握 Claude 功能。"
     },
     {
       "sourceId": "github-trending",
       "title": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "excerpt": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "meta": "Shell · ★ 19,088 · 🍴 1,630 · 📈 188 stars today",
+      "meta": "Shell · ★ 19,181 · 🍴 1,633 · 📈 188 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个用于提升 AI 生成内容“品味”的技能文件。它旨在约束 AI 避免产出单调、泛用的内容，使生成的文本更具独特性和高质量，适用于对创意内容要求较高的场景。"
+      "summary": "Taste-Skill 技能文件，通过预设规则提升 AI 的审美品味，避免生成平庸、泛泛的内容，适用于内容创作、营销等需要独特风格和高质量输出的场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "moeru-ai/airi",
       "url": "https://github.com/moeru-ai/airi",
       "excerpt": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "meta": "TypeScript · ★ 39,544 · 🍴 4,015 · 📈 32 stars today",
+      "meta": "TypeScript · ★ 39,564 · 🍴 4,016 · 📈 32 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个可自托管的 AI 伴侣项目，目标是打造拥有“灵魂”的虚拟生命体。项目支持实时语音聊天、游戏交互（如 Minecraft）等多模态能力，面向 AI 爱好者及寻求虚拟陪伴的用户。"
+      "summary": "自托管的 AI 伴侣项目，模拟虚拟角色，支持实时语音聊天和游戏集成如 Minecraft，旨在实现高交互性虚拟陪伴体验，适合 AI 爱好者和游戏玩家。"
     },
     {
       "sourceId": "github-trending",
       "title": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
       "excerpt": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "meta": "Python · ★ 25,914 · 🍴 4,504 · 📈 106 stars today",
+      "meta": "Python · ★ 25,931 · 🍴 4,507 · 📈 243 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Kronos 是一个专为金融市场语言设计的基础模型。它旨在理解和预测金融市场动态，为量化交易、风险分析和市场研究提供强大的自然语言处理与预测能力。"
+      "summary": "Kronos 是专门针对金融市场语言的基础模型，用于处理金融文本和数据，支持市场分析、预测等任务，帮助研究人员和开发者构建金融 AI 应用。"
     },
     {
       "sourceId": "github-trending",
       "title": "Axorax/awesome-free-apps",
       "url": "https://github.com/Axorax/awesome-free-apps",
       "excerpt": "Curated list of the best free apps for PC and mobile",
-      "meta": "JavaScript · ★ 4,149 · 🍴 218 · 📈 141 stars today",
+      "meta": "JavaScript · ★ 4,205 · 🍴 221 · 📈 141 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个精心策划的免费应用程序列表，涵盖 PC 和移动平台。旨在帮助用户发现高质量的免费软件，节省时间和金钱，适合所有寻找免费工具的普通用户。"
+      "summary": "策展的 PC 和移动设备免费应用列表，涵盖办公、创意、娱乐等领域，精选最佳工具并提供详细介绍，帮助用户快速发现和下载优质免费软件。"
     },
     {
       "sourceId": "github-trending",
       "title": "hardikpandya/stop-slop",
       "url": "https://github.com/hardikpandya/stop-slop",
       "excerpt": "A skill file for removing AI tells from prose",
-      "meta": "★ 4,129 · 🍴 367 · 📈 353 stars today",
+      "meta": "★ 4,181 · 🍴 368 · 📈 353 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "一个用于去除 AI 生成文本中常见“机器味”或套路化表达的技能文件。通过提供具体的改写规则，帮助用户优化 AI 产出的散文、报告等内容，使其更自然、更专业。"
+      "summary": "提供技能文件以移除文本中的 AI 生成痕迹，通过后处理技术优化内容，使其更自然人性化，适用于内容创作者希望产出无 AI 味道的写作场景。"
     },
     {
       "sourceId": "github-trending",
       "title": "garrytan/gstack",
       "url": "https://github.com/garrytan/gstack",
       "excerpt": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-      "meta": "TypeScript · ★ 101,996 · 🍴 15,226 · 📈 600 stars today",
+      "meta": "TypeScript · ★ 102,075 · 🍴 15,235 · 📈 600 stars today",
       "category": "tech",
       "source": "GitHub Trending",
-      "summary": "Y Combinator 总裁 Garry Tan 分享的 Claude Code 工作流配置。它集成了一套包含 23 个工具的自定义配置，模拟 CEO、设计师、发布经理等多种角色，旨在实现高效、全面的 AI 辅助开发。"
+      "summary": "使用 Garry Tan 的 Claude Code 配置方案，包含 23 个意见化工具，模拟 CEO、设计师、工程经理等角色，覆盖开发全流程，优化 AI 辅助编码效率。"
     },
     {
       "sourceId": "v2ex-hot",
       "title": "公司不给钱我该用哪个 AI 码代码？",
       "url": "https://www.v2ex.com/t/1215305",
-      "excerpt": "43 回复 · 程序员 节点",
+      "excerpt": "46 回复 · 程序员 节点",
       "publishedAt": "2026-05-25T06:52:52.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -193,7 +193,7 @@
       "sourceId": "v2ex-hot",
       "title": "教育优惠➕国补， 5615 入手丐版 M5 AIR。只用过 iPhone 和 iPad ，第一次用 mac 有没有什么要注意的。",
       "url": "https://www.v2ex.com/t/1215224",
-      "excerpt": "30 回复 · Apple 节点",
+      "excerpt": "32 回复 · Apple 节点",
       "publishedAt": "2026-05-25T02:48:47.000Z",
       "category": "tech",
       "source": "V2EX"
@@ -281,6 +281,15 @@
     },
     {
       "sourceId": "v2ex-hot",
+      "title": "Qoder 闭坑， codex 中转站，更适合中国宝宝体质",
+      "url": "https://www.v2ex.com/t/1215356",
+      "excerpt": "9 回复 · 程序员 节点",
+      "publishedAt": "2026-05-25T08:46:44.000Z",
+      "category": "tech",
+      "source": "V2EX"
+    },
+    {
+      "sourceId": "v2ex-hot",
       "title": "小白求推荐人工智能学习的网课",
       "url": "https://www.v2ex.com/t/1214517",
       "excerpt": "7 回复 · Python 节点",
@@ -335,10 +344,10 @@
     },
     {
       "sourceId": "v2ex-hot",
-      "title": "Qoder 闭坑， codex 中转站，更适合中国宝宝体质",
-      "url": "https://www.v2ex.com/t/1215356",
+      "title": "iRadio - 极简风格的网络电台播放器震撼发布，基于 GSF 框架",
+      "url": "https://www.v2ex.com/t/1215387",
       "excerpt": "5 回复 · 程序员 节点",
-      "publishedAt": "2026-05-25T08:46:44.000Z",
+      "publishedAt": "2026-05-25T10:21:12.000Z",
       "category": "tech",
       "source": "V2EX"
     },
@@ -388,15 +397,6 @@
       "source": "V2EX"
     },
     {
-      "sourceId": "v2ex-hot",
-      "title": "[寻求帮助 Linux ] 用 rust 写了一个跨平台输入监听库（鼠标键盘）",
-      "url": "https://www.v2ex.com/t/1185915",
-      "excerpt": "4 回复 · Rust 节点",
-      "publishedAt": "2026-01-15T07:15:27.000Z",
-      "category": "tech",
-      "source": "V2EX"
-    },
-    {
       "sourceId": "linuxdo",
       "title": "Typora 离线许可证激活工具（Windows EXE，开箱即用）",
       "url": "https://linux.do/t/topic/2237895",
@@ -434,37 +434,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "【开源自荐】WebDroid Agent：无需安装软件，浏览器+USB线 就能实现豆包手机！纯前端WebADB 控制安卓，全网最轻量的安卓控制方案",
-      "url": "https://linux.do/t/topic/2237333",
-      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 github.com GitHub - yeahhe365/WebDroid-Agent: Browser-based Android phone agent using... Browser-based Androi",
-      "publishedAt": "2026-05-24T11:40:40.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "APKPure 上的 Telegram 官方版被植入间谍后门",
-      "url": "https://linux.do/t/topic/2237368",
-      "excerpt": "从 APKPure 下载的 Telegram 12.6.5 被重新签名打包，注入了名为 DataCollector 的间谍框架（classes3.dex，3000+行代码）。 后门可窃取：全部聊天记录（含历史消息）、通讯录、手机相册、文档文件、GPS 定位、SIM 卡信息。数据经 AES-GCM 加密后上传至 C2 服务器 38.190.225.166。 使用第三方渠道更新软件的注意一下吧 另外，APKPure以前好像不少争议和黑历史，有知道的可以补充 三编：没有google play的话可以去 Aurora store 下载，不过想要相对放心的话，在安装前上传云沙箱扫描一下，云查杀平台：ht",
-      "publishedAt": "2026-05-24T11:46:47.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "【CHY公益站】主贴",
-      "url": "https://linux.do/t/topic/2237155",
-      "excerpt": "这个帖子是CHY公益站的主贴，我会在这个贴子上发布站点及模型可用性、公告、随机掉落的注册码/额度兑换码等等 目前站点的注册门槛： 2026/5/24/18:50 目前站点可用，模型总成功率为73% 2026/5/24/19:08:00/ 注册功能正在修复 2026/5/24/19:30 注册功能已修复 2026/5/25/15:46 站点基础功能已修复 53 个帖子 - 42 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-24T10:53:07.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "用AI画了一些红楼梦漫画，大家给点意见",
-      "url": "https://linux.do/t/topic/2237272",
-      "excerpt": "63 个帖子 - 39 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-24T11:26:17.000Z",
+      "title": "祝贺！中国神舟23号载人发射升空任务，圆满成功！",
+      "url": "https://linux.do/t/topic/2238515",
+      "excerpt": "32 个帖子 - 14 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-24T15:24:59.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -479,19 +452,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "祝贺！中国神舟23号载人发射升空任务，圆满成功！",
-      "url": "https://linux.do/t/topic/2238515",
-      "excerpt": "30 个帖子 - 12 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-24T15:24:59.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "【AICode】自己搭建了公益站",
-      "url": "https://linux.do/t/topic/2237439",
-      "excerpt": "来linuxdo 这么长时间了, 自己学习搭建了中转站，给大家发一些福利，每个码 价值5刀, 倍率设置为0.1 了，已经接入linuxdo了,服务器比较垃圾, 慢的话请见谅 。另外还有比较重要的一点, 网站随时可能倒闭; 不定时发福利。 cdk.linux.do LINUX DO CDK Linux Do 社区 CDK 快速分享平台 - 让分享变得更简单 本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG",
-      "publishedAt": "2026-05-24T12:06:47.000Z",
+      "title": "感觉自己被 AI 的虚假成就感骗了，再见了gpt的羊毛",
+      "url": "https://linux.do/t/topic/2242761",
+      "excerpt": "前段时间一直在疯狂薅 GPT 的羊毛，每天都想着额度别浪费、token 得用完，于是开很多线程，搞很多需求。看起来好像每天都很忙，项目优化、文档整理、方案分析、学习规划，啥都让 AI 来一遍。并且自己一直都在让ai帮我写项目学习文档，写来写去，但是从未开始。并且在薅羊毛这件事上浪费我大量时间，分散我的注意力。 但最近突然感觉不太对劲。自己在三月订的四月份开始找实习的计划现在都只能说才刚开始，八股基本没背，项目也没理解透，于是开始反思了一下自己最近做的事情。 很多所谓的需求，其实根本不是我真的需要，只是我为了把额度用掉，硬找出来的一堆事。AI 确实能很快产出东西，但问题是，那些东西很多都没有真正",
+      "publishedAt": "2026-05-25T08:36:18.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -515,28 +479,19 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "[开源] Codeg V0.14.0：多智能体协作来了，可以在一个会话里claude code干活，子智能体codex或gemini来review",
-      "url": "https://linux.do/t/topic/2238469",
-      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 邀请佬们体验一下，多智能体协作的爽感。 可以在任意主智能体里发起对话，然后其它N个子智能体协作（支持claude code、codex、gemini、opencode等）。 比如我经常有这样的场景，使用claude c",
-      "publishedAt": "2026-05-24T15:16:03.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
-      "title": "感觉自己被 AI 的虚假成就感骗了，再见了gpt的羊毛",
-      "url": "https://linux.do/t/topic/2242761",
-      "excerpt": "前段时间一直在疯狂薅 GPT 的羊毛，每天都想着额度别浪费、token 得用完，于是开很多线程，搞很多需求。看起来好像每天都很忙，项目优化、文档整理、方案分析、学习规划，啥都让 AI 来一遍。并且自己一直都在让ai帮我写项目学习文档，写来写去，但是从未开始。并且在薅羊毛这件事上浪费我大量时间，分散我的注意力。 但最近突然感觉不太对劲。自己在三月订的四月份开始找实习的计划现在都只能说才刚开始，八股基本没背，项目也没理解透，于是开始反思了一下自己最近做的事情。 很多所谓的需求，其实根本不是我真的需要，只是我为了把额度用掉，硬找出来的一堆事。AI 确实能很快产出东西，但问题是，那些东西很多都没有真正",
-      "publishedAt": "2026-05-25T08:36:18.000Z",
-      "category": "tech",
-      "source": "LinuxDo"
-    },
-    {
-      "sourceId": "linuxdo",
       "title": "星辰AI ClaudeMax特惠分组上线 0.88",
       "url": "https://linux.do/t/topic/2242908",
       "excerpt": "星辰AI ClaudeMax特惠分组上线 0.88 没啥，星辰AI就是上线了，感谢anthropic！！！ 该渠道为羊毛，请按需充值。 说大白话就是少充点，用多少充多少 所谓有求而不得，人心欲壑，可填沧海~ 12 个帖子 - 12 位参与者 阅读完整话题",
       "publishedAt": "2026-05-25T08:57:35.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "[开源] Codeg V0.14.0：多智能体协作来了，可以在一个会话里claude code干活，子智能体codex或gemini来review",
+      "url": "https://linux.do/t/topic/2238469",
+      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 邀请佬们体验一下，多智能体协作的爽感。 可以在任意主智能体里发起对话，然后其它N个子智能体协作（支持claude code、codex、gemini、opencode等）。 比如我经常有这样的场景，使用claude c",
+      "publishedAt": "2026-05-24T15:16:03.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -551,10 +506,10 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "「开源」AI 小说创作桌面应用",
-      "url": "https://linux.do/t/topic/2241282",
-      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 最近token有点富足，于是尝试用AI从零开发一个工具。 GitHub上其实已经有不少开源的小说创作Skills，比如 oh-story-claudecode 项目，里面凝结了大量优秀的 prompt 工程经验：怎么写",
-      "publishedAt": "2026-05-25T05:29:46.000Z",
+      "title": "不要用工艺站生😍图，如果还有此类事情发生，将改为邀请制。",
+      "url": "https://linux.do/t/topic/2243213",
+      "excerpt": "后台所有聊天和生图错误全部都有记录，我可以随时登录查看错误原因。 这不是个例，记录错误是为了方便排查问题优化代码，但是大量的错误都是生图导致的，非常浪费我的时间。 如果后面还是有大量这种错误请求，我就将聊天站改为邀请制。 如图所示，错误原因全是因为生成图。再次强调，禁止生成图。 为了防止这类事情再次发生，已经改为登录后可聊天。 28 个帖子 - 27 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-25T09:42:47.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -562,26 +517,26 @@
       "sourceId": "linuxdo",
       "title": "公司不让用国外大模型了",
       "url": "https://linux.do/t/topic/2240950",
-      "excerpt": "严禁全体员工在公司办公网络、办公设备及业务场景中， 以任何形式（包括网页、API 、客户端、中转服务等）访问或使用境外 AI 大模型（包 括但不限于 ChatGPT 、Claude 、Gemini 等）。违者将依规严肃处理。 82 个帖子 - 51 位参与者 阅读完整话题",
+      "excerpt": "严禁全体员工在公司办公网络、办公设备及业务场景中， 以任何形式（包括网页、API 、客户端、中转服务等）访问或使用境外 AI 大模型（包 括但不限于 ChatGPT 、Claude 、Gemini 等）。违者将依规严肃处理。 83 个帖子 - 52 位参与者 阅读完整话题",
       "publishedAt": "2026-05-25T04:10:29.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
     {
       "sourceId": "linuxdo",
-      "title": "Paypal 无卡Plus接码注册流程",
-      "url": "https://linux.do/t/topic/2240431",
-      "excerpt": "目前at已经死了。目前我的方式： Clash轮询日本节点IP 注册机选手机号注册，在hero上选择价格在0.03美元约等于rmb 2毛钱的档位。开启注册。每天弄50个到free号池 国家：英格兰 巴西 智利 再使用pp接码：1.3接20次。算1毛钱。 单个Plus成本依旧可控制在3毛钱。一天弄5个。也不心疼 62 个帖子 - 34 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-25T03:06:15.000Z",
+      "title": "我看很多人都不知道如何写一个注册机吧，开个零基础代码靠ai写浏览器自动化的教程吧（不是协议注册）",
+      "url": "https://linux.do/t/topic/2242367",
+      "excerpt": "这次带来的教程是零基础教程，没错是零基础，注意有代码基础的就不要喷我了，我是一个0代码基础的男人 或者是谷歌浏览器里面的f12- 把你动作录制下来，然后下次在你要自动化的界面进行播放就好了 红框的内容是元素选择器，点击这个来选择我们要自动化输入的位置，等等相当于定位 你会发现元素选择选择网页的时候右边的元素代码会跟着动，你把鼠标指针在右边代码来回移动你会发现左边的页面也跟着动，好你在右边的代码里面选择你要定位的输入位置右键复制 把复制的outerhtml 丢给ai 扩展里面的开发者选项一定要打开，然后加载这个解压扩展就相当于是你让ai写扩展的哪个文件夹 推荐你写的时候让ai帮你加入：浏览器右侧",
+      "publishedAt": "2026-05-25T07:50:34.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
     {
       "sourceId": "linuxdo",
-      "title": "L站有搞无人机相关的佬友吗？",
-      "url": "https://linux.do/t/topic/2237431",
-      "excerpt": "之前一直在某SDN上发PX4仿真的教程，鉴于某SDN上的某些恶心操作，我想把教程搬到L站来 17 个帖子 - 15 位参与者 阅读完整话题",
-      "publishedAt": "2026-05-24T12:04:50.000Z",
+      "title": "「开源」AI 小说创作桌面应用",
+      "url": "https://linux.do/t/topic/2241282",
+      "excerpt": "本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 最近token有点富足，于是尝试用AI从零开发一个工具。 GitHub上其实已经有不少开源的小说创作Skills，比如 oh-story-claudecode 项目，里面凝结了大量优秀的 prompt 工程经验：怎么写",
+      "publishedAt": "2026-05-25T05:29:46.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -605,6 +560,15 @@
     },
     {
       "sourceId": "linuxdo",
+      "title": "【前沿慢讯】Claude Opus4.8 传言或将明天发布",
+      "url": "https://linux.do/t/topic/2241136",
+      "excerpt": "OpenAI GPT5.6也即将发布，目前有可靠第三方信源透露Claude Opus 4.8，可能要领先GPT5.6，提前发布，双方新模型竞争先发优势进入白热化，拭目以待吧。 37 个帖子 - 35 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-25T05:02:58.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
       "title": "【消息转载】探姬X账号因Deepseek-TUI遭投毒后被盗，事故后复盘",
       "url": "https://linux.do/t/topic/2237885",
       "excerpt": "转载自@探姬 X 上的 探姬 | Hello-CTF ：“在各种投毒轰炸的情况下，最好的办法就是最开始就别中招” / X 在各种投毒轰炸的情况下，最好的办法就是最开始就别中招 一篇关于 GitHub 供应链投毒、Rust 多阶段木马与 X 账号被盗的技术复盘，刚好我找回的账号，黑客送了我一个蓝v，就写一下。 事件背景 事情始于 GitHub 仓库 DeepSeek-TUI/DeepSeek-TUI。 当时第二天要比赛，想着拿几个模型去打，然后测一下效果，那会天天听到tui的项目，想着要不去试试，然后边打游戏边找，脑子根本没多想。 当时该项目约有 300+ Star，曾登上 GitHub Tre",
@@ -614,10 +578,46 @@
     },
     {
       "sourceId": "linuxdo",
-      "title": "我看很多人都不知道如何写一个注册机吧，开个零基础代码靠ai写浏览器自动化的教程吧（不是协议注册）",
-      "url": "https://linux.do/t/topic/2242367",
-      "excerpt": "这次带来的教程是零基础教程，没错是零基础，注意有代码基础的就不要喷我了，我是一个0代码基础的男人 或者是谷歌浏览器里面的f12- 把你动作录制下来，然后下次在你要自动化的界面进行播放就好了 红框的内容是元素选择器，点击这个来选择我们要自动化输入的位置，等等相当于定位 你会发现元素选择选择网页的时候右边的元素代码会跟着动，你把鼠标指针在右边代码来回移动你会发现左边的页面也跟着动，好你在右边的代码里面选择你要定位的输入位置右键复制 把复制的outerhtml 丢给ai 扩展里面的开发者选项一定要打开，然后加载这个解压扩展就相当于是你让ai写扩展的哪个文件夹 推荐你写的时候让ai帮你加入：浏览器右侧",
-      "publishedAt": "2026-05-25T07:50:34.000Z",
+      "title": "第一次使用 marvis，被其震撼当场吓瘫。",
+      "url": "https://linux.do/t/topic/2241192",
+      "excerpt": "自己之前一直想做个多 agent 的可视化的工具，在我刚做出 demo 的时候腾讯已经搬出 marvis 了。 56 个帖子 - 45 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-25T05:15:19.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "个人codex使用Trellis的简单流程和问题(2026年5月)",
+      "url": "https://linux.do/t/topic/2238542",
+      "excerpt": "随着Trellis的更新, 上一个帖子:个人codex使用Trellis的简单流程 也过时了. 现在Trellis使用非常简单, 官方标准流程应该是: 直接输入需求. 此时Trellis会自动hook, 自动帮你创建hook, 并在每轮对话都自动hook注入上下文 开始实施, 如果任务简单的话会自动调用check, 也可以手动$trellis-check commit $trellis-finish-work. 一般会自动归档 但成也hook, 败也hook. 一开始我是修改hook提示词，默认不创建，特定情况下才创建task，但后面实在受不了hook的冗余上下文，有次让AI跑多轮loop测试",
+      "publishedAt": "2026-05-24T15:31:05.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "免费域名注册站点盘点 开启你的无成本建站（超级精华）",
+      "url": "https://linux.do/t/topic/2237921",
+      "excerpt": "nic.eu.org 老牌 申请慢 国内访问难 digitalplat.org GITHUB 10K+ 稳定 19 个帖子 - 11 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-24T13:39:34.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "副业没有方向，开个交流贴",
+      "url": "https://linux.do/t/topic/2237716",
+      "excerpt": "大家好，最近在尝试副业，但是找不到真需求，看够了年入百万的帖子，更像是宣传和引流。 一直在用AI帮忙找需求，但有点大海捞针的感觉，有没有在做副业的同学，你们是怎么找需求的？交流下。 85 个帖子 - 52 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-24T12:58:01.000Z",
+      "category": "tech",
+      "source": "LinuxDo"
+    },
+    {
+      "sourceId": "linuxdo",
+      "title": "马斯克:新版grok模型已完成训练，训练过程使用了大量Cursor的数据，有望大幅增强编码能力，将在几周后发布",
+      "url": "https://linux.do/t/topic/2241720",
+      "excerpt": "马斯克宣称，使用了大量来自Cursor的数据来训练，有望大幅提升编码能力，马斯克也在下面的回贴证实了这点，预计该模型在2-3周后发布 原推:https://x.com/i/status/2058787384364265734 41 个帖子 - 36 位参与者 阅读完整话题",
+      "publishedAt": "2026-05-25T06:31:57.000Z",
       "category": "tech",
       "source": "LinuxDo"
     },
@@ -629,7 +629,7 @@
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "OpenAI被高德纳（Gartner）评为2026年企业AI编码代理领域的领导者，其Codex产品因创新和企业级部署能力而获得认可。"
+      "summary": "OpenAI 在 2026 年 Gartner 魔力象限中被认定为企业 AI 编码代理领导者，其 Codex 产品在创新和规模化部署方面受到认可。"
     },
     {
       "sourceId": "openai-news",
@@ -639,7 +639,7 @@
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "维珍大西洋航空公司利用OpenAI的Codex产品，在固定的节假日旅行截止日期前成功发布了新版移动应用，实现了近乎全面的单元测试覆盖率和零P1级缺陷。"
+      "summary": "Virgin Atlantic 使用 OpenAI 的 Codex 工具，在固定截止日期前成功发布更新移动应用，达到几乎全覆盖的单元测试和零关键缺陷。"
     },
     {
       "sourceId": "openai-news",
@@ -649,7 +649,7 @@
       "publishedAt": "2026-05-21T12:00:00.000Z",
       "category": "tech",
       "source": "OpenAI News",
-      "summary": "医疗机构AdventHealth正在使用OpenAI的ChatGPT for Healthcare来简化工作流程、减轻行政负担，并为患者护理节省更多时间。"
+      "summary": "AdventHealth 采用 OpenAI 的 ChatGPT for Healthcare，以优化工作流程、减轻行政负担，从而更专注于患者护理。"
     },
     {
       "sourceId": "openai-news",
@@ -902,7 +902,7 @@
       "publishedAt": "2026-05-21T19:46:42.000Z",
       "category": "tech",
       "source": "DeepMind Blog",
-      "summary": "谷歌DeepMind在亚太地区启动加速器计划，旨在应对该地区面临的环境风险挑战。"
+      "summary": "DeepMind 博客宣布在亚太地区启动 Google DeepMind 加速器计划，旨在应对环境风险。"
     },
     {
       "sourceId": "deepmind-blog",
@@ -1173,7 +1173,7 @@
       "publishedAt": "2026-05-23T00:02:03.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "英伟达发布Nemotron-Labs扩散语言模型，旨在通过创新的扩散模型技术实现接近光速的文本生成。"
+      "summary": "Hugging Face 博客介绍了 NVIDIA 的 Nemotron-Labs 扩散语言模型，旨在实现光速文本生成。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1183,7 +1183,7 @@
       "publishedAt": "2026-05-22T15:25:59.000Z",
       "category": "tech",
       "source": "Hugging Face Blog",
-      "summary": "文章指出，在AI采购决策中，一个被多数人忽视的关键战略变量是“专业化胜于规模化”。"
+      "summary": "Hugging Face 博客讨论 AI 采购决策中，专业化比规模化更重要，这是一个常被忽视的战略因素。"
     },
     {
       "sourceId": "huggingface-blog",
@@ -1445,7 +1445,7 @@
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "category": "tech",
       "source": "TLDR AI",
-      "summary": "AI领域动态包括：Anthropic与微软达成合作；AI编码工具Cursor年化收入达到30亿美元；以及云代理应用的经验教训总结。"
+      "summary": "TLDR AI 新闻汇总了 Anthropic 与微软的合作、Cursor 达到 30 亿美元年化收入，以及云代理的相关经验。"
     },
     {
       "sourceId": "tldr-ai",
@@ -1896,7 +1896,7 @@
       "publishedAt": "2026-05-23T04:21:17.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "AI领域观察显示，所有模型实验室正逐渐转变为代理（Agent）实验室，标志着行业焦点从基础模型向更自主的AI代理开发转移。"
+      "summary": "AI 新闻显示，所有模型实验室现已转变为代理实验室，表明行业向代理系统的转型趋势。"
     },
     {
       "sourceId": "latent-space",
@@ -1906,7 +1906,7 @@
       "publishedAt": "2026-05-22T05:50:58.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "AI基础设施领域出现新独角兽公司，包括Exa、Modal和TurboPuffer，显示了该细分赛道的融资活跃度。"
+      "summary": "AI 新闻报道，Exa、Modal 和 TurboPuffer 成为新的 AI 基础设施独角兽，涉及融资活动。"
     },
     {
       "sourceId": "latent-space",
@@ -1916,7 +1916,7 @@
       "publishedAt": "2026-05-21T20:37:40.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "Daytona公司CEO在访谈中透露，公司实现了惊人的月度增长率74%，每日运行次数达85万次，业务涉及裸金属沙盒、强化学习评估及新一代代理云服务。"
+      "summary": "Latent Space 采访了 Daytona CEO Ivan Burazin，该公司实现 74% 的月度增长，每日运行达 85 万次，并提供裸金属沙盒、RL 评估和新代理云服务。"
     },
     {
       "sourceId": "latent-space",
@@ -1926,7 +1926,7 @@
       "publishedAt": "2026-05-21T07:28:36.000Z",
       "category": "tech",
       "source": "Latent Space",
-      "summary": "有消息称，OpenAI的下一代GPT模型在花费不到1000美元的情况下，证明了80年历史的埃尔德什平面单位距离猜想的不成立，展示了AI在数学领域的新成果。"
+      "summary": "AI 新闻称，OpenAI 的 GPT-next 模型以不到 1000 美元的成本，解决了 80 年历史的 Erdős 平面单位距离问题。"
     },
     {
       "sourceId": "latent-space",
@@ -2080,7 +2080,7 @@
       "publishedAt": "2026-05-22T10:00:00.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "在谷歌I/O大会上，DeepMind首席执行官德米斯·哈萨比斯宣称我们正身处奇点的开端，这展示了AI驱动科学研究的路径正在发生转变。"
+      "summary": "在 Google I/O 主题演讲中，DeepMind CEO Demis Hassabis 表示，当前处于奇点前沿，AI 驱动的科学路径正在发生变化。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2090,7 +2090,7 @@
       "publishedAt": "2026-05-21T20:41:05.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "一场圆桌讨论探讨了AI能否学会理解世界这一议题，重点关注“世界模型”的发展以克服大语言模型的局限性。"
+      "summary": "MIT Tech Review 举办圆桌讨论，探讨 AI 能否理解世界，涉及 AI 公司构建世界模型以超越 LLM 限制的进展。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2100,7 +2100,7 @@
       "publishedAt": "2026-05-21T19:16:43.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "文章探讨了在人工智能时代，如何规模化激发创意。叙述性表达是人类的核心特质，技术则始终与媒介和传播方式交织在一起。"
+      "summary": "MIT Tech Review 讨论 AI 时代如何规模化创造力，强调讲故事作为人性核心，技术与媒介分发的演变。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2110,7 +2110,7 @@
       "publishedAt": "2026-05-21T14:30:45.000Z",
       "category": "tech",
       "source": "MIT Tech Review AI",
-      "summary": "Anthropic公司于伦敦举办的“Code with Claude”开发者活动展示了其Claude模型在软件开发领域的未来潜力，该活动与谷歌I/O大会同期举行。"
+      "summary": "Anthropic 在伦敦举办 Code with Claude 开发者活动，展示编码未来，活动日期与 Google I/O 相同。"
     },
     {
       "sourceId": "mit-tech-review-ai",
@@ -2173,9 +2173,9 @@
       "excerpt": "Everyone is talking about AI agents. Save this :) Build an agent. Deploy an agent. Agent this. Agent that. But when you actually sit down to build one, you hit a wall. The tutorials assume you already",
       "publishedAt": "2026-05-23T09:24:09.000Z",
       "category": "tech",
-      "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.7M 阅 · 794 赞 · 110 转",
+      "meta": "@eng_khairallah1 · 58.6K 粉丝 · 1.7M 阅 · 804 赞 · 111 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享使用 Claude 构建 AI agent 团队的完整课程，针对初学者实操困难，详细讲解从 agent 设计、开发到部署的全流程，解决教程与实际脱节问题，提供具体解决方案和最佳实践。"
+      "summary": "博主指出当前AI代理教程常假设读者已有基础知识，导致实际构建时遇到障碍。本帖分享使用Claude构建首个AI代理团队的完整课程，涵盖从零开始的构建和部署，帮助新手克服入门难题。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2186,7 +2186,7 @@
       "category": "tech",
       "meta": "@nateberkopec · 29.8K 粉丝 · 166.7K 阅 · 500 赞 · 51 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "在 2026 年 5 月，博主对 LLM 发展进行深入反思，回顾 Opus-4.5 模型发布后引发的“圣诞节休息革命”，分析技术浪潮对行业的影响，并分享个人对未来趋势的观察。"
+      "summary": "2026年5月，博主回顾Opus-4.5发布五个月后的LLM领域变化，描述「圣诞假期革命」期间的技术突破，基于九到十二个月的使用经验，分享对大型语言模型发展的见解和预测。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2197,7 +2197,7 @@
       "category": "tech",
       "meta": "@bookwormengr · 12.4K 粉丝 · 59.9K 阅 · 512 赞 · 66 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "博主深入分析 DeepSeek 的潜在盈利模式，通过对比 GLM、MoonShot 和 MiniMax 等 AI 公司的竞争策略，指出 DeepSeek 未推出 competitive coding 计划或多模态模型，探讨其商业化路径。"
+      "summary": "博主分析AI公司DeepSeek的潜在盈利路径，指出其缺乏类似GLM、MoonShot的竞争编码计划和多模态模型，探讨如何通过独特策略实现十万亿美元目标，提供商业视角。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2208,7 +2208,7 @@
       "category": "tech",
       "meta": "@KSimback · 17.1K 粉丝 · 40.0K 阅 · 508 赞 · 69 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "提供 Hermes Agent 记忆系统的权威指南，系统整合每周新出现的记忆工具和最佳实践，详细解释记忆机制、工具选择和使用技巧，为开发者提供一站式参考。"
+      "summary": "针对Hermes Agent内存系统工具频繁更新的现象，博主编写权威指南，涵盖所有相关系统和工具，旨在为用户提供一站式参考，解决信息碎片化问题。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2219,7 +2219,7 @@
       "category": "tech",
       "meta": "@GeminiApp · 507.0K 粉丝 · 34.7K 阅 · 546 赞 · 42 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "官方宣布 Gemini 应用升级为更 agentic 的助手，新增直观用户界面、主动式每日简报和 Gemini Spark agent，实现 24/7 主动帮助，简化用户日常任务处理。"
+      "summary": "Gemini应用推出更新，引入直观新UI、主动每日简报和Gemini Spark代理，实现更智能的24/7主动帮助，提升AI助手的实用性和用户体验，向代理化发展。"
     },
     {
       "sourceId": "attentionvc-ai",
@@ -2230,7 +2230,7 @@
       "category": "tech",
       "meta": "@0xileri · 7.3K 粉丝 · 12.2K 阅 · 533 赞 · 63 转",
       "source": "X 推文 (AttentionVC)",
-      "summary": "分享个人制作 AI 视频的实战经验，针对初学者常见问题，介绍相关工具使用、创作流程和技巧，以自身学习过程为例，提供可操作的指南。"
+      "summary": "因收到大量私信，博主以初学者视角分享自己制作AI视频的方法和工具，强调仍在学习中，提供实用指南帮助他人入门AI视频创作。"
     },
     {
       "sourceId": "arxiv-cs-cr",
@@ -2240,31 +2240,30 @@
       "category": "papers",
       "meta": "第一作者: Rodrigo Martín Sánchez-Ledesma · 方向: 密码学协议",
       "source": "arXiv cs.CR",
-      "summary": "该研究解决了在基于承诺的认证密钥建立模型下，如何构建安全的三轮协议问题。研究人员提出了一种专用的构建方法，其核心思想沿用了基于承诺的MT认证器，并通过博弈技术证明了协议在非认证模型下的会话密钥安全性。这项工作首次在该模型下为基于密钥协商和KEM的原语构建了安全的三轮协议，为无需长期密钥材料的密钥交换提供了更高效的选择。",
+      "summary": "本文在基于承诺的认证密钥交换（AKE）模型下，首次证明了安全的3轮协议的存在性。该模型避免了长期密码材料的依赖，通过带外验证实现认证。研究者为基于密钥协商（KA）和密钥封装机制（KEM）的原语设计了专门的3轮协议，并证明了其安全性。这些协议在三次消息交换中即可实现单向认证，为设计更高效的密钥交换方案提供了新蓝图。",
       "keywords": [
+        "认证密钥交换",
         "承诺模型",
-        "AKE协议",
-        "密钥交换",
-        "认证密钥建立",
-        "消息传递"
+        "三轮协议",
+        "密码学协议",
+        "无长期密钥"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "Validating Threat Modeling Results with the Help of Vulnerable Test Applications",
       "url": "https://arxiv.org/abs/2605.23695",
-      "excerpt": "Validating threat modeling results remains difficult because completeness is hard to judge without an external oracle. Existing studies often rely on expert-produced reference models and other human baselines, but these can contain omissions or disagreements. This paper evaluates a complementary, vulnerability-grounded validation approach. We apply threat modeling to intentionally vulnerable applications with a known vulnerability set to measure the number of related vulnerabilities that can be discovered. We compare ThreMoLIA, an LLM-assisted threat modeling solution developed by our team, with the Microsoft Threat Modeling Tool (MTMT) across two vulnerable applications: AzureGoat and the Vulnerable Bank Application (VulnBank). The inputs to both tools are limited to architecture, data flow diagrams, and their descriptions. The results show that ThreMoLIA achieved higher vulnerability c",
-      "publishedAt": "2026-05-22T14:50:33.000Z",
+      "excerpt": "Abstract:Validating threat modeling results remains difficult because completeness is hard to judge without an external oracle. Existing studies often rely on expert-produced reference models and other human baselines, but these can contain omissions or disagreements. This paper evaluates a complementary, vulnerability-grounded validation approach. We apply threat modeling to intentionally vulnerable applications with a known vulnerability set to measure the number of related vulnerabilities that can be discovered. We compare ThreMoLIA, an LLM-assisted threat modeling solution developed by our team, with the Microsoft Threat Modeling Tool (MTMT) across two vulnerable applications: AzureGoat and the Vulnerable Bank Application (VulnBank). The inputs to both tools are limited to architecture, data flow diagrams, and their descriptions. The results show that ThreMoLIA achieved higher vulner",
       "category": "papers",
       "meta": "第一作者: Oleksandr Adamov · 方向: 软件安全",
       "source": "arXiv cs.CR",
-      "summary": "本文探讨了如何利用已知漏洞集的测试应用来验证威胁建模结果的完备性。研究将团队开发的LLM辅助威胁建模工具与微软威胁建模工具在两个漏洞应用上进行比较，输入仅为架构和数据流图。结果显示，LLM辅助方法能够发现更多与已知漏洞相关的安全问题，表明基于漏洞的评估方法是验证威胁建模效果的可行补充。",
+      "summary": "验证威胁建模结果的完整性是一个难题。本文提出一种基于已知漏洞集合的验证方法，通过将威胁建模应用于含有已知漏洞的脆弱应用来评估其发现能力。研究对比了LLM辅助的威胁建模方案ThreMoLIA与微软威胁建模工具，结果显示该方法在发现相关漏洞方面更具优势，为评估威胁建模工具的有效性提供了实证途径。",
       "keywords": [
         "威胁建模",
-        "漏洞验证",
+        "验证",
+        "漏洞应用",
         "LLM辅助",
-        "安全测试",
-        "评估方法"
+        "安全评估"
       ]
     },
     {
@@ -2275,13 +2274,13 @@
       "category": "papers",
       "meta": "第一作者: Matthias Cosler · 方向: 密码学协议",
       "source": "arXiv cs.CR",
-      "summary": "现有安全协议分析工具（如Tamarin）虽然能验证复杂协议，但通常需要大量人工努力。本文提出一个受AlphaZero启发的强化学习框架，为Tamarin实现了一种新的证明搜索风格。该框架利用蒙特卡洛树搜索和神经启发式学习，在多个经典和前沿协议案例上进行评估，结果表明该方法能自动发现更多证明，并显著降低证明长度，提升了自动化验证的效率。",
+      "summary": "使用Tamarin等工具验证复杂安全协议需要大量人力。本文提出一个受AlphaZero启发的强化学习框架，用于自动化Tamarin的证明搜索过程。该框架将证明搜索建模为强化学习问题，利用蒙特卡洛树搜索和神经启发式函数。实验表明，该方法在多个案例上实现了更高的自动证明成功率，并生成了更短的证明，有望降低协议验证的门槛和成本。",
       "keywords": [
+        "形式化验证",
         "强化学习",
         "Tamarin",
-        "协议验证",
-        "自动证明",
-        "蒙特卡洛树搜索"
+        "密码协议",
+        "自动证明搜索"
       ]
     },
     {
@@ -2292,13 +2291,13 @@
       "category": "papers",
       "meta": "第一作者: Dimitrios Sygletos · 方向: 密码学协议",
       "source": "arXiv cs.CR",
-      "summary": "同态加密允许在加密数据上计算，但其仅支持加法和乘法的特性限制了非线性激活函数（如ReLU）在大型语言模型中的应用。本文提出一种基于核函数的ReLU近似方法，使用二阶多项式进行光滑近似，使其能在同态加密的约束下运行。这是支持隐私保护大型语言模型的一项关键技术突破。",
+      "summary": "同态加密（HE）允许在加密数据上计算，但仅支持加法和乘法，与深度神经网络中的非线性激活函数（如ReLU）不兼容。本文提出一种基于核函数的ReLU近似方法，使用二次多项式进行光滑逼近，使其能够在HE约束下运行。该工作为在隐私保护环境下部署大型语言模型（LLM）中的非线性层提供了关键技术支持。",
       "keywords": [
         "同态加密",
         "ReLU近似",
-        "隐私保护深度学习",
-        "多项式近似",
-        "自然语言处理"
+        "深度学习",
+        "隐私保护",
+        "多项式近似"
       ]
     },
     {
@@ -2309,13 +2308,13 @@
       "category": "papers",
       "meta": "第一作者: Guanlong Wu · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "大型语言模型的KV缓存共享虽能加速推理，但存在侧信道漏洞，攻击者可通过探测缓存复用推断用户输入。现有防御通过禁用共享来防止泄露，但牺牲了效率。本文提出CachePrune，一种细粒度的隐私感知KV缓存共享机制。它允许跨请求复用隐私无关的缓存片段，同时通过精确的令牌级管理保护敏感内容，从而在隐私安全与推理效率之间取得更好平衡。",
+      "summary": "大型语言模型（LLM）服务系统常共享KV缓存以提升效率，但这引入了侧信道漏洞，攻击者可通过探测缓存复用推断用户输入。现有防御措施完全禁用共享以避免泄露，但牺牲了复用潜力。本文提出CachePrune，一种隐私感知的细粒度KV缓存共享机制，允许跨请求复用与隐私无关的缓存部分，在保护隐私的同时提升系统效率。",
       "keywords": [
-        "LLM推理",
         "KV缓存",
-        "隐私保护",
-        "缓存共享",
-        "侧信道防御"
+        "LLM推理",
+        "隐私",
+        "侧信道",
+        "缓存共享"
       ]
     },
     {
@@ -2326,13 +2325,13 @@
       "category": "papers",
       "meta": "第一作者: Ahmed Sabbah · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "本文对Android恶意软件检测模型的对抗鲁棒性进行了长达十年的纵向研究。研究在不同年份数据切片上，评估了在相同年份、跨年份和扩展窗口重训练三种场景下的模型表现。通过生成对抗样本并引入时间关联指标，量化了数据分布漂移与对抗脆弱性之间的关系，揭示了模型随时间演变而面临的持续安全挑战。",
+      "summary": "本文对安卓恶意软件检测模型在超过十年数据上的对抗鲁棒性进行了纵向研究。评估模拟了三种现实部署场景，并引入了衡量分布漂移与鲁棒性关系的时序指标。研究发现，在时间概念漂移下，模型的对抗脆弱性会发生显著变化，强调了考虑数据分布动态性对于安全部署检测模型的重要性。",
       "keywords": [
         "对抗鲁棒性",
-        "Android恶意软件检测",
         "概念漂移",
+        "安卓恶意软件检测",
         "纵向研究",
-        "时序评估"
+        "时序分析"
       ]
     },
     {
@@ -2343,10 +2342,10 @@
       "category": "papers",
       "meta": "第一作者: Shaoxuan Zhou · 方向: 安全研究",
       "source": "arXiv cs.CR",
-      "summary": "短视频平台算法可能向青少年用户推荐有害内容。为理解此问题，本文提出了首个基于行为的大规模测量框架PHTV-Scout。该框架结合了对青少年的问卷调查和在线测量流程，模拟青少年账号收集推荐流，并使用经过微调的多模态分类器检测潜在有害视频，旨在系统性地评估有害内容的规模、机制和影响。",
+      "summary": "短视频平台可能通过算法向青少年推荐有害内容。本文提出首个大规模、基于行为的测量框架PHTV-Scout，用于发现和分析此类视频。该框架整合了青少年行为调查与在线爬取、检测流水线，能有效模拟真实用户行为并识别有害内容，为研究和治理平台算法风险提供了新工具。",
       "keywords": [
         "短视频平台",
-        "青少年安全",
+        "青少年",
         "有害内容",
         "算法推荐",
         "测量框架"
@@ -2360,12 +2359,12 @@
       "category": "papers",
       "meta": "第一作者: Youqian Zhang · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "本文指出AI安全研究领域存在一种失衡：攻击性研究远多于防御性研究。分析发现，攻击论文常在有利条件下评估，显得威胁严重；而防御论文则面临更严格标准。这种失衡导致文献中漏洞多而可用防护少。作者因此呼吁，AI安全研究应更好地激励防御性研究，以促进攻防知识的均衡发展。",
+      "summary": "本文指出当前人工智能安全研究存在攻防失衡的问题：攻击性研究多于防御性研究，且评估标准不一致。攻击论文常在有利条件下评估以放大威胁，而防御论文则面临更严苛的标准。这种不平衡导致文献中漏洞展示多、可用防御少。作者主张应更好地激励防御性研究，以构建更全面的AI安全生态。",
       "keywords": [
         "AI安全",
+        "攻防失衡",
         "研究激励",
-        "攻防平衡",
-        "学术偏向",
+        "安全评估",
         "防御研究"
       ]
     },
@@ -2377,12 +2376,12 @@
       "category": "papers",
       "meta": "第一作者: Yutong Jin · 方向: 系统安全",
       "source": "arXiv cs.CR",
-      "summary": "本文系统研究了本地可执行的AI智能体系统OpenClaw的安全、隐私、伦理风险及追踪挑战。通过分析其架构、功能和应用场景，揭示了当此类高权限智能体集成到个人和组织数字环境中可能带来的风险，重点关注持久本地存储、工具调用、跨上下文信息聚合以及多用户交互等方面引发的安全隐私问题。",
+      "summary": "本文系统研究了本地运行的AI智能体系统OpenClaw的安全、隐私、伦理风险及溯源挑战。尽管其在个人助理、办公自动化等方面有潜力，但深度集成到数字环境也带来了严重关切。分析聚焦于其持久化存储、工具调用、跨上下文信息聚合及多用户交互等功能所带来的潜在风险。",
       "keywords": [
         "AI智能体",
-        "系统安全",
-        "隐私风险",
-        "伦理风险",
+        "安全风险",
+        "隐私",
+        "伦理",
         "OpenClaw"
       ]
     },
@@ -2390,18 +2389,17 @@
       "sourceId": "arxiv-cs-cr",
       "title": "Are Frontier LLMs Ready for Cybersecurity? Evidence for Vertical Foundation Models from Dual-Mode Vulnerability Benchmarks",
       "url": "https://arxiv.org/abs/2605.23243",
-      "excerpt": "We evaluate whether frontier LLMs are ready for cybersecurity through a dual-mode benchmark: white-box function-level vulnerability detection (VulnLLM-R, across C/Java/Python) and black-box web application security testing (five production-style applications with 118 ground-truth vulnerabilities across 20+ CWE families, which we will open-source). We test six frontier models (GPT-5.4, Codex~5.3, Claude Opus~4.6, Sonnet~4.6, Gemini~3.1~Pro and Gemini~3~Flash) and two domain-specialized models across four testing paradigms. Our findings are sobering: (1)~every frontier model produces 10-50% false positive rates in white-box detection, systematically over-predicting vulnerabilities; (2)~in black-box testing, frontier models achieve only 4-8% ground-truth coverage, improving to just 10-19% even with external security tools (Playwright MCP, Burp Suite MCP); (3)~structured penetration-testing ",
-      "publishedAt": "2026-05-22T05:24:43.000Z",
+      "excerpt": "Abstract:We evaluate whether frontier LLMs are ready for cybersecurity through a dual-mode benchmark: white-box function-level vulnerability detection (VulnLLM-R, across C/Java/Python) and black-box web application security testing (five production-style applications with 118 ground-truth vulnerabilities across 20+ CWE families, which we will open-source). We test six frontier models (GPT-5.4, Codex~5.3, Claude Opus~4.6, Sonnet~4.6, Gemini~3.1~Pro and Gemini~3~Flash) and two domain-specialized models across four testing paradigms. Our findings are sobering: (1)~every frontier model produces 10-50% false positive rates in white-box detection, systematically over-predicting vulnerabilities; (2)~in black-box testing, frontier models achieve only 4-8% ground-truth coverage, improving to just 10-19% even with external security tools (Playwright MCP, Burp Suite MCP); (3)~structured penetration",
       "category": "papers",
       "meta": "第一作者: Vivek Dahiya · 方向: 网络安全",
       "source": "arXiv cs.CR",
-      "summary": "本文通过双模式基准测试评估前沿LLM在网络安全领域的就绪程度：白盒函数级漏洞检测和黑盒Web应用安全测试。测试了多个前沿模型，结果令人深思：所有模型在白盒检测中误报率高；在黑盒测试中，即使借助外部安全工具，对已知漏洞的覆盖率也较低。研究表明，当前LLM尚不能可靠地应用于实际网络安全任务。",
+      "summary": "本文通过双模式基准测试评估前沿LLM在网络安全任务中的能力：白盒漏洞检测和黑盒Web应用安全测试。测试涵盖多个前沿模型。结果令人警醒：LLM在白盒检测中存在高误报率；在黑盒测试中，即使借助外部工具，发现真实漏洞的覆盖率也很低。这表明当前LLM尚不能胜任复杂的网络安全实战任务。",
       "keywords": [
-        "LLM",
+        "大语言模型",
         "网络安全",
         "漏洞检测",
         "基准测试",
-        "应用安全测试"
+        "渗透测试"
       ]
     },
     {
@@ -2412,13 +2410,13 @@
       "category": "papers",
       "meta": "第一作者: Yuanbo Zhou · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "安全护栏模型用于在提示到达LLM前进行筛查。由于上下文长度限制，护栏模型处理长提示时可能采用截断或分段检查。本文揭示了护栏模型的有限检查窗口与下游LLM的更大上下文推理窗口之间的不匹配带来的安全盲点，提出了提示溢出攻击，该攻击通过将恶意指令碎片化并穿插在良性内容中，以绕过护栏检测。",
+      "summary": "护栏模型常用于筛选用户输入，以防止针对LLM的提示注入攻击。但这些模型因上下文长度限制会对长提示进行截断。本文发现了一个关键盲点：护栏模型的检查窗口与下游LLM的推理窗口不匹配。攻击者可利用此不匹配，将恶意指令分散在长文本中，从而绕过检测，揭示了现有防御机制的一个新漏洞。",
       "keywords": [
-        "提示注入攻击",
-        "安全护栏",
-        "LLM安全",
-        "上下文窗口不匹配",
-        "长提示处理"
+        "提示注入",
+        "护栏模型",
+        "长文本攻击",
+        "上下文窗口",
+        "安全对齐"
       ]
     },
     {
@@ -2429,13 +2427,13 @@
       "category": "papers",
       "meta": "第一作者: Kieu Dang · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "为应对专有LLM面临的知识产权侵犯风险，本文提出了一种新的密钥条件水印框架SAFESEAL。该框架旨在实现强可检测性的同时，最小化对模型效用的影响，有效平衡了可检测性、实用性和鲁棒性。它通过保留命名实体并用上下文感知的同义词替换其他语言术语来嵌入水印，从而保护模型的所有权。",
+      "summary": "为保护大型语言模型的知识产权，水印技术是一种潜在的防御手段，但现有方法常在语义失真、事实不一致和抗攻击性方面存在不足。本文提出SAFESEAL，一种密钥控制的水印框架，旨在实现强可检测性的同时，最小化对模型实用性的影响，有效平衡了检测能力、实用性和鲁棒性。",
       "keywords": [
         "LLM水印",
-        "知识产权保护",
-        "密钥条件水印",
-        "鲁棒性",
-        "语义保真度"
+        "知识产权",
+        "可检测性",
+        "实用性",
+        "密钥控制"
       ]
     },
     {
@@ -2446,49 +2444,47 @@
       "category": "papers",
       "meta": "第一作者: Luze Sun · 方向: 安全研究",
       "source": "arXiv cs.CR",
-      "summary": "当在未审查的数据集上微调LLM时，攻击者可能通过数据供应链注入恶意样本。本文引入PoisonForge基准，从偏差类型、投毒模式、出现次数和目标输出长度四个维度参数化这种威胁，并在多个开放权重模型上进行了评估。研究发现，仅用1%的投毒数据，大部分模型在其最脆弱配置下攻击成功率就超过70%，且对非目标任务的意外泄露率很低。",
+      "summary": "在不可信数据集上微调LLM时，攻击者可通过任务级数据投毒植入后门。本文提出PoisonForge基准，从多个维度参数化这一威胁，并评估了多个开源模型。结果表明，仅需极少量投毒样本，就能在目标任务上实现高攻击成功率，同时对非目标任务影响极小，揭示了指令微调流程中的严重供应链安全风险。",
       "keywords": [
-        "LLM微调",
+        "指令微调",
         "数据投毒",
-        "基准测试",
-        "任务级攻击",
-        "开放权重模型"
+        "基准",
+        "攻击成功率",
+        "后门攻击"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "What Does the Server See? Understanding Privacy Leakage from Large Language Models in Split Inference",
       "url": "https://arxiv.org/abs/2605.23158",
-      "excerpt": "The deployment of large language models (LLMs) on resource-constrained devices remains challenging, spurring interest in split inference, where models are partitioned between client and server to reduce computational burden and enhance privacy by transmitting only intermediate activations. However, the privacy-preserving capabilities of split inference, particularly in the context of LLMs, have not been exhaustively investigated. To fill this gap, we introduce ActInv, which solves an intermediate activation matching problem to reconstruct the client's input. Extensive evaluations demonstrate that ActInv achieves high-fidelity reconstructions, even in the presence of common perturbation-based defenses such as Gaussian noise injection and activation sparsification. To systematically understand this vulnerability, we develop Perturbation Amplification Factor (PAF), a metric for quantifying ",
-      "publishedAt": "2026-05-22T02:14:16.000Z",
+      "excerpt": "Abstract:The deployment of large language models (LLMs) on resource-constrained devices remains challenging, spurring interest in split inference, where models are partitioned between client and server to reduce computational burden and enhance privacy by transmitting only intermediate activations. However, the privacy-preserving capabilities of split inference, particularly in the context of LLMs, have not been exhaustively investigated. To fill this gap, we introduce ActInv, which solves an intermediate activation matching problem to reconstruct the client's input. Extensive evaluations demonstrate that ActInv achieves high-fidelity reconstructions, even in the presence of common perturbation-based defenses such as Gaussian noise injection and activation sparsification. To systematically understand this vulnerability, we develop Perturbation Amplification Factor (PAF), a metric for qua",
       "category": "papers",
       "meta": "第一作者: Mingyuan Fan · 方向: 隐私保护",
       "source": "arXiv cs.CR",
-      "summary": "为将大语言模型部署到资源受限设备，分割推理被提出，即将模型分割在客户端和服务器端，仅传输中间激活值。然而，这种设置的隐私保护能力尚未被充分研究。本文提出ActInv方法，通过解决中间激活匹配问题来重建客户端输入。实验表明，即使存在高斯噪声注入等常见防御，ActInv也能高保真重建输入，揭示了分割推理中的隐私风险。",
+      "summary": "分割推理将LLM划分为客户端和服务器端以增强隐私，但其隐私保护能力未经充分研究。本文提出ActInv方法，通过解决一个中间激活匹配问题来重建客户端输入。评估表明，即使存在高斯噪声注入等常见扰动防御，ActInv仍能实现高保真重建，并量化了扰动的影响，揭示了分割推理范式的隐私风险。",
       "keywords": [
         "分割推理",
         "隐私泄露",
-        "LLM部署",
-        "激活重建",
-        "隐私保护"
+        "输入重建",
+        "中间激活",
+        "防御评估"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "Encrypted Neural Networks without Overflows",
       "url": "https://arxiv.org/abs/2605.23096",
-      "excerpt": "Fully homomorphic encryption (FHE) enables private inference by evaluating neural networks on encrypted data. In this way, we can delegate the computation to a third party server without ever revealing the user's data. Currently, the CKKS scheme is the backbone of most efficient FHE implementations, but it only supports addition, multiplication, and array rotation operations, thus requiring all activation functions of the neural network to be approximated by polynomials within a certain interval, imposing strict design tolerances. In this paper, we demonstrate for the first time that this scheme is vulnerable to overflow attacks, i.e., seemingly benign inputs that can exceed such tolerances of the FHE circuit, thereby causing corrupt and unusable outputs. To avoid them, we propose a formal verification technique that computes certified bounds on the ranges of all neurons in the network. ",
-      "publishedAt": "2026-05-21T23:08:23.000Z",
+      "excerpt": "Abstract:Fully homomorphic encryption (FHE) enables private inference by evaluating neural networks on encrypted data. In this way, we can delegate the computation to a third party server without ever revealing the user's data. Currently, the CKKS scheme is the backbone of most efficient FHE implementations, but it only supports addition, multiplication, and array rotation operations, thus requiring all activation functions of the neural network to be approximated by polynomials within a certain interval, imposing strict design tolerances. In this paper, we demonstrate for the first time that this scheme is vulnerable to overflow attacks, i.e., seemingly benign inputs that can exceed such tolerances of the FHE circuit, thereby causing corrupt and unusable outputs. To avoid them, we propose a formal verification technique that computes certified bounds on the ranges of all neurons in the ",
       "category": "papers",
       "meta": "第一作者: Philipp Kern · 方向: 密码学协议",
       "source": "arXiv cs.CR",
-      "summary": "本文首次证明了在基于CKKS方案的全同态加密神经网络中存在溢出攻击，即看似无害的输入可能超出电路容忍范围，导致输出损坏。为应对此威胁，研究人员提出了一种形式化验证技术，用于计算网络中所有神经元范围的可信界限，从而避免此类攻击，确保加密神经网络的安全推理。",
+      "summary": "使用CKKS方案的同态加密是隐私计算的主力，但本文首次揭示其存在溢出攻击漏洞：看似无害的输入可能超出多项式近似区间，导致输出错误。为防范此攻击，研究提出了一种形式化验证技术，可计算神经网络中所有神经元输出的认证范围，从而确保加密推理的正确性。",
       "keywords": [
         "全同态加密",
         "神经网络",
         "溢出攻击",
-        "形式化验证",
-        "CKKS方案"
+        "形式验证",
+        "安全推理"
       ]
     },
     {
@@ -2499,13 +2495,13 @@
       "category": "papers",
       "meta": "第一作者: Yan Lin Aung · 方向: 系统安全",
       "source": "arXiv cs.CR",
-      "summary": "物联网安全研究在可扩展的虚拟实验与真实的设备行为之间存在方法差距。本文介绍了BYOT-CPS，一个将真实物联网设备连接到基于GNS3的虚拟网络基础设施的混合网络物理测试床。该测试床旨在支持安全实验、教育以及对商业物联网安全平台的独立评估，弥补了纯仿真与纯物理测试床的不足。",
+      "summary": "物联网安全研究在可扩展虚拟实验与真实设备行为之间存在方法鸿沟。本文提出BYOT-CPS，一种混合网络物理系统测试床，将真实物联网设备连接到基于GNS3构建的虚拟化网络基础设施。该测试床旨在支持安全实验、教学以及对商用物联网安全平台的独立评估，兼顾了真实性与可扩展性。",
       "keywords": [
         "物联网安全",
         "测试床",
-        "混合系统",
+        "混合仿真",
         "安全评估",
-        "平台评估"
+        "网络物理系统"
       ]
     },
     {
@@ -2516,13 +2512,13 @@
       "category": "papers",
       "meta": "第一作者: Subhash Gurappa · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "针对僵尸网络检测，深度学习方法计算密集且缺乏可解释性。本文在CTU-13基准数据集上，比较了逻辑回归、决策树和随机森林等轻量级机器学习模型的性能。结果表明，这些模型能以极低的计算成本达到有竞争力的检测性能，同时其特征重要性分析为取证调查提供了关键的可解释性。",
+      "summary": "深度学习用于僵尸网络检测存在计算量大、缺乏可解释性的问题。本文在CTU-13基准数据集上，比较了逻辑回归、决策树和随机森林等轻量级机器学习模型。结果表明，轻量级模型能以极低的计算成本达到有竞争力的检测性能，并提供关键的可解释性，更适用于取证调查场景。",
       "keywords": [
         "僵尸网络检测",
-        "轻量级机器学习",
-        "CTU-13数据集",
+        "机器学习",
+        "轻量级模型",
         "可解释性",
-        "网络安全"
+        "CTU-13数据集"
       ]
     },
     {
@@ -2533,49 +2529,47 @@
       "category": "papers",
       "meta": "第一作者: Joseph Valente · 方向: 安全研究",
       "source": "arXiv cs.CR",
-      "summary": "自主AI智能体的兴起和企业数据访问的加速，正在挑战以应用为中心的零信任安全模型。本文介绍了“超越零”安全范式，旨在为AI时代设计。该架构以机器速度为人类和智能体执行每资源、每方法的访问决策，将信任边界从应用级缩小到单个动作，结合静态授权与动态AI推理，实现每秒调解数千决策的自防御企业。",
+      "summary": "随着自主AI智能体的兴起，以应用为中心的零信任安全模型正面临挑战。本文提出「Beyond Zero」新范式，将信任边界从应用层收缩到单个动作，并结合静态授权与AI驱动的动态推理。该架构旨在为人类和机器智能体提供每秒数千次决策的机器速度访问控制，构建能自我防御的企业。",
       "keywords": [
-        "零信任",
+        "零信任安全",
         "AI时代",
-        "企业安全",
         "访问控制",
-        "自主智能体"
+        "动态授权",
+        "企业安全"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems",
       "url": "https://arxiv.org/abs/2605.22842",
-      "excerpt": "Multi-agent AI pipelines typically assume that agent misconduct originates from model misalignment. We identify a structural failure in this assumption, the \\emph{Misattribution Gap}, where memory-layer attacks produce behaviors indistinguishable from model failure, causing defenders to apply the wrong remediation. We formalize \\emph{Semantic Norm Drift} (SND) as a third path to agent misconduct, distinct from emergent misalignment and collusion. In SND, a policy-formatted document enters a shared vector store through normal uploads and later reappears as trusted system context after provenance is lost through a Trust Laundering Chain. Across 64 documented failures, attribution systems consistently blamed the model. Four safety classifiers, including one trained on memory poisoning, produced zero detections across 510 checkpoints. In 59 of 65 valid cases, agents explicitly cited the inje",
-      "publishedAt": "2026-05-12T20:21:47.000Z",
+      "excerpt": "Abstract:Multi-agent AI pipelines typically assume that agent misconduct originates from model misalignment. We identify a structural failure in this assumption, the \\emph{Misattribution Gap}, where memory-layer attacks produce behaviors indistinguishable from model failure, causing defenders to apply the wrong remediation. We formalize \\emph{Semantic Norm Drift} (SND) as a third path to agent misconduct, distinct from emergent misalignment and collusion. In SND, a policy-formatted document enters a shared vector store through normal uploads and later reappears as trusted system context after provenance is lost through a Trust Laundering Chain. Across 64 documented failures, attribution systems consistently blamed the model. Four safety classifiers, including one trained on memory poisoning, produced zero detections across 510 checkpoints. In 59 of 65 valid cases, agents explicitly cited",
       "category": "papers",
       "meta": "第一作者: Tanzim Ahad · 方向: 系统安全",
       "source": "arXiv cs.CR",
-      "summary": "多智能体AI流程通常将智能体的不当行为归因于模型错配。本文识别出一种结构性失败——归因鸿沟，即记忆层攻击产生的行为与模型失败无法区分，导致防御者采取错误的补救措施。研究将语义规范漂移形式化为一种独立的智能体不当行为路径，并通过实验证明，现有的安全分类器在面对此类记忆投毒攻击时完全失效。",
+      "summary": "多智能体AI系统常假设智能体的不当行为源于模型错位。本文揭示了一个结构性失败「归因鸿沟」，即记忆层攻击导致的行为与模型失败无法区分，致使防御者采用错误的修复措施。研究定义了「语义规范漂移」作为一种新的智能体不当行为路径，并证明现有安全分类器对此类攻击的检测能力几乎为零。",
       "keywords": [
-        "多智能体系统",
+        "多智能体AI",
         "记忆投毒",
-        "归因失败",
+        "归因错误",
         "语义规范漂移",
-        "系统安全"
+        "安全防御"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "CHRONOS: Temporally-Aware Multi-Agent Coordination for Evolving Data Marketplaces",
       "url": "https://arxiv.org/abs/2605.23887",
-      "excerpt": "Temporal knowledge-graph data marketplaces face three coupled failures in static designs: stale hybrid index shortcuts reduce recall as edges evolve, stationary Shapley pricing misattributes value after distribution shifts, and uncoordinated agents over-consume a shared differential-privacy budget. We present CHRONOS, a three-layer architecture providing a unified treatment of these challenges with explicit public and private separation. Layer one applies neural-ODE temporal decay to shortcut edges, providing a per-query expected recall-loss bound of Big-O of Pq lambda delta t, with a monotone-envelope guarantee reducing bound looseness to 1.8 to 3.2 times observed loss. Layer two conditions Shapley valuation on detected changepoints and provides finite-sample error guarantees under noise. Layer three uses EXP3-IX to achieve Big-O of the square root of T log T regret while enforcing epsi",
-      "publishedAt": "2026-05-22T17:47:45.000Z",
+      "excerpt": "Abstract:Temporal knowledge-graph data marketplaces face three coupled failures in static designs: stale hybrid index shortcuts reduce recall as edges evolve, stationary Shapley pricing misattributes value after distribution shifts, and uncoordinated agents over-consume a shared differential-privacy budget. We present CHRONOS, a three-layer architecture providing a unified treatment of these challenges with explicit public and private separation. Layer one applies neural-ODE temporal decay to shortcut edges, providing a per-query expected recall-loss bound of Big-O of Pq lambda delta t, with a monotone-envelope guarantee reducing bound looseness to 1.8 to 3.2 times observed loss. Layer two conditions Shapley valuation on detected changepoints and provides finite-sample error guarantees under noise. Layer three uses EXP3-IX to achieve Big-O of the square root of T log T regret while enfor",
       "category": "papers",
       "meta": "第一作者: Joydeep Chandra · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "本文针对时序知识图谱数据市场，提出CHRONOS三层架构，以解决静态设计中的索引失效、价值误估和隐私预算过度消耗三大耦合问题。该架构显式分离公共与私有层，分别采用神经ODE时序衰减、基于变点的Shapley估值和EXP3-IX算法，为查询召回、价值分配和隐私预算管理提供了理论保证。",
+      "summary": "时序知识图谱数据市场的静态设计存在索引过时、定价错误和隐私预算滥用三重失败。本文提出CHRONOS，一个三层架构，统一处理这些挑战。它使用神经常微分方程更新索引、基于变点对Shapley价值进行定价，并利用算法协调智能体对共享差分隐私预算的消耗，以支持动态数据市场的安全运营。",
       "keywords": [
-        "时序知识图谱",
         "数据市场",
+        "时间感知",
         "多智能体协调",
-        "差分隐私",
-        "CHRONOS"
+        "Shapley定价",
+        "差分隐私"
       ]
     },
     {
@@ -2586,31 +2580,30 @@
       "category": "papers",
       "meta": "第一作者: Aratrika Mustafi · 方向: 隐私保护",
       "source": "arXiv cs.CR",
-      "summary": "本文研究了球面Hellinger-Kantorovich梯度流的稳定性问题。通过开发微扰理论，量化了势能差异如何随时间传播，得到了与维度无关的逐点似然比和Rényi散度控制界。这些结果被应用于微分隐私中指数机制的近似采样，为生成满足隐私保护的分布提供了新的理论工具。",
+      "summary": "本文发展了球面Hellinger-Kantorovich梯度流的扰动理论，比较了从相同初始分布出发、由不同势函数驱动的流，并量化了势函数差异随时间的传播。该理论提供了无维度、逐点的对数似然比和Rényi散度控制。这些结果被应用于差分隐私中指数机制的近似采样，证明了似然比的受控性。",
       "keywords": [
+        "差分隐私",
         "梯度流",
-        "微扰理论",
-        "微分隐私",
+        "Wasserstein距离",
         "指数机制",
-        "近似采样"
+        "扰动理论"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation",
       "url": "https://arxiv.org/abs/2605.23429",
-      "excerpt": "This study proposes a novel radar-centric signaling design and architecture for secure integrated sensing and communication (ISAC) systems. The proposed framework is designed to provide robust physical layer security for data transmission while simultaneously enhancing sensing privacy. It employs index modulation and phase coding over frequency-modulated continuous-wave radar (FMCW) chirps, where index modulation (IM) provides an outer layer of data security, and we explicitly design the phase coding (PC) to perturb the resulting signal's ambiguity function (AF) to enhance sensing privacy. This design reduces the risk of unauthorized surveillance by rendering target velocity estimation practically infeasible for unauthorized passive sensing hardware (i.e., a sensing eavesdropper, S-Eve) and significantly impairing its range estimation capabilities. Furthermore, this study also presents t",
-      "publishedAt": "2026-05-22T09:41:54.000Z",
+      "excerpt": "Abstract:This study proposes a novel radar-centric signaling design and architecture for secure integrated sensing and communication (ISAC) systems. The proposed framework is designed to provide robust physical layer security for data transmission while simultaneously enhancing sensing privacy. It employs index modulation and phase coding over frequency-modulated continuous-wave radar (FMCW) chirps, where index modulation (IM) provides an outer layer of data security, and we explicitly design the phase coding (PC) to perturb the resulting signal's ambiguity function (AF) to enhance sensing privacy. This design reduces the risk of unauthorized surveillance by rendering target velocity estimation practically infeasible for unauthorized passive sensing hardware (i.e., a sensing eavesdropper, S-Eve) and significantly impairing its range estimation capabilities. Furthermore, this study also p",
       "category": "papers",
       "meta": "第一作者: Murat Temiz · 方向: 系统安全",
       "source": "arXiv cs.CR",
-      "summary": "本文为基于FMCW雷达的通感一体化系统提出了一种安全信号设计与架构。该框架采用索引调制和相位编码，索引调制为数据提供安全外层，相位编码则用于扰乱信号的模糊函数以增强感知隐私。此设计能显著降低未授权被动感知硬件对目标速度和距离估计的准确性，从而提升系统的整体安全与隐私性。",
+      "summary": "本文为基于调频连续波（FMCW）雷达的集成感知与通信（ISAC）系统提出了一种新的信号设计。通过结合索引调制和相位编码，在提供数据传输物理层安全的同时，通过扰动信号模糊函数来增强感知隐私，使未授权的被动感知硬件难以估计目标速度并严重损害其测距能力。",
       "keywords": [
-        "通感一体化",
+        "集成感知与通信",
         "物理层安全",
-        "雷达信号设计",
+        "FMCW雷达",
         "索引调制",
-        "感知隐私"
+        "模糊函数"
       ]
     },
     {
@@ -2621,49 +2614,47 @@
       "category": "papers",
       "meta": "第一作者: Phuc Duc Nguyen · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "测试时自适应能应对分布漂移，但也使模型易受未标记测试流中的对抗性操纵。现有类级目标攻击在TTA场景中不实用，因为会影响批次内其他样本。本文引入了样本级目标攻击，攻击者旨在仅误分类携带特定触发器的输入，同时保持良性查询的标签分布以逃避检测。为此提出了一种基于元学习的攻击方法。",
+      "summary": "测试时自适应（TTA）能应对分布漂移，但也使其容易受到对抗操纵。现有类级针对性攻击在批量处理中易被检测。本文提出更隐蔽的样本级针对性攻击：仅误分类带有特定触发器的样本，同时保持全局标签分布不变以规避检测。为此设计了基于元学习的攻击方法，实验验证了其有效性。",
       "keywords": [
         "测试时自适应",
         "对抗攻击",
-        "元学习",
-        "目标性攻击",
-        "分布漂移"
+        "针对性攻击",
+        "样本级攻击",
+        "元学习"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "Formal Verification of Probing Security via Conditional Independence",
       "url": "https://arxiv.org/abs/2605.23316",
-      "excerpt": "Side-channel attacks are a major threat to the security of cryptosystems. Masking is a widely used countermeasure against such attacks, but proving the security of masked algorithms is error-prone without formal verification. In this work, we propose a novel approach to formal verification of noninterference properties of masked algorithms based on probabilistic separation logic. By establishing a connection between noninterference and conditional independence, we show how noninterference can be verified using Lilac, a separation logic for conditional independence. We also provide several proof rules that facilitate the verification of probing security and demonstrate their application to example algorithms.",
-      "publishedAt": "2026-05-22T07:34:38.000Z",
+      "excerpt": "Abstract:Side-channel attacks are a major threat to the security of cryptosystems. Masking is a widely used countermeasure against such attacks, but proving the security of masked algorithms is error-prone without formal verification. In this work, we propose a novel approach to formal verification of noninterference properties of masked algorithms based on probabilistic separation logic. By establishing a connection between noninterference and conditional independence, we show how noninterference can be verified using Lilac, a separation logic for conditional independence. We also provide several proof rules that facilitate the verification of probing security and demonstrate their application to example algorithms.",
       "category": "papers",
       "meta": "第一作者: Satoshi Kura · 方向: 系统安全",
       "source": "arXiv cs.CR",
-      "summary": "侧信道攻击对密码系统构成重大威胁，掩码是广泛使用的对策。为证明掩码算法的安全性，本文提出了一种基于概率分离逻辑的形式化验证方法。通过将非干扰属性与条件独立性建立联系，展示了如何使用Lilac分离逻辑来验证非干扰性，并提供了用于验证探测安全性的证明规则。",
+      "summary": "掩码是防御侧信道攻击的常用方法，但其安全性证明易出错。本文提出一种基于概率分离逻辑的形式化验证新方法，通过建立非干扰性与条件独立性之间的联系，利用Lilac逻辑来验证掩码算法的非干扰属性，并提供了证明规则以简化过程。",
       "keywords": [
         "侧信道攻击",
         "掩码",
-        "形式化验证",
-        "概率分离逻辑",
-        "条件独立性"
+        "形式验证",
+        "非干扰性",
+        "概率分离逻辑"
       ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "On APN Exponents and the Differential and Boomerang Properties of Binomials in Characteristic 3",
       "url": "https://arxiv.org/abs/2605.23224",
-      "excerpt": "Recent studies on binomials of the form $F_r(x) = x^r(1 + χ(x))$ over $\\mathbb{F}_{p^n}$ have shown that these functions can exhibit very low boomerang uniformity. In this paper, we focus on the specific behavior of such binomials in characteristic $3$, where instances of extremely low boomerang uniformity-namely $0$ or $1$-seem to arise more frequently than in other characteristics. First, we provide a systematic analysis of Almost Perfect Nonlinear (APN) power functions in characteristic $3$. We present an explicit parametrization of APN exponents arising from the construction of Zha and Wang and demonstrate through numerical results for $n \\le 13$ that this generalized framework accounts for several previously known and sporadic APN instances. Building on this classification, we identify and rigorously prove two classes of binomials $F_r$ that are locally-PN and possess the minimum po",
-      "publishedAt": "2026-05-22T04:33:54.000Z",
+      "excerpt": "Abstract:Recent studies on binomials of the form $F_r(x) = x^r(1 + \\chi(x))$ over $\\mathbb{F}_{p^n}$ have shown that these functions can exhibit very low boomerang uniformity. In this paper, we focus on the specific behavior of such binomials in characteristic $3$, where instances of extremely low boomerang uniformity-namely $0$ or $1$-seem to arise more frequently than in other characteristics. First, we provide a systematic analysis of Almost Perfect Nonlinear (APN) power functions in characteristic $3$. We present an explicit parametrization of APN exponents arising from the construction of Zha and Wang and demonstrate through numerical results for $n \\le 13$ that this generalized framework accounts for several previously known and sporadic APN instances. Building on this classification, we identify and rigorously prove two classes of binomials $F_r$ that are locally-PN and possess th",
       "category": "papers",
       "meta": "第一作者: Namhun Koo · 方向: 安全研究",
       "source": "arXiv cs.CR",
-      "summary": "本文研究了特征为3的域上特定形式二项式的密码学性质，特别是其极低的回旋均匀性。研究首先系统分析了特征3下的几乎完美非线性幂函数，提供了APN指数的显式参数化。在此基础上，识别并严格证明了两类局部置换多项式且具有最小可能回旋均匀性的二项式，深化了对这类密码函数的认识。",
+      "summary": "本文聚焦于特征为3的有限域上的一类二项式函数，系统分析了几乎完美非线性（APN）幂函数。研究通过显式参数化APN指数，并严格证明了两类局部置换多项式二项式具有极低的回旋一致性（0或1）。这些结果深化了对具有优秀密码学性质函数的理解。",
       "keywords": [
         "APN函数",
         "二项式",
         "特征3",
-        "密码学函数",
-        "差分均匀性"
+        "回旋一致性",
+        "密码函数"
       ]
     },
     {
@@ -2674,13 +2665,13 @@
       "category": "papers",
       "meta": "第一作者: Faisal Haque Bappy · 方向: 软件安全",
       "source": "arXiv cs.CR",
-      "summary": "AI编程助手如何改变开发者对安全的思考和实践方式尚不清楚。本文通过访谈和观察发现，这些工具并未消除安全思维，而是将其从编写代码的行为转移到了审查代码的行为上。这种从预防性安全到反应性安全的转变，是由人机交互模式结构性推动的，对安全开发生命周期产生了深远影响。",
+      "summary": "AI编程助手如何影响开发者的安全实践尚不明确。本文通过对专业软件工程师的访谈和任务观察发现，AI助手并未消除安全思考，而是将其从编写代码的行为重组到了审查代码的行为。这种从「预防式」到「反应式」安全的转变，由交互模式结构性地促进。",
       "keywords": [
         "AI编程助手",
-        "安全意识",
-        "软件安全",
-        "开发者实践",
-        "代码审查"
+        "开发者安全意识",
+        "安全编码",
+        "代码审查",
+        "定性研究"
       ]
     },
     {
@@ -2691,13 +2682,13 @@
       "category": "papers",
       "meta": "第一作者: Srivathsan G Morkonda · 方向: 软件安全",
       "source": "arXiv cs.CR",
-      "summary": "越来越多的开发者使用LLM生成代码以提高生产力，但其安全性存疑。本文实证评估了七种流行LLM生成代码的安全性，模拟了开发者使用LLM的行为模式。结果显示，所有评估的LLM都会生成包含漏洞的代码，且其中大部分为严重或高危级别，凸显了使用AI工具生成代码所带来的显著安全风险。",
+      "summary": "大量开发者使用或计划使用AI工具生成代码。本文对七个流行LLM生成的代码进行了安全性实证评估。结果显示，所有被评估的LLM都会生成包含漏洞的代码，且其中大部分为严重或高风险漏洞。这表明当前LLM在代码生成的安全性方面存在显著缺陷。",
       "keywords": [
         "LLM生成代码",
-        "软件安全",
-        "代码漏洞",
-        "实证评估",
-        "AI工具风险"
+        "代码安全",
+        "漏洞分析",
+        "实证研究",
+        "安全风险"
       ]
     },
     {
@@ -2707,25 +2698,503 @@
       "excerpt": "Abstract:We present Intercloud, a decentralised economic network in which streams of private data are secured by Watcher swarms that observe only cryptographic hashes, never plaintext. Intercloud requires no global consensus beyond a single shared random seed per epoch. Two mechanisms provide security: (i) ripple deduplication via epoch-stamped identifiers, preventing any ripple from propagating through the same node twice per epoch, guaranteeing termination without global coordination; and (ii) chilling-effect consensus, in which a swarm reaches finality by attesting to the absence of conflicting evidence rather than voting between alternatives. Any conflicting attestation automatically yields a self-certifying Proof of Corruption. We prove four main results. First, execution ripples terminate in bounded time via the ripple-ID mechanism. Second, a swarm of about 35 Watchers -- assigned ",
       "category": "papers",
       "meta": "第一作者: Gregory Magarshak · 方向: 网络安全",
-      "source": "arXiv cs.CR"
+      "source": "arXiv cs.CR",
+      "summary": "本文提出Intercloud，一个去中心化经济网络，其私有数据流由仅观察哈希值的观察者群保障安全。该网络不需要全局共识，通过两种机制确保安全：基于时间戳标识符的波纹去重保证终止；以及「寒蝉效应共识」，即通过证明无冲突证据来达成最终性，任何冲突证明都自动生成腐败证据。",
+      "keywords": [
+        "去中心化经济",
+        "最终一致性",
+        "数据流安全",
+        "观察者群",
+        "区块链"
+      ]
     },
     {
       "sourceId": "arxiv-cs-cr",
       "title": "Leveraging Large Language Models for Sentiment Analysis: Multi-Modal Analysis of Decentraland's MANA Token",
       "url": "https://arxiv.org/abs/2605.20192",
-      "excerpt": "Decentraland, a decentralized virtual reality platform operating within the expanding Metaverse ecosystem, utilizes its native MANA token to facilitate virtual asset transactions and governance. This study investigates the integration of Discord community sentiment with multi-modal financial data to enhance cryptocurrency price prediction within virtual world economies. We address: (1) identifying sentiment patterns within Decentraland's Discord community, and (2) evaluating the impact of multi-modal features on token return forecasting. Using a BERT-based large language model for sentiment analysis, we develop two LSTM architectures: a baseline incorporating historical prices and a multi-modal variant integrating sentiment scores, trading volume, and market capitalization. Results indicate predominantly neutral community sentiment with a positive skew. The multi-modal model significantl",
-      "publishedAt": "2026-04-04T04:04:13.000Z",
+      "excerpt": "Abstract:Decentraland, a decentralized virtual reality platform operating within the expanding Metaverse ecosystem, utilizes its native MANA token to facilitate virtual asset transactions and governance. This study investigates the integration of Discord community sentiment with multi-modal financial data to enhance cryptocurrency price prediction within virtual world economies. We address: (1) identifying sentiment patterns within Decentraland's Discord community, and (2) evaluating the impact of multi-modal features on token return forecasting. Using a BERT-based large language model for sentiment analysis, we develop two LSTM architectures: a baseline incorporating historical prices and a multi-modal variant integrating sentiment scores, trading volume, and market capitalization. Results indicate predominantly neutral community sentiment with a positive skew. The multi-modal model sig",
       "category": "papers",
       "meta": "第一作者: Xintong Wu · 方向: AI 安全",
       "source": "arXiv cs.CR",
-      "summary": "本研究将Decentraland的Discord社区情感分析与多模态金融数据相结合，以增强虚拟世界经济中加密货币价格预测。研究使用基于BERT的大语言模型进行情感分析，并开发了两种LSTM架构：基线模型仅使用历史价格，多模态模型整合了情感分数、交易量和市值。结果表明，多模态模型显著提升了预测性能。",
+      "summary": "本文研究将Decentraland平台Discord社区的情感信号与多模态金融数据相结合，以增强MANA代币的价格预测。使用基于BERT的模型进行情感分析，并构建了基线与多模态两种LSTM架构进行对比。结果表明，社区情感总体中性但偏积极，且融合情感等多模态特征能显著提升预测性能。",
       "keywords": [
-        "大语言模型",
         "情感分析",
+        "大语言模型",
+        "多模态预测",
         "加密货币",
-        "价格预测",
-        "多模态分析"
+        "Discord"
       ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control",
+      "url": "https://arxiv.org/abs/2605.23863",
+      "excerpt": "Abstract:This study presents a closed-loop robotic strawberry harvesting system that combines a robust vision module, simulation-trained deep reinforcement learning (DRL) control, and ROS-based realrobot execution. For perception, we propose HRAttnEdge-YOLO26-seg, a modified YOLO26-seg architecture that incorporates a high-resolution P2 branch, segmentation-path attention, and edgesupervised prototype learning to improve instance segmentation in cluttered scenes. For control, we train a target-conditioned Proximal Policy Optimization (PPO) policy in Isaac Lab to produce smooth joint-position commands for a UR10e manipulator and deploy it on a UR10e robot for targetfruit reaching and harvesting. This simulation-based approach reduces hardware dependency, lowers development cost, and allows scalable policy training without exhaustive physical trials before real deployment. The proposed vis",
+      "category": "papers",
+      "meta": "第一作者: Al Bashir · 方向: 策略学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "本文提出一个闭环草莓采摘机器人系统，结合了鲁棒视觉模块、仿真训练的深度强化学习控制和基于ROS的真机执行。视觉模块改进了YOLO26-seg以提升杂乱场景分割精度。控制模块在仿真中训练策略并部署到真实机械臂。该方法减少了硬件依赖，降低了开发成本。",
+      "keywords": [
+        "草莓采摘机器人",
+        "视觉模块",
+        "深度强化学习",
+        "仿真到现实",
+        "机器人控制"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Point Tracking Improves World Action Models",
+      "url": "https://arxiv.org/abs/2605.23856",
+      "excerpt": "Abstract:Robot policy learning benefits from world-action models that capture environment dynamics, but pixel-level prediction entangles dynamics with nuisance factors such as lighting and texture, making learned representations vulnerable to task-irrelevant visual variation. We propose JOPAT, a JOint Pixel-And-Track World-Action Model that predicts latent visual observations, 2D point tracks with visibility, and actions in a single denoising diffusion transformer. The key insight is that tracks provide an explicit representation of motion that captures long-horizon dynamics and remains robust under occlusion or partial out-of-frame motion, offering greater utility than modeling pixel appearance alone. On LIBERO and real-world LeRobot tasks, JOPAT improves over pixel-based baselines, with the largest gains on long-horizon tasks involving occlusion, object interaction, and off-screen moti",
+      "category": "papers",
+      "meta": "第一作者: Jiarui Guan · 方向: 策略学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "机器人策略学习的世界模型若仅建模像素，会受光照、纹理等无关因素干扰。本文提出JOPAT模型，在单一的去噪扩散Transformer中联合预测潜在视觉观测、2D点跟踪和动作。关键洞见是点跟踪提供了显式的运动表示，对遮挡和部分出界运动更鲁棒，比仅建模像素外观更有效。",
+      "keywords": [
+        "点跟踪",
+        "世界模型",
+        "动作模型",
+        "扩散模型",
+        "机器人策略学习"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Instrumentation for Imitation Learning: Enhancing Training Datasets for Clothes Hanger Insertion",
+      "url": "https://arxiv.org/abs/2605.23847",
+      "excerpt": "Abstract:Large behaviour models have transformed the field of robotic manipulation, but prohibitive data requirements have thus far prevented a revolution similar to vision language models. We believe that instrumentation, i.e. sensor integration in objects, can provide invaluable state information and enable efficient learning for robotic manipulation. In this paper, we present instrumented imitation learning of clothes hanger insertion. Using 180 teleoperated demonstrations, we train diffusion policies with and without access to instrumentation data. Results show that policies leveraging instrumentation outperform vision-only counterparts by 14-25 %pt and exhibit greater task awareness. Crucially, a black-box imitation learning policy learns to prioritise instrumentation signals without explicit guidance. In addition, enhancing the teleoperation dataset with rollouts from an instrument",
+      "category": "papers",
+      "meta": "第一作者: Remko Proesmans · 方向: 机器人操作 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "大规模行为模型面临数据需求高的瓶颈。本文探索通过仪器化（在物体中集成传感器）提供丰富的状态信息，以提升模仿学习的数据效率。以衣架插入任务为例，研究表明，使用仪器化数据训练的扩散策略显著优于仅视觉的策略，并且策略能自行学会优先利用仪器化信号。",
+      "keywords": [
+        "模仿学习",
+        "物体仪器化",
+        "数据收集",
+        "扩散策略",
+        "机器人操作"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "SFG-ROS: A Resource-Aware Framework for Dense Multi-Agent Perception",
+      "url": "https://arxiv.org/abs/2605.23832",
+      "excerpt": "Abstract:Deploying heterogeneous multi-agent robot fleets for collaborative perception requires robust data exchange and scalable software architectures. However, standard ROS 2 implementations often suffer from network saturation, namespace collisions, and severe computational overhead when distributing dense sensor streams across devices. To address these bottlenecks, we present SFG-ROS, a resource-aware multi-agent software framework designed for dynamic fleet deployments. SFG-ROS addresses these challenges through three primary contributions. First, schema-driven traffic routing isolates high-frequency intra-agent traffic from the global network using a programmatic fully qualified name schema and targeted Fast DDS routing. Second, an on-demand centralized decoding pipeline automatically offloads high-bandwidth sensor data decompression, eliminating redundant processing across local ",
+      "category": "papers",
+      "meta": "第一作者: Constantin Blessing · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "部署异构多智能体机器人车队进行协作感知时，ROS 2的标准实现常面临网络拥塞和计算开销问题。本文提出SFG-ROS资源感知框架，通过模式驱动的流量路由、按需的集中式解码流水线以及动态的通信链路规划来解决这些瓶颈，旨在支持动态车队部署下的密集传感器数据流交换。",
+      "keywords": [
+        "多智能体感知",
+        "资源感知",
+        "ROS 2",
+        "数据交换",
+        "机器人车队"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos",
+      "url": "https://arxiv.org/abs/2605.23762",
+      "excerpt": "Abstract:Imitation Learning from monocular video demonstrations provides a scalable approach for teaching complex skills to humanoid robots. However, translating human motion to humanoids requires overcoming significant morphological mismatches. Standard approaches rely on Geometric Retargeting or Indirect Dynamic Retargeting pipelines. We identify that these intermediate kinematic projections introduce a geometric bias, restricting the search space and yielding suboptimal dynamic behaviors. In this paper, we propose Direct Dynamic Retargeting (DDR), a novel single-stage framework that generates high-fidelity, dynamically feasible trajectories directly from expert videos. By formulating the problem in the task space and leveraging a sampling-based Model Predictive Control solver within a physics simulator, DDR natively optimizes over complex contact sequences while mitigating input drift",
+      "category": "papers",
+      "meta": "第一作者: Constant Roux · 方向: 模仿学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "从单目视频学习人形机器人动作需要解决形态不匹配问题。传统方法依赖中间运动学投影，会引入几何偏差。本文提出直接动态重定向（DDR）框架，直接从专家视频生成高保真、动力学可行的轨迹。通过在任务空间建模问题，并利用基于采样的模型预测控制求解器，优化了接触序列，减少了输入漂移。",
+      "keywords": [
+        "人形机器人",
+        "模仿学习",
+        "重定向",
+        "单目视频",
+        "运动控制"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Any2Any: Efficient Cross-Embodiment Transfer for Humanoid Whole-Body Tracking",
+      "url": "https://arxiv.org/abs/2605.23733",
+      "excerpt": "Abstract:Whole-body tracking (WBT) models have become a key foundation for humanoid robots, enabling them to imitate diverse motions with high fidelity. Training such models from scratch requires large-scale data and computation, making rapid deployment on new humanoid platforms costly. This raises a natural question: Can pretrained WBT models transfer across embodiments with minimal adaptation? To answer this question, we propose Any2Any, a paradigm that efficiently transfers an existing WBT specialist to a new humanoid embodiment with only a small amount of data and compute. Any2Any first performs kinematic alignment between source and target humanoids, aligning their input and output spaces so that the pretrained source policy can be meaningfully reused on the target embodiment.Any2Any then performs dynamics adaptation by applying lightweight parameter-efficient fine-tuning (PEFT) com",
+      "category": "papers",
+      "meta": "第一作者: Ming Yang · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "训练人形机器人全身跟踪模型需要大量数据。本文提出Any2Any范式，旨在以少量数据和算力将预训练的全身跟踪专家模型高效迁移到新的人形机器人平台。该方法首先进行运动学对齐以复用源策略，然后通过轻量级的参数高效微调进行动力学适应，实现快速部署。",
+      "keywords": [
+        "全身跟踪",
+        "跨体迁移",
+        "人形机器人",
+        "运动模仿",
+        "高效微调"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "How Many Training Samples Are Needed for the Inverse Kinematics Solutions by Artificial Neural Networks",
+      "url": "https://arxiv.org/abs/2605.23583",
+      "excerpt": "Abstract:Inverse Kinematics (IK) plays a critical role in robotic motion planning and control. The IK solutions of a robot manipulator could be done by conventional ways such as geometric, algebraic, or Jacobian methods, which have drawbacks. The Artificial Neural Networks (ANNs) have become a promising alternative for approximating IK solutions due to their generalization ability and computational efficiency. This approach basically trains only a few samples of the end effector that are recorded for the solution of the IK problem. However, a fundamental question remains: how many training samples are sufficient to achieve reliable and accurate IK predictions? This study investigates the mathematical framework of relating the size of training datasets and the accuracy of ANN-based IK solvers. Using an articulated robotic manipulator, we generate varying amounts of joint-position pairs to",
+      "category": "papers",
+      "meta": "第一作者: Dong-Won Lim · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "人工神经网络是求解机器人逆运动学（IK）问题的有效方法，但需要多少训练样本才能获得可靠预测？本研究建立了训练数据集大小与基于ANN的IK求解器精度之间的数学关系。通过一个关节操作臂生成不同数量的关节-位置对进行训练，探究了样本量对预测精度的影响。",
+      "keywords": [
+        "逆运动学",
+        "神经网络",
+        "训练样本量",
+        "机器人操作臂",
+        "近似求解"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2605.23477",
+      "excerpt": "Abstract:Diffusion-based policies have established a new standard for precise robotic manipulation but face a critical scalability bottleneck: high-performance models are computationally expensive, while lightweight alternatives often fail to generalize across diverse multi-task environments. Mixture-of-Experts (MoE) architectures offer a promising path to efficiency by activating only a subset of parameters. However, existing MoE routing mechanisms typically rely on low-level noise or latent statistics, ignoring the compositional nature of manipulation tasks. This can fragment reusable behaviors across experts, limiting interpretability and transferability. We introduce Semantically Structured Mixture-of-Experts Diffusion Policy (SMoDP) for compositional robotic manipulation, a framework that grounds expert specialization in semantic task structure. SMoDP leverages a lightweight, infere",
+      "category": "papers",
+      "meta": "第一作者: Chengyu Deng · 方向: 机器人操作 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "扩散策略在机器人操作中表现出色，但存在计算成本高的问题。混合专家（MoE）架构可提升效率，但现有路由机制忽略了任务的组合性。本文提出语义结构化混合专家扩散策略（SMoDP），基于语义任务结构引导专家专业化。该框架使用轻量、可解释的路由器来激活专家，在保持性能的同时提高效率。",
+      "keywords": [
+        "混合专家模型",
+        "扩散策略",
+        "语义结构",
+        "机器人操作",
+        "多任务学习"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Droneulator: A Portable UAV Simulator for Agricultural Workflows with RotorPy and Godot 4",
+      "url": "https://arxiv.org/abs/2605.23386",
+      "excerpt": "Abstract:Agricultural UAV research requires simulators that integrate realistic 3D scenes, high-fidelity vehicle dynamics, and robotics middleware, while remaining practical to deploy across heterogeneous development machines. We present Droneulator, a portable UAV simulator architecture that combines RotorPy for multirotor dynamics with Godot 4 for rendering and sensor generation. Droneulator exposes both PX4-based control and a lightweight WebSocket command path, and publishes synchronised visual and state streams through a Zenoh-based ROS~2-compatible pipeline. This integration enables a single stack to support inspection-oriented data capture, ROS~2/PX4 local planning, and reinforcement learning experiments without modifying the simulator infrastructure. We present quantified validation of the current system across three agricultural UAV workflows: tree-scale image collection for 3D ",
+      "category": "papers",
+      "meta": "第一作者: Jacob Swindell · 方向: 策略学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "农业无人机研究需要集成逼真场景、高保真动力学和机器人中间件的模拟器，且需便于部署。本文提出Droneulator便携式模拟器架构，结合RotorPy进行多旋翼动力学模拟和Godot 4进行渲染与传感器生成。它支持PX4控制、ROS 2通信，可用于数据采集、局部规划和强化学习实验。",
+      "keywords": [
+        "无人机模拟器",
+        "农业应用",
+        "便携式",
+        "ROS 2",
+        "强化学习"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Multi-Floor Exploration for Ground Robots via an Incremental Reachable Graph and Structural Priors",
+      "url": "https://arxiv.org/abs/2605.23350",
+      "excerpt": "Abstract:Autonomous exploration of multi-floor buildings remains challenging for ground robots because conventional 2D and 2.5D maps cannot represent overlapping traversable surfaces such as stairs, ramps, and multiple reachable elevations. This letter presents a multi-floor exploration framework based on an incremental reachable graph. Built as a sparse graph over reachable support surfaces, the graph preserves potentially valid connectivity through tentative graph elements under sparse observations and enables stable, physically reachable frontier detection. To guide exploration beyond the currently mapped floor, we project task-zone priors from an explored floor to initialize a hypothetical graph on the target floor and reconcile it incrementally with incoming observations. A hierarchical planner then jointly reasons over confirmed and hypothetical structures for global guidance. In s",
+      "category": "papers",
+      "meta": "第一作者: Zhiwen Zhu · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "地面机器人探索多楼层建筑具有挑战性，因为传统地图无法表示重叠的可通行表面（如楼梯）。本文提出一种基于增量可达图的多楼层探索框架。该图稀疏表示可达支撑面，并能在观测稀疏时保留潜在连接。通过将已探索楼层的任务区域先验投影到目标楼层，初始化假设图，以引导全局探索。",
+      "keywords": [
+        "多楼层探索",
+        "地面机器人",
+        "可达图",
+        "结构先验",
+        "自主探索"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Sparse Compositional Flow Matching by geometric assembly from motion primitives",
+      "url": "https://arxiv.org/abs/2605.23341",
+      "excerpt": "Abstract:Embodied trajectories, such as the executable motion sequences of robotic manipulators, underwater vehicles, and mobile robots, are a fundamental output of embodied AI. Modern generative models often treat them as a dense, monolithic signal generated point by point, fitting an intricate high-dimensional posterior while leaving the data's latent structure unmodeled, the same sample inefficiency long identified by the structured generative model literature. We argue that a compositional latent structure is a natural choice: many embodied tasks share recurring motion fragments that can be made explicit as a finite repertoire of reusable motion primitives, and compositional units naturally align with subtask boundaries to support task decomposition. Existing compositional generators, however, compose in a latent space and rely on post-hoc decoding to relate sampled units to actual t",
+      "category": "papers",
+      "meta": "第一作者: Yan Tang · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "现有生成模型将机器人运动轨迹视为密集信号，忽略了其潜在的组合结构。本文提出稀疏组合流匹配方法，通过从有限的可复用运动基元库中组装来生成轨迹。该方法将运动基元的组装显式化，使其自然对齐子任务边界，支持任务分解，有望提升生成效率和可解释性。",
+      "keywords": [
+        "具身轨迹",
+        "运动基元",
+        "组合生成",
+        "流匹配",
+        "样本效率"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "6G Communication Networks Enabling Embodied Agents: Architecture and Prototype",
+      "url": "https://arxiv.org/abs/2605.23263",
+      "excerpt": "Abstract:Embodied agents, which couple intelligent decision-making with physical actuation in the real world, impose far more stringent and heterogeneous communication requirements than purely software-based agents. While 6G promises sub-millisecond latency, ultra-high reliability, native intelligence, and integrated sensing, systematic studies on how to exploit these capabilities for embodied agent communication remain limited. This article investigates 6G-enabled communication systems for embodied agents from both conceptual and engineering perspectives. First, we review the concept, embodiment value of embodied agents, and clarify their distinctions from disembodied agents. Then, we analyse the symbiotic relationship between embodied agents and 6G networks. We highlight how key 6G enablers can support the stringent requirements of human-robot interaction. Furthermore, we demonstrate t",
+      "category": "papers",
+      "meta": "第一作者: Lipeng Dai · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "具身智能体对通信提出了严苛且异构的需求。6G网络有望提供亚毫秒级延迟、超高可靠性、原生智能和集成感知。本文从概念和工程角度研究使能具身智能体的6G通信系统，分析了两者之间的共生关系，并通过原型演示了6G关键技术如何支持严格的人机交互需求。",
+      "keywords": [
+        "6G网络",
+        "具身智能体",
+        "通信架构",
+        "人机交互",
+        "低延迟"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Signal Temporal Logic Motion Planning via Graphs of Convex Sets",
+      "url": "https://arxiv.org/abs/2605.23240",
+      "excerpt": "Abstract:This paper investigates continuous-time motion planning under Signal Temporal Logic (STL) specifications. The goal is to generate smooth robot trajectories that satisfy high-level logical and timing requirements while respecting low-level motion constraints. To this end, we propose an efficient framework that combines timed-automata reasoning with graphs of convex sets (GCS). An STL specification is first represented by a timed automaton, which is then coupled with a convex decomposition of the configuration space to form a joint transition system encoding both task progress and region occupancy. Based on this joint transition system, the STL motion-planning problem is reformulated as a shortest-path problem over a GCS, whose solution induces a smooth Bézier-spline trajectory satisfying the STL specification, smoothness requirements, and velocity bounds. We establish the soundne",
+      "category": "papers",
+      "meta": "第一作者: Yu Chen · 方向: 导航与运动 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "本文研究满足信号时序逻辑（STL）规范的连续时间运动规划问题。框架将STL规范转化为时间自动机，并与配置空间的凸分解结合，形成联合转换系统。进而将规划问题重新表述为凸集图（GCS）上的最短路径问题，其解可生成满足STL规范、平滑性要求和速度约束的贝塞尔样条轨迹。",
+      "keywords": [
+        "信号时序逻辑",
+        "运动规划",
+        "凸集图",
+        "时间自动机",
+        "贝塞尔曲线"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Autonomous Frontier-Based Exploration with VLM Guidance",
+      "url": "https://arxiv.org/abs/2605.23165",
+      "excerpt": "Abstract:Autonomous robotic exploration of unknown and hazardous environments, a long-standing challenge, can be significantly improved by leveraging the advanced reasoning of Vision-Language Models (VLMs). We introduce a novel exploration pipeline where a VLM performs high-level strategic decision-making, guiding a conventional low-level robotics control stack. At decision points, the robot generates a multimodal prompt with its current map and visual imagery of potential paths, or frontiers. The VLM analyzes this prompt to select the most promising frontier, replacing simple geometric heuristics with contextual spatial reasoning. This approach, validated in simulation across six indoor environments, improves map coverage by up to 24\\% over existing methods. Our pipeline is lightweight, training-free, and easily transferable to any robot with standard sensors and an internet connection.",
+      "category": "papers",
+      "meta": "第一作者: Aarush Aitha · 方向: 多模态具身 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "本文提出一种新颖的探索流水线，利用视觉语言模型（VLM）进行高层战略决策，引导传统的低层机器人控制栈。在决策点，机器人生成包含当前地图和路径视觉信息的多模态提示，VLM分析后选择最有希望的边界，用上下文空间推理替代简单的几何启发式，显著提升了地图覆盖率。",
+      "keywords": [
+        "自主探索",
+        "视觉语言模型",
+        "边界引导",
+        "空间推理",
+        "室内导航"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Semantic-Aware Guided Drone Exploration for Language-Conditioned 3D Indoor Mapping",
+      "url": "https://arxiv.org/abs/2605.23160",
+      "excerpt": "Abstract:We present Semantic-Aware Guided Exploration, SAGE, a system for open-vocabulary exploration in unknown 3D indoor environments that preserves coverage-oriented behavior while allowing semantic cues to reprioritize frontier selection. Building on the FALCON volumetric explorer, SAGE integrates Contrastive Language-Image Pre-training (CLIP) via four key components: object-centric embedding storage, a temporal cache that projects recent observations onto the free-unknown boundary, object frontiers for high-similarity detections, and a unified semantic-geometric planning cost. This cost function bounds semantic reweighting influence, ensuring frontiers are prioritized without sacrificing total coverage. In Matterport3D-based simulations, SAGE outperforms FALCON and a semantic-only ablation in object discovery across map-query pairs. Compared to Finding Things in the Unknown (FTU), S",
+      "category": "papers",
+      "meta": "第一作者: Nitin Vegesna · 方向: 多模态具身 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "本文提出SAGE系统，用于未知3D室内环境的开放词汇探索。它在保持覆盖探索行为的同时，允许语义线索重新调整边界选择的优先级。系统基于FALCON体积探索器，集成了CLIP模型，通过对象中心嵌入、时间缓存、对象边界和统一的语义-几何规划成本函数，在对象发现方面优于现有方法。",
+      "keywords": [
+        "语义探索",
+        "无人机",
+        "开放词汇",
+        "CLIP",
+        "3D室内建图"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "$π_0$-EqM: Equilibrium Matching for Closed-Loop Vision-Language-Action Control",
+      "url": "https://arxiv.org/abs/2605.23128",
+      "excerpt": "Abstract:Currently, Vision-Language-Action (VLA) models have become the most adopted paradigm for robotic manipulation for its great potential for task generalization. While most generative flow-matching action decoders for VLA control are often deployed with fixed sampling horizons, limiting state-dependent compute and temporal reuse across control cycles. We present $\\pi_0$-EqM, which replaces the flow-matching expert in $\\pi_0$ with an Equilibrium Matching (EqM) decoder while leaving the upstream VLA stack unchanged. Under a matched 300-step budget, $\\pi_0$-EqM improves RoboTwin average success from 40.4% to 50.2% across 19 tasks and remains competitive on LIBERO, with its clearest gain on LIBERO-10 (87.0%). Two threshold scans reveal a task-dependent non-monotonic relation between residual and success, which we term the stationarity--executability gap. The results suggest that infere",
+      "category": "papers",
+      "meta": "第一作者: Huanming Liu · 方向: VLA 通用模型 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "当前VLA模型中基于流匹配的动作解码器通常使用固定的采样时间，限制了计算自适应性。本文提出$\\pi_0$-EqM，用平衡匹配解码器替换$\\pi_0$中的流匹配专家，在相同计算预算下，显著提升了任务成功率。研究揭示了任务相关的残差与成功率之间的非单调关系。",
+      "keywords": [
+        "视觉语言动作模型",
+        "平衡匹配",
+        "机器人操作",
+        "扩散解码器",
+        "闭环控制"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Four Simple Proprioceptive Estimators for Legged Robots",
+      "url": "https://arxiv.org/abs/2605.23100",
+      "excerpt": "Abstract:Legged robots carry an IMU, but the inertial solution drifts because consumer-grade IMUs are noisy. However, the feet create intermittent contacts with the environment that can be used to mitigate that drift. This report develops a sequence of increasingly expressive legged robot state estimators that leverage this. In all cases, the floating-base state comprises attitude, position, velocity, and IMU biases. To model foot contacts, we start from the contact-aided invariant EKF of Hartley et al., albeit at a reduced contact update rate. This is then augmented by replacing the measurement update by a small factor graph. Finally, we turn the same factors into a fixed-lag smoother with contact-episode footholds, with and without an evolving IMU bias. To facilitate reproducibility and further research in proprioceptive legged odometry, all four variants are available in GTSAM (Dellae",
+      "category": "papers",
+      "meta": "第一作者: Frank Dellaert · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "消费级IMU存在漂移，但足式机器人的脚部与环境的间歇性接触可用于缓解此问题。本文开发了四个递进式的足式机器人状态估计器，从接触辅助的不变扩展卡尔曼滤波开始，逐步引入因子图和平滑器，并利用接触回合信息。所有变体均在GTSAM中实现，以促进可复现研究。",
+      "keywords": [
+        "足式机器人",
+        "状态估计",
+        "本体感觉",
+        "IMU",
+        "接触信息"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "UfM*: Uncertainty from Motion* for DNN Depth Estimation Using Gaussians",
+      "url": "https://arxiv.org/abs/2605.23098",
+      "excerpt": "Abstract:Reliable uncertainty estimation is critical for deploying monocular depth deep neural networks (DNNs) in safety-critical robotic systems. Conventional uncertainty methods such as ensembles and sampling-based approaches require multiple inferences per image, incurring substantial compute and memory overhead. Moreover, uncertainty predicted from a single image misses out on measuring disagreement between predictions across views of the same region. We propose Uncertainty from Motion* (UfM*), an uncertainty estimation algorithm that measures multiview disagreement efficiently by comparing previous and current views using a compact Gaussian mixture, requiring only a single DNN inference per image. Using Gaussians to compute multiview disagreement is not only more compute- and memory-efficient than a prior approach using a point cloud, but also improves uncertainty by measuring disag",
+      "category": "papers",
+      "meta": "第一作者: Soumya Sudhakar · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "可靠的不确定性估计对安全关键机器人系统至关重要。传统方法需多次推理，开销大。本文提出UfM*算法，通过使用紧凑的高斯混合模型比较前后帧视角来高效测量多视角分歧，仅需单次深度神经网络推理。该方法比基于点云的方法更高效，并通过测量分歧提升了不确定性估计。",
+      "keywords": [
+        "深度估计",
+        "不确定性估计",
+        "多视角",
+        "高斯混合",
+        "机器人视觉"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2605.23027",
+      "excerpt": "Abstract:Recent research has demonstrated the potential of reinforcement learning in effective multi-robot collaboration, particularly in social dilemmas where robots face a trade-off between self-interest and collective benefits. However, environmental factors such as miscommunication and adversarial robots can impact cooperation, making it crucial to explore how multi-robot communication can be manipulated to achieve different outcomes. This paper presents PIMbot, a framework that manipulates outcomes via two complementary levers: (i) incentive manipulation of the reward channel and (ii) policy manipulation of an agent's own actions. An adaptive multi-objective controller balances these levers in an online manner. Our work introduces a novel approach to manipulation in recent multi-agent RL social dilemmas that utilize a unique reward function for incentivization. By utilizing our prop",
+      "category": "papers",
+      "meta": "第一作者: Zexin Li · 方向: 机器人操作 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "多机器人协作面临通信和对手干扰等环境因素影响。本文提出PIMbot框架，通过两个互补杠杆操纵结果：对奖励通道的激励操纵和对智能体自身行为的策略操纵。一个自适应多目标控制器在线平衡这两个杠杆。该方法为多智能体强化学习社会困境中的操纵问题提供了新思路。",
+      "keywords": [
+        "多机器人强化学习",
+        "对抗操纵",
+        "社会困境",
+        "奖励操纵",
+        "策略操纵"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Robots That Know What to Ask: Recovering Misaligned Rewards through Targeted Explanations",
+      "url": "https://arxiv.org/abs/2605.22986",
+      "excerpt": "Abstract:Learning reward functions from demonstrations assumes that demonstrations provide adequate supervision over all features -- or task-relevant aspects of behavior. In practice, demonstrations are often imperfect: humans may under-emphasize certain features due to cognitive load or physical difficulty, or the training regime may fail to sufficiently cover all relevant situations. In either case, important features may be underspecified, leading to ambiguity in the learned reward function and misaligned behavior at deployment. We propose a framework that detects such underspecified features and actively solicits targeted corrective demonstrations. Our key insight is that demonstrations implicitly reveal which features are well specified: features that are consistently optimized show little variation across demonstrations, while features that are underspecified vary widely. We levera",
+      "category": "papers",
+      "meta": "第一作者: Helena Merker · 方向: 具身智能 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "从演示中学习奖励函数假设演示对所有特征提供了充分监督，但实际上往往不然。本文提出一个框架，能检测这种特征指定不足的问题，并主动向人类寻求针对性的纠正性演示。关键洞见是：演示中变化大的特征可能是被低估的。该方法能生成信息丰富的询问以减少歧义。",
+      "keywords": [
+        "奖励学习",
+        "演示不足",
+        "特征指定不足",
+        "主动询问",
+        "人机协作"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Agentic-VLA: Efficient Online Adaptation for Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2605.22896",
+      "excerpt": "Abstract:Vision-Language-Action (VLA) models have emerged as a promising paradigm for robotic manipulation by leveraging pre-trained vision-language representations. However, current VLA training methods suffer from two critical limitations: poor generalization to novel environments and low training efficiency requiring extensive demonstrations. We introduce Agentic-VLA, an agentic training framework that enables VLAs to efficiently adapt online through three key innovations: (1) Adaptive Reward Synthesis, which dynamically generates and adjusts reward functions based on the VLA's current capabilities and task complexity, decomposing complex tasks into learnable sub-goals for curriculum learning; (2) Language-Guided Exploration, where a critic model provides structured guidance for systematic exploration rather than random sampling; and (3) Experience Memory,which stores and retrieves ta",
+      "category": "papers",
+      "meta": "第一作者: Ruofan Jin · 方向: VLA 通用模型 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "当前VLA训练方法存在泛化能力差和训练效率低的问题。本文提出Agentic-VLA框架，通过三个关键创新使VLA能高效在线自适应：基于当前能力和任务复杂度动态生成奖励的自适应奖励合成、由评论家模型引导探索的语言引导探索，以及存储和检索任务特定经验的体验记忆机制。",
+      "keywords": [
+        "视觉语言动作模型",
+        "在线自适应",
+        "奖励合成",
+        "语言引导探索",
+        "经验记忆"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "Remote Teleoperation of Endovascular Intervention Robots: A Systematic Review",
+      "url": "https://arxiv.org/abs/2605.22889",
+      "excerpt": "Abstract:Remote robotic-assisted endovascular intervention offers a promising approach to reduce clinician radiation exposure and physical strain, while extending specialized vascular care to geographically distant regions. Despite advancements, teleoperated endovascular intervention remains underexplored, especially for time-sensitive interventions like mechanical thrombectomy for acute stroke. The aim of the current review was to determine the evidence regarding teleoperated endovascular robotic systems, covering technical feasibility, communication infrastructure, and clinical outcomes. The review further identified research gaps and future directions. Following PRISMA guidelines, 16 studies were included that met the inclusion criteria out of 2501 initial search results. We found that teleoperated catheters and guidewires, driven by mechanical or electromagnetic systems, can be navig",
+      "category": "papers",
+      "meta": "第一作者: Xingyu Chen · 方向: 模仿学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "远程机器人辅助血管介入可减少医生辐射暴露并扩展专业护理范围。本文遵循PRISMA指南，系统综述了相关研究，涵盖技术可行性、通信基础设施和临床结果。综述发现，遥控导管和导丝在技术上是可行的，尤其在时间敏感的机械取栓等干预中具有潜力，并指出了研究空白。",
+      "keywords": [
+        "远程操作",
+        "血管介入机器人",
+        "系统综述",
+        "机械取栓",
+        "通信基础设施"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "ChainFlow-VLA: Causal Flow Planning with Vision-Language Models",
+      "url": "https://arxiv.org/abs/2605.23270",
+      "excerpt": "Abstract:Current end-to-end autonomous driving systems are fundamentally limited by a mismatch between temporal causal reasoning and global trajectory consistency. Autoregressive (AR) models capture interaction-aware temporal dependencies via causal factorization, but their step-wise decoding leads to error accumulation and suboptimal global structure. In contrast, diffusion models optimize trajectories globally but lack explicit causal constraints, making them unreliable in interactive and safety-critical scenarios. This dichotomy reveals a deeper issue: existing methods treat causal modeling and global optimization as separate paradigms, without a principled way to unify them within a single trajectory distribution. To address this, we propose ChainFlow-VLA, which unifies causal generation and global refinement within a unified probabilistic framework. We formulate planning as a mixtur",
+      "category": "papers",
+      "meta": "第一作者: Xiyang Wang · 方向: VLA 通用模型 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "当前端到端自动驾驶系统在时间因果推理和全局轨迹一致性之间存在矛盾。自回归模型有因果性但全局性差，扩散模型全局性好但缺因果约束。本文提出ChainFlow-VLA，在一个统一的概率框架内融合因果生成和全局细化，通过混合建模将规划重新表述为混合分布的前向流匹配问题。",
+      "keywords": [
+        "视觉语言模型",
+        "因果规划",
+        "自动驾驶",
+        "流匹配",
+        "轨迹生成"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "IntentionNav: A Benchmark for Intent-Driven Object Navigation from Implicit Human Instruction",
+      "url": "https://arxiv.org/abs/2605.23187",
+      "excerpt": "Abstract:Existing object navigation benchmarks usually tell an embodied agent which object category to find, such as microwave or chair. Human-facing embodied AI is often asked something less direct: \"I need something to warm this food\" or \"the room feels stuffy.\" The agent must infer the object that can satisfy the need, find a scene-grounded instance, and decide whether the goal has been reached. We study this setting as intent-driven object navigation and introduce IntentionNav, a diagnostic benchmark for active object search from implicit human instructions. Each episode provides a free-text intent, RGB-D observations, and pose, but withholds the target object name. IntentionNav contains 500 intents over 176 Isaac Sim scenes and 64 target categories. Each intent is rewritten in four controlled instruction styles and annotated with one of four intent modes, separating surface phrasing",
+      "category": "papers",
+      "meta": "第一作者: Lin Qian · 方向: 导航与运动 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "现有物体导航基准通常直接给出目标物体类别。本文研究「意图驱动」的物体导航设置，智能体需从隐式的人类指令（如「我需要热食物的东西」）中推断目标物体。为此引入了IntentionNav基准，包含多种意图模式、控制指令风格，旨在诊断智能体从隐含意图中推理并寻找物体的能力。",
+      "keywords": [
+        "物体导航",
+        "意图理解",
+        "基准测试",
+        "隐式指令",
+        "具身智能"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control",
+      "url": "https://arxiv.org/abs/2605.22894",
+      "excerpt": "Abstract:Controlling physics-based humanoids from natural-language instructions is a critical step toward general-purpose embodied agents. However, existing methods remain constrained by a tension between semantic expressiveness and physical feasibility, often failing to jointly achieve faithful instruction following, high-quality motion, and stable long-horizon control. We propose SCRIPT, a scalable diffusion policy with a multi-stage training framework for language-driven physics-based humanoid control. The core of SCRIPT is a Joint Action-State-Text Diffusion Transformer (JAST-DiT), which represents actions, physical states, and text as dedicated token streams and couples them through joint attention, enabling direct interaction between language semantics and control dynamics. To stabilize autoregressive control, we introduce a nonlinear history conditioning mechanism, which preserves",
+      "category": "papers",
+      "meta": "第一作者: Jingyan Zhang · 方向: 策略学习 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "从自然语言指令控制物理仿真中的人形机器人是实现通用具身智能的关键。本文提出SCRIPT，一个可扩展的扩散策略多阶段训练框架。其核心是联合动作-状态-文本扩散Transformer，通过联合注意力机制使语言语义与控制动力学直接交互。非线性历史条件化机制用于稳定自回归控制。",
+      "keywords": [
+        "人形机器人控制",
+        "自然语言",
+        "扩散策略",
+        "物理仿真",
+        "多阶段训练"
+      ]
+    },
+    {
+      "sourceId": "arxiv-vla",
+      "title": "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation",
+      "url": "https://arxiv.org/abs/2605.22882",
+      "excerpt": "Abstract:Video world models can generate realistic futures from a single instruction, but they often fail to preserve consistent point-level motion over time. As a result, the generated videos appear plausible, yet lack the physical grounding required for reliable action execution, such as robot manipulation. We present GEM-4D, a geometry-grounded video world model that resolves this limitation by injecting dense 4D correspondence supervision, distilled from a pretrained geometry foundation model, into the video generative backbone during training. This supervision enables the model to jointly capture appearance and geometric structure while retaining a single-stream architecture with no additional inference cost. We further introduce an inverse dynamics module that converts correspondence-consistent video rollouts into executable robot trajectories, enabling direct deployment in both re",
+      "category": "papers",
+      "meta": "第一作者: Kaichen Zhou · 方向: 机器人操作 · 来源: cs.RO",
+      "source": "arXiv VLA",
+      "summary": "视频世界模型常无法保持一致的点级运动，生成的视频虽逼真但缺乏可靠执行所需的物理基础。本文提出GEM-4D，一个几何增强的视频世界模型，通过在训练中注入从预训练几何基础模型提炼的密集4D对应监督，来联合捕获外观和几何结构。逆动力学模块可将视频轨迹转换为可执行的机器人轨迹。",
+      "keywords": [
+        "视频世界模型",
+        "几何一致性",
+        "点跟踪",
+        "机器人操作",
+        "逆动力学"
+      ]
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Oil Slides as US Touts Progress on Deal Toward Reopening Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/latest-oil-market-news-and-analysis-for-may-25",
+      "excerpt": "Oil fell as senior US officials gave further, positive signals on progress toward a deal with Iran to reopen the Strait of Hormuz.",
+      "publishedAt": "2026-05-24T22:01:24.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Iran War Squeezes India’s Gas Power Supply as Demand Hits Record",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/iran-war-squeezes-india-s-gas-power-supply-as-demand-hits-record",
+      "excerpt": "India’s gas power generation has plunged to the lowest level in at least six years, with the Iran war hitting fuel shipments, straining electricity supplies at a time when a scorching summer is pushing demand to record highs.",
+      "publishedAt": "2026-05-25T11:54:33.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "伊朗战争冲击燃料运输，导致印度天然气发电量骤降至至少六年来的最低水平。与此同时，酷暑正将电力需求推向创纪录的高位，供应紧张加剧。"
+    },
+    {
+      "sourceId": "bloomberg-markets",
+      "title": "Italian Stocks Hit First Record in 26 Years Led by Energy, Chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/italian-stocks-hit-first-record-in-26-years-led-by-energy-chips",
+      "excerpt": "Italy’s benchmark equity index rose past its all-time closing high set in 2000, with a recent rally in energy and chip stocks supercharging it to record levels.",
+      "publishedAt": "2026-05-25T11:50:46.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets",
+      "summary": "意大利基准股指突破2000年创下的历史收盘高点，26年来首次创下纪录。近期能源和芯片股的强劲涨势推动了这一创纪录的表现。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2762,7 +3231,7 @@
       "publishedAt": "2026-05-25T10:23:52.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "快速商务公司Zepto Ltd.计划于6月上旬公开提交首次公开募股文件，据知情人士透露，可能筹集高达10亿美元。"
+      "summary": "据知情人士透露，快商务公司Zepto Ltd.正准备在6月上旬公开提交首次公开募股文件，此次IPO可能筹集至多10亿美元。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2772,7 +3241,7 @@
       "publishedAt": "2026-05-25T10:06:46.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "伊朗否认与美国协议迫近，尽管美国官员称接近达成协议；美国国务卿马可·鲁比奥表示协议可能最早于周一达成，但伊朗外交部发言人予以否认。"
+      "summary": "伊朗否认与美国达成结束战争的协议迫在眉睫。此前美国官员称双方正接近达成协议，美国国务卿马尔科·鲁比奥表示协议最早可能在周一达成。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2800,7 +3269,7 @@
       "publishedAt": "2026-05-25T09:28:39.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "伊朗外交部发言人表示霍尔木兹海峡开放协议不迫近，但许多问题已达成共识；此前，油价因美国高级官员称美伊接近协议而下跌。"
+      "summary": "伊朗外交部发言人称，开放霍尔木兹海峡的协议并非迫在眉睫，但已在许多问题上达成共识。此前，有美国高级官员称华盛顿与德黑兰正接近达成协议，油价因此下跌。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2819,7 +3288,7 @@
       "publishedAt": "2026-05-25T08:49:34.000Z",
       "category": "finance",
       "source": "Bloomberg Markets",
-      "summary": "据知情人士透露，一家鲜为人知的瑞士贸易公司在伊拉克油轮通过霍尔木兹海峡运输中起到关键作用，该油轮的旅程此前吸引了石油市场关注。"
+      "summary": "据知情人士透露，一家名不见经传的瑞士交易公司在本月早些时候吸引石油市场关注的一艘油轮运输中，扮演了关键角色，负责将伊拉克石油运经霍尔木兹海峡。"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2828,8 +3297,7 @@
       "excerpt": "The Federal Reserve may have enough reason to justify an interest rate cut rather than a hike under new chairman Kevin Warsh, according to BlackRock Inc.",
       "publishedAt": "2026-05-25T08:22:42.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "贝莱德公司认为，在新任主席凯文·沃什领导下，美联储有足够理由降息而非加息。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2838,8 +3306,7 @@
       "excerpt": "Restaurants are great microcosms for macro-economic trends. They sit at the intersection of everything from consumer confidence to commodity costs to the labor market. According to the British Beer and Pub Association, approximately two pubs a day have closed in England during the first quarter of 2",
       "publishedAt": "2026-05-25T08:17:26.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "运营伦敦热门酒吧需应对宏观经济趋势，据英国啤酒和酒吧协会数据，英格兰每天约关闭两家酒吧。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2857,8 +3324,7 @@
       "excerpt": "China has launched an unprecedented campaign against illegal cross-border trading to stem capital outflows, threatening severe penalties against popular brokers and ordering non-compliant accounts to be liquidated within two years. (Source: Bloomberg)",
       "publishedAt": "2026-05-25T08:09:39.000Z",
       "category": "finance",
-      "source": "Bloomberg Markets",
-      "summary": "中国发起前所未有的打击非法跨境交易运动，以遏制资本外流，威胁对流行经纪人实施严厉处罚，并要求不合规账户在两年内清算。"
+      "source": "Bloomberg Markets"
     },
     {
       "sourceId": "bloomberg-markets",
@@ -2925,6 +3391,15 @@
     },
     {
       "sourceId": "bloomberg-markets",
+      "title": "Stournaras Says ECB Must Avoid Overly Restrictive Policy",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-25/stournaras-says-ecb-must-avoid-overly-restrictive-policy",
+      "excerpt": "The European Central Bank must avoid an excessively restrictive approach that could further burden economic activity and investment, according to Governing Council member Yannis Stournaras.",
+      "publishedAt": "2026-05-25T07:20:23.000Z",
+      "category": "finance",
+      "source": "Bloomberg Markets"
+    },
+    {
+      "sourceId": "bloomberg-markets",
       "title": "China Trading Tycoon Loses $1.7 Billion in One Day After Curbs",
       "url": "https://www.bloomberg.com/news/articles/2026-05-25/china-trading-tycoon-loses-1-7-billion-in-one-day-after-curbs",
       "excerpt": "A Chinese online brokerage tycoon lost more than a quarter of his fortune in a single day after Beijing cracked down on cross-border stock trading to tighten control over capital outflows.",
@@ -2965,42 +3440,6 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-25/china-traders-rush-for-exit-after-cross-border-flow-crackdown",
       "excerpt": "Chinese investors are rushing to find alternative ways to buy and sell overseas equities after Beijing launched its most forceful crackdown on illicit cross-border stock trading to stem capital outflows.",
       "publishedAt": "2026-05-25T06:48:35.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Horizons Middle East & Africa 5/25/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-25/horizons-middle-east-africa-5-25-2026-video",
-      "excerpt": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lun",
-      "publishedAt": "2026-05-25T06:37:21.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "MAIA: High Oil Price Offsets Saudi’s Export Volume Loss",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-25/high-oil-price-offsets-saudi-s-export-volume-loss-video",
-      "excerpt": "The ongoing war with Iran has severely disrupted the Middle East's energy exports and trade routes. As a result, the supply of petrodollars that have funded massive overseas investments are under threat. Ziad Daoud, Chief Emerging Markets Economist at Bloomberg Economics spoke to Jennifer Zabasajja ",
-      "publishedAt": "2026-05-25T06:36:56.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Iran Reescalation Risk Can Spike Rand Levels",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-25/iran-reescalation-risk-can-spike-rand-levels-video",
-      "excerpt": "Traders are tracking the rand after signs that the US and Iran could close in on a deal that would reopen the Strait of Hormuz. The South African currency was the best performer against the US dollar among 14 major currencies. Kgothatso Baloyi, Trading Structurer at RMB spoke to Bloomberg’s Jennifer",
-      "publishedAt": "2026-05-25T06:36:11.000Z",
-      "category": "finance",
-      "source": "Bloomberg Markets"
-    },
-    {
-      "sourceId": "bloomberg-markets",
-      "title": "Deal Or No Deal? Oil Falls On Hope | Insight with Haslinda Amin 5/25/2026",
-      "url": "https://www.bloomberg.com/news/videos/2026-05-25/insight-with-haslinda-amin-5-25-2026-video",
-      "excerpt": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
-      "publishedAt": "2026-05-25T06:33:29.000Z",
       "category": "finance",
       "source": "Bloomberg Markets"
     },
@@ -3186,23 +3625,33 @@
     },
     {
       "sourceId": "ft-companies",
+      "title": "Pope Leo says AI ‘needs to be disarmed’",
+      "url": "https://www.ft.com/content/12313f08-991d-4079-9631-9ce7ae70c3e3",
+      "excerpt": "Pontiff warns of dangers of a technological revolution driven by ‘the idolatry of profit’",
+      "publishedAt": "2026-05-25T12:45:48.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "教皇利奥表示，人工智能「需要被解除武装」。他警告说，由「利润崇拜」驱动的技术革命存在危险。"
+    },
+    {
+      "sourceId": "ft-companies",
+      "title": "Italian bank CDP to raise stake in payments group Nexi after CVC weighs bid",
+      "url": "https://www.ft.com/content/338792ab-878e-4d6f-afda-38cd285158d7",
+      "excerpt": "Cassa Depositi e Prestiti’s move comes as buyout firm had considered €9bn bid for Milan-listed group",
+      "publishedAt": "2026-05-25T10:23:06.000Z",
+      "category": "finance",
+      "source": "Financial Times",
+      "summary": "意大利国有银行Cassa Depositi e Prestiti计划增持支付集团Nexi的股份。此举发生之际，收购公司CVC曾考虑对这家米兰上市公司提出90亿欧元的竞购要约。"
+    },
+    {
+      "sourceId": "ft-companies",
       "title": "FirstFT: Trump strikes more cautious tone on peace talks with Iran",
       "url": "https://www.ft.com/content/66776a35-908c-4242-9468-19bf7feaa474",
       "excerpt": "Also in today’s newsletter: US consumers face spending squeeze, the biopic threatening to derail Flávio Bolsonaro’s presidential run",
       "publishedAt": "2026-05-25T09:42:17.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "特朗普在伊朗和平谈判中采取更谨慎语气，据《金融时报》报道。"
-    },
-    {
-      "sourceId": "ft-companies",
-      "title": "Pope Leo warns AI revolution driven by ‘idolatry of profit’",
-      "url": "https://www.ft.com/content/12313f08-991d-4079-9631-9ce7ae70c3e3",
-      "excerpt": "Pontiff says it is ‘not permissible’ to entrust lethal decisions to artificial systems",
-      "publishedAt": "2026-05-25T09:30:05.000Z",
-      "category": "finance",
-      "source": "Financial Times",
-      "summary": "教皇利奥警告人工智能革命由利润偶像驱动，称将致命决策委托给人工智能系统不可接受。"
+      "summary": "据《金融时报》报道，特朗普在与伊朗的和平谈判中采取了更为谨慎的语气。此外，该通讯还涉及美国消费者面临支出压力等内容。"
     },
     {
       "sourceId": "ft-companies",
@@ -3212,7 +3661,7 @@
       "publishedAt": "2026-05-25T09:00:05.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "抽奖业务因缺乏监管而繁荣，运营商比普通参与者更幸运。"
+      "summary": "抽奖企业因其监管缺失而比普通参与者发展得更好，这种缺乏监管的环境帮助了抽奖运营商繁荣发展。"
     },
     {
       "sourceId": "ft-companies",
@@ -3222,7 +3671,7 @@
       "publishedAt": "2026-05-25T08:31:09.000Z",
       "category": "finance",
       "source": "Financial Times",
-      "summary": "Meta和谷歌人工智能模型的安全防护在数分钟内被移除，相关软件能创建提供生物武器和恶意软件信息的系统。"
+      "summary": "旨在移除AI安全护栏的软件能在几分钟内破解Meta和谷歌的模型，使其生成有关生物武器和恶意软件等危险内容的回应。"
     },
     {
       "sourceId": "ft-companies",
@@ -3405,23 +3854,14 @@
       "source": "Financial Times"
     },
     {
-      "sourceId": "ft-companies",
-      "title": "How the Premier League became a UK economic asset",
-      "url": "https://www.ft.com/content/03a170e4-b951-4a95-bbd1-7b13142e21d0",
-      "excerpt": "Top-tier English football is a success story and important cultural export",
-      "publishedAt": "2026-05-24T10:00:06.000Z",
-      "category": "finance",
-      "source": "Financial Times"
-    },
-    {
       "sourceId": "bbc-business",
       "title": "Oil prices slide on hopes of US-Iran peace deal",
       "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
-      "publishedAt": "2026-05-25T10:39:18.000Z",
+      "publishedAt": "2026-05-25T13:05:56.000Z",
       "category": "finance",
       "source": "BBC Business",
-      "summary": "油价因美伊和平协议预期而下跌，特朗普表示协议将涉及霍尔木兹海峡重新开放，但未提供具体细节。"
+      "summary": "因美国与伊朗达成和平协议的希望增加，油价下跌。特朗普表示协议将包括重新开放霍尔木兹海峡，但未提供更多细节。"
     },
     {
       "sourceId": "bbc-business",
@@ -3958,21 +4398,20 @@
       "sourceId": "bbc-world",
       "title": "Deal with US not imminent, Iran says",
       "url": "https://www.bbc.com/news/articles/cglpp2yk336o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The Iranian foreign minister's comments come after the US secretary of state said an agreement could be announced on Monday.",
+      "excerpt": "The US secretary of state earlier said that an agreement could possibly come on Monday.",
       "publishedAt": "2026-05-25T11:17:49.000Z",
       "category": "politics",
-      "source": "BBC World",
-      "summary": "伊朗外长表示与美国达成协议并非迫在眉睫，此前美国国务卿曾表示协议可能在周一宣布。"
+      "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
       "title": "Oil prices slide on hopes of US-Iran peace deal",
       "url": "https://www.bbc.com/news/articles/c809m7g29r7o?at_medium=RSS&at_campaign=rss",
       "excerpt": "Trump said on Saturday that an agreement would include the reopening of the Strait of Hormuz, without giving further details.",
-      "publishedAt": "2026-05-25T10:39:18.000Z",
+      "publishedAt": "2026-05-25T13:05:56.000Z",
       "category": "politics",
       "source": "BBC World",
-      "summary": "受美伊和平协议希望影响，油价下跌。特朗普周六表示协议将包括重新开放霍尔木兹海峡，但未提供进一步细节。"
+      "summary": "油价下滑，因美伊和平协议希望；特朗普称协议将包括重开霍尔木兹海峡，但未详述。"
     },
     {
       "sourceId": "bbc-world",
@@ -3989,6 +4428,42 @@
       "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
       "excerpt": "A hypersonic missile, which reportedly travels over 10 times the speed of sound, was used, Russia has confirmed.",
       "publishedAt": "2026-05-25T04:45:13.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Anger grows after China's deadliest coal mining disaster in years",
+      "url": "https://www.bbc.com/news/articles/c893543gn20o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "On China's tightly-controlled internet, people are calling for justice and questioning how this happened.",
+      "publishedAt": "2026-05-25T08:00:35.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "At least 19 people taken to hospital after 'strong smell' reported at Tokyo mall",
+      "url": "https://www.bbc.com/news/articles/cevpp983kmzo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Police say a man sprayed a substance at an ATM in the luxury Ginza 6 shopping centre.",
+      "publishedAt": "2026-05-25T11:08:05.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "First Hong Kong astronaut launches into space onboard Chinese mission",
+      "url": "https://www.bbc.com/news/articles/cn7p87r56mgo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The 43-year-old police officer and mother of three serves as the team's payload scientist.",
+      "publishedAt": "2026-05-25T06:52:59.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Clashes as Venezuelan prisoners protest over alleged mistreatment",
+      "url": "https://www.bbc.com/news/articles/c0l22wrx44po?at_medium=RSS&at_campaign=rss",
+      "excerpt": "The prisoners insisted their protest was peaceful but that security forces deployed to quell it opened fire.",
+      "publishedAt": "2026-05-25T11:13:45.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -4012,28 +4487,10 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "RAF jet carrying defence secretary has signal jammed near Russian border",
-      "url": "https://www.bbc.com/news/articles/clyp0jrxv7ro?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Pilots on board had to use a different navigation system while the plane's GPS was disabled.",
-      "publishedAt": "2026-05-24T21:30:13.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Suspect killed after opening fire on Secret Service near White House",
-      "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Officials say a suspect approached a checkpoint near the building and opened fire, and that a bystander was wounded.",
-      "publishedAt": "2026-05-24T15:24:11.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Ebola outbreak poses massive challenges, warns nurse",
-      "url": "https://www.bbc.com/news/articles/cy421wgr2mpo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Kate White says she is \"extremely concerned about the inability to get resources\" to the Democratic Republic of Congo.",
-      "publishedAt": "2026-05-24T17:46:14.000Z",
+      "title": "Senegal's leadership row mounts as parliament speaker resigns",
+      "url": "https://www.bbc.com/news/articles/c87qq07l1d8o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Some speculate that El Malick Ndiaye stepped down so that ousted-PM Ousmane Sonko can take his place.",
+      "publishedAt": "2026-05-25T11:12:43.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -4048,10 +4505,28 @@
     },
     {
       "sourceId": "bbc-world",
+      "title": "Suspect killed after opening fire on Secret Service near White House",
+      "url": "https://www.bbc.com/news/articles/cjwp82ye4y3o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Officials say a suspect approached a checkpoint near the building and opened fire, and that a bystander was wounded.",
+      "publishedAt": "2026-05-24T15:24:11.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
       "title": "One killed and many feared trapped under collapsed building in Philippines",
       "url": "https://www.bbc.com/news/articles/cgqpklv42jeo?at_medium=RSS&at_campaign=rss",
       "excerpt": "A Malaysian man has died and about 20 people are feared trapped at the site near Manila, officials say.",
       "publishedAt": "2026-05-24T14:25:00.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Ebola outbreak poses massive challenges, warns nurse",
+      "url": "https://www.bbc.com/news/articles/cy421wgr2mpo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Kate White says she is \"extremely concerned about the inability to get resources\" to the Democratic Republic of Congo.",
+      "publishedAt": "2026-05-24T17:46:14.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -4070,88 +4545,6 @@
       "url": "https://www.bbc.com/news/articles/c3w2l249j8go?at_medium=RSS&at_campaign=rss",
       "excerpt": "The tank, which contains a highly volatile and flammable substance, has been at risk of either a major spillage or an explosion.",
       "publishedAt": "2026-05-25T11:15:29.000Z",
-      "category": "politics",
-      "source": "BBC World",
-      "summary": "加州官员称，一个装有高度易挥发和易燃物质的故障化学品储罐目前无活跃泄漏。该储罐此前存在重大泄漏或爆炸的风险。"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Red Cross volunteers die from suspected Ebola in DR Congo",
-      "url": "https://www.bbc.com/news/articles/c759knxln0wo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "They are thought to have caught the virus before the outbreak was identified, the Red Cross says.",
-      "publishedAt": "2026-05-24T11:09:54.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "French mum and partner held until trial after sons abandoned by road in Portugal",
-      "url": "https://www.bbc.com/news/articles/cq5p75l7n17o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The couple, who allegedly left the woman's sons on a roadside in southern Portugal, will remain in custody.",
-      "publishedAt": "2026-05-23T14:24:48.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "F1 great Prost 'injured as masked gang raid home'",
-      "url": "https://www.bbc.com/sport/formula1/articles/clyp65zpxe0o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Four-time Formula 1 world champion Alain Prost was injured when a masked gang raided his home near Geneva, Swiss media reports.",
-      "publishedAt": "2026-05-23T15:33:20.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "At least 82 killed in Chinese coal mine explosion",
-      "url": "https://www.bbc.com/news/articles/c5y0ve18qlko?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The blast in Shanxi province constitutes the country's worst mining disaster in 16 years.",
-      "publishedAt": "2026-05-24T03:18:38.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Nascar champion Kyle Busch died of pneumonia and sepsis, family says",
-      "url": "https://www.bbc.com/news/articles/ceqpwx5741no?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The driver died aged 41 on Thursday after \"overwhelming complications\" from the illnesses.",
-      "publishedAt": "2026-05-24T14:10:12.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Rubio meets Modi during India visit with energy high on agenda",
-      "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "The secretary of state wants to sell US energy to Delhi to make up for shortfalls caused by the Iran war.",
-      "publishedAt": "2026-05-23T11:55:39.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Trump says Iran deal 'largely negotiated' including reopening Strait of Hormuz",
-      "url": "https://www.bbc.com/news/articles/crmp121z3z8o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Tehran also signals progress on talks but says the key issue of nuclear weapons is not part of an initial framework it is working on.",
-      "publishedAt": "2026-05-24T01:18:31.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Putin vows retaliation after accusing Ukraine of hitting student dormitory",
-      "url": "https://www.bbc.com/news/articles/c5y74lwx395o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Ukraine says it struck Russia's elite Rubicon drone military unit in a Moscow-occupied region.",
-      "publishedAt": "2026-05-23T14:06:12.000Z",
-      "category": "politics",
-      "source": "BBC World"
-    },
-    {
-      "sourceId": "bbc-world",
-      "title": "Senegal's president sacks PM and former ally after months-long feud",
-      "url": "https://www.bbc.com/news/articles/c202jwpd24go?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Bassirou Diomaye Faye also dissolved the government, creating uncertainty amid a debt crisis in the country.",
-      "publishedAt": "2026-05-23T11:36:09.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -4202,28 +4595,37 @@
     },
     {
       "sourceId": "bbc-world",
-      "title": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-      "url": "https://www.bbc.com/news/articles/ce8pn63q771o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Sunil Puniya was on his first sea job when a missile struck the oil tanker Skylight at the start of the Iran war.",
-      "publishedAt": "2026-05-23T23:24:03.000Z",
+      "title": "Moment of gas explosion at China coal mine",
+      "url": "https://www.bbc.com/news/videos/cedpp9ldnl9o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "At least 82 people have been killed and two are missing after a gas explosion at a coal mine in northern China on Sunday, officials say.",
+      "publishedAt": "2026-05-25T10:20:57.000Z",
       "category": "politics",
       "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
-      "title": "In Japan, divorce splits parents from children. Could a law change end sole custody?",
-      "url": "https://www.bbc.com/news/articles/clyp15g9nk4o?at_medium=RSS&at_campaign=rss",
-      "excerpt": "An amendment to Japan's Civil Code looks set to allow shared parenting for the first time.",
-      "publishedAt": "2026-05-23T23:44:22.000Z",
+      "title": "BBC at the site of China's worst mining disaster in more than a decade",
+      "url": "https://www.bbc.com/news/videos/c809m33yjz7o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "At least 82 people have been killed after a gas explosion at the Liushenyu mine in China.",
+      "publishedAt": "2026-05-24T10:34:52.000Z",
       "category": "politics",
       "source": "BBC World"
     },
     {
       "sourceId": "bbc-world",
-      "title": "East Africa wants to curb imports of used clothes. But it's not easy",
-      "url": "https://www.bbc.com/news/articles/c2l2k5pxrgdo?at_medium=RSS&at_campaign=rss",
-      "excerpt": "Kenya, Uganda and Tanzania are major importers of used garments from the West and China.",
-      "publishedAt": "2026-05-23T23:55:13.000Z",
+      "title": "Watch: Pitches, PlayStations and protein ice cream - A look inside Brazil's World Cup base camp",
+      "url": "https://www.bbc.com/news/videos/c2l2rgeyjnwo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "BBC's Brandon Livesay toured the Columbia Park Training Facility in Morris Township, New Jersey that will host the team in the coming weeks.",
+      "publishedAt": "2026-05-23T13:31:38.000Z",
+      "category": "politics",
+      "source": "BBC World"
+    },
+    {
+      "sourceId": "bbc-world",
+      "title": "Moment SpaceX rocket explodes in the Indian Ocean after splashdown",
+      "url": "https://www.bbc.com/news/videos/c1728ypp15no?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Elon Musk's SpaceX has successfully launched its Starship V3 rocket, which landed in a planned fiery explosion on Friday.",
+      "publishedAt": "2026-05-23T03:03:12.000Z",
       "category": "politics",
       "source": "BBC World"
     },
@@ -4274,9 +4676,9 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Venezuela inmates occupy prison roof and set fire to mattresses to protest alleged abuses",
+      "title": "Venezuela inmates occupy prison roof and set fire to mattresses to highlight alleged abuse",
       "url": "https://www.theguardian.com/world/2026/may/25/venezuela-inmates-occupy-prison-roof-protest-alleged-abuses",
-      "excerpt": "Inmates at Barinas prison allege they were peacefully protesting when prison staff opened fire, leaving some wounded Inmates at Venezuela’s western Barinas prison staged a protest on its roof on Sunday, piling flaming mattresses and calling for the removal of the facility’s director, who they accuse",
+      "excerpt": "Inmates at Barinas prison allege they were peacefully protesting when prison staff opened fire, leaving some wounded Inmates at Venezuela’s western Barinas prison staged a protest on its roof on Sunday, piling flaming mattresses and calling for the removal of the facility’s director, whom they accus",
       "publishedAt": "2026-05-25T06:20:46.000Z",
       "category": "politics",
       "source": "The Guardian"
@@ -4369,28 +4771,25 @@
       "excerpt": "Exclusive: Cache of internal documents leaked to the Guardian and the ABC’s Four Corners show multinational has war-gamed ways to massively delay decarbonisation Revealed: the internal BHP memo that slammed the brakes on world’s biggest miner’s climate push Read more from the BHP files investigation",
       "publishedAt": "2026-05-25T10:30:25.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "泄露文件显示，全球最大矿商必和必拓（BHP）在气候行动上倒退，关键项目被搁置。内部文件显示其曾策划大幅推迟脱碳进程。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
       "title": "BHP defies its own climate strategy to spend hundreds of millions on polluting diesel trucks in Pilbara",
       "url": "https://www.theguardian.com/world/2026/may/25/bhp-diesel-trucks-pilbara-australia-mining-climate-pollution",
-      "excerpt": "Exclusive: Mining giant says technology is not yet advanced enough to run a fully electrified fleet but experts say it is hooked on federal fuel tax credits Read more from the BHP files investigation here Get our breaking news email, free app or daily news podcast BHP has continued to spend hundreds",
+      "excerpt": "Exclusive: Mining giant says technology is not yet advanced enough to run a fully electrified fleet but experts say it is hooked on federal fuel tax credits Revealed: the internal BHP memo that slammed the brakes on world’s biggest miner’s climate push Read more from the BHP files investigation here",
       "publishedAt": "2026-05-25T10:30:24.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "矿业巨头必和必拓（BHP）斥资数亿美元在澳大利亚皮尔巴拉地区采购污染性柴油卡车，此举与其自身气候战略相悖。该公司称当前技术尚不支持全电气化车队。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
       "title": "BHP quietly scrapped plan to build Pilbara plant that would have drastically cut emissions",
       "url": "https://www.theguardian.com/world/2026/may/25/bhp-mining-pilbara-iron-ore-plant-to-drastically-cut-emissions-scrapped",
-      "excerpt": "Exclusive: Jimblebar processing facility would have produced higher quality iron ore sought by steelmakers around the world – themselves under pressure to curb pollution Read more from the BHP files investigation here Get our breaking news email, free app or daily news podcast BHP quietly dumped pla",
+      "excerpt": "Exclusive: Jimblebar processing facility would have produced higher quality iron ore sought by steelmakers around the world – themselves under pressure to curb pollution World’s biggest miner BHP backtracks on climate action with key projects put on ice, leaked documents reveal Read more from the BH",
       "publishedAt": "2026-05-25T10:30:23.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "必和必拓（BHP）悄然取消了在皮尔巴拉建造吉姆布莱巴加工厂的计划。该工厂原计划生产更高品质的铁矿石，并大幅减少排放。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -4412,13 +4811,32 @@
     },
     {
       "sourceId": "guardian-world",
+      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
+      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
+      "excerpt": "Brent crude futures down 6% to lowest level in two weeks and stock markets rise Oil prices fell below $100 a barrel on Monday and stock markets rose on hopes that the US and Iran are inching closer to a peace deal. Brent crude futures, the global oil benchmark, were down 6% to $97.28 a barrel, the l",
+      "publishedAt": "2026-05-25T12:43:34.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "周一油价跌破每桶100美元，布伦特原油期货下跌6%至两周低点，因美伊和平协议进展，股市上涨。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Trump Tower in Georgia to be built on land part-owned by son of US sanctions-hit leader",
+      "url": "https://www.theguardian.com/world/2026/may/25/trump-tower-georgia-tbilisi-land-part-owned-son-us-sanctions-leader",
+      "excerpt": "Links between Trump Organization and Ivanishvili family for Tbilisi skyscraper raise new conflict of interest concerns A Trump Tower planned for the Georgian capital, Tbilisi, is to be built on land currently part-owned by the son of the US-sanctioned leader of the country, according to official rec",
+      "publishedAt": "2026-05-25T12:00:27.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "计划在格鲁吉亚首都第比利斯建造的特朗普大厦，将建在美国制裁领导人之子部分拥有的土地上，引发新的利益冲突担忧。"
+    },
+    {
+      "sourceId": "guardian-world",
       "title": "Rare Rubens notebook sheet goes on display in artist’s home city of Antwerp",
       "url": "https://www.theguardian.com/world/2026/may/25/rare-rubens-notebook-sheet-goes-on-display-in-artists-home-city-of-antwerp",
       "excerpt": "Double-sided page featuring a sketch and text sheds new light on the baroque master and his time living in Rome More than 400 years ago, the up and coming Flemish painter Peter Paul Rubens toured the streets of Rome, notebook in hand, sketching images from Renaissance works adorning the city’s churc",
       "publishedAt": "2026-05-25T10:00:24.000Z",
       "category": "politics",
-      "source": "The Guardian",
-      "summary": "一张罕见的鲁本斯笔记本纸页在其家乡安特卫普展出。这张双面纸页包含素描和文字，揭示了这位巴洛克大师在罗马生活的更多信息。"
+      "source": "The Guardian"
     },
     {
       "sourceId": "guardian-world",
@@ -4440,31 +4858,23 @@
     },
     {
       "sourceId": "guardian-world",
-      "title": "Sweden’s PM puts IVF at centre of re-election bid amid record low birthrate",
-      "url": "https://www.theguardian.com/world/2026/may/25/sweden-pm-ivf-re-election-record-low-birthrate",
-      "excerpt": "Ulf Kristersson aims to expand state-funded IVF as Sweden grapples with lowest fertility rate since records began Sweden’s prime minister has promised to put IVF at the heart of his re-election campaign as he tries to win over female voters amid the country’s record low birthrate. Ulf Kristersson’s ",
-      "publishedAt": "2026-05-25T05:00:18.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "‘Massive’ child abuse scandal in France as school staff investigated for violence and sexual assault",
-      "url": "https://www.theguardian.com/world/2026/may/25/massive-child-abuse-scandal-in-france-as-school-staff-investigated-for-violence-and-sexual-assault",
-      "excerpt": "Paris police looking into more than 100 allegations of mistreatment by ‘monitors’ after parents’ groups said they had fought for years to be taken seriously France is facing a child abuse scandal as ‘monitors’ at dozens of state nursery and primary schools are investigated for violence, sexual assau",
-      "publishedAt": "2026-05-25T05:00:18.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
-      "sourceId": "guardian-world",
-      "title": "Middle East crisis live: Trump insists any Iran deal will be ‘great and meaningful’ amid criticism from fellow Republicans",
+      "title": "Middle East crisis live: Trump suggests Gulf countries should sign Abraham accords recognising Israel under any deal",
       "url": "https://www.theguardian.com/world/live/2026/may/25/iran-war-news-middle-east-crisis-oil-price-us-tehran-peace-talks-deal-strait-hormuz",
-      "excerpt": "President posts on social media claiming deal ‘will be exact opposite’ of nuclear agreement negotiated by Obama US and Iran inch closer to peace deal as Trump faces criticism from GOP hawks Ebrahim Rezaei, the spokesperson of the Iranian parliament’s national security and foreign policy commission, ",
-      "publishedAt": "2026-05-25T10:52:37.000Z",
+      "excerpt": "Writing on social media, US president says countries should make settlement with Iran ‘a far more Historic Event’ Iran denies deal with US is imminent, despite some progress Ebrahim Rezaei, the spokesperson of the Iranian parliament’s national security and foreign policy commission, has said that ti",
+      "publishedAt": "2026-05-25T13:03:48.000Z",
       "category": "politics",
       "source": "The Guardian",
-      "summary": "特朗普坚持任何伊朗协议都将「伟大且有意义」，同时面临共和党内鹰派批评。美伊和平协议谈判取得进展，关键分歧仍存。"
+      "summary": "特朗普建议海湾国家签署亚伯拉罕协议承认以色列；伊朗否认协议即将达成，但承认有进展。"
+    },
+    {
+      "sourceId": "guardian-world",
+      "title": "Iran denies deal with US is imminent despite some progress",
+      "url": "https://www.theguardian.com/world/2026/may/25/iran-denies-deal-us-imminent-israel-oman-strait-of-hormuz",
+      "excerpt": "Tehran says ‘contradictory statements’ from US and Israeli interference hindering negotiations Middle East crisis – live updates Iran has poured cold water on suggestions that a deal with the US is imminent, pointing to the confusion in US positions and Israeli interference as key factors in why a c",
+      "publishedAt": "2026-05-25T12:47:12.000Z",
+      "category": "politics",
+      "source": "The Guardian",
+      "summary": "伊朗否认与美国协议即将达成，指出美国立场矛盾及以色列干涉阻碍谈判。"
     },
     {
       "sourceId": "guardian-world",
@@ -4494,30 +4904,41 @@
       "source": "The Guardian"
     },
     {
-      "sourceId": "guardian-world",
-      "title": "Israeli strikes pound Lebanon despite signs US and Iran are close to peace deal",
-      "url": "https://www.theguardian.com/world/2026/may/24/israeli-strikes-pound-lebanon",
-      "excerpt": "Some casualties after attacks on multiple locations in south and east of country on Sunday, state media reports Israeli strikes hit southern and eastern Lebanon on Sunday, a day after 11 people were killed in a single raid on the south despite a ceasefire in the Israel-Hezbollah war and claims that ",
-      "publishedAt": "2026-05-24T19:44:59.000Z",
-      "category": "politics",
-      "source": "The Guardian"
-    },
-    {
       "sourceId": "nyt-world",
-      "title": "U.S.-Iran Peace Deal Nearer, But Could Take Days to Nail Down, U.S. Official Says",
-      "url": "https://www.nytimes.com/live/2026/05/24/world/iran-war-trump",
-      "excerpt": "The official said the sides had agreed in principle to reopen the Strait of Hormuz and commit Iran to disposing of its highly enriched uranium, but stressed that a deal had not yet been signed.",
-      "publishedAt": "2026-05-25T11:09:53.000Z",
+      "title": "Iran War Live Updates: Peace Deal Could Take Days to Nail Down",
+      "url": "https://www.nytimes.com/live/2026/05/25/world/iran-war-trump",
+      "excerpt": "Oil prices fell sharply Monday, as negotiations between the United States and Iran appeared to continue. But both sides have offered conflicting accounts of the emerging agreement.",
+      "publishedAt": "2026-05-25T13:07:08.000Z",
       "category": "politics",
       "source": "NYT World",
-      "summary": "美国官员表示，美伊和平协议更近一步，但可能需要数天时间敲定。双方已原则上同意重新开放霍尔木兹海峡并承诺伊朗处理高浓缩铀，但协议尚未签署。"
+      "summary": "周一油价大幅下跌，美伊谈判持续进行，但双方对新兴协议描述矛盾。"
     },
     {
       "sourceId": "nyt-world",
-      "title": "Pope Leo Has Released an Encyclical About A.I. Why Is That Important?",
-      "url": "https://www.nytimes.com/2026/05/25/world/europe/pope-leo-encyclical-ai.html",
-      "excerpt": "Leo XIV issued his thoughts about artificial intelligence in the modern world using a centuries-old form of papal communication called an encyclical.",
-      "publishedAt": "2026-05-25T09:40:09.000Z",
+      "title": "Pope Leo Warns of Risks From A.I. in 42,300-Word Encyclical",
+      "url": "https://www.nytimes.com/2026/05/25/world/europe/pope-leo-encyclical.html",
+      "excerpt": "The document marks a powerful foray by the leader of the Roman Catholic Church into the debate about the misuse or overuse of artificial intelligence.",
+      "publishedAt": "2026-05-25T12:27:46.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "教皇利奥在长达42,300字的通谕中警告人工智能的风险，标志著罗马天主教会领袖正式介入关于AI滥用或过度使用的辩论。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Cubans Cook With Charcoal and Wood Fires to Survive During Energy Crisis",
+      "url": "https://www.nytimes.com/2026/05/25/world/americas/cuba-blackouts-fire-energy-oil.html",
+      "excerpt": "The U.S. oil blockade has left millions without cooking gas. In Santiago de Cuba, the cradle of the Cuban revolution, apartment tower residents resort to charcoal and firewood.",
+      "publishedAt": "2026-05-25T12:18:48.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "美国石油封锁使数百万古巴人失去烹饪燃气，在革命发源地圣地亚哥，居民被迫使用木炭和柴火做饭。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "A City in the Kill Zone",
+      "url": "https://www.nytimes.com/2026/05/25/world/europe/a-city-in-the-kill-zone.html",
+      "excerpt": "Little is left of Kostiantynivka, a city on the front lines. Rescuers risk their lives to ferry out the few who remain.",
+      "publishedAt": "2026-05-25T09:00:19.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -4541,10 +4962,20 @@
     },
     {
       "sourceId": "nyt-world",
-      "title": "Caught Flat-Footed, a City Races to Catch Up With Ebola",
+      "title": "In City at Center of Ebola Crisis, ‘the Virus Is Far Ahead of Us’",
       "url": "https://www.nytimes.com/2026/05/24/world/africa/ebola-virus-congo-response.html",
       "excerpt": "The deadly virus has spread alarmingly in Congo for months. Only now is the response taking shape.",
-      "publishedAt": "2026-05-24T21:03:36.000Z",
+      "publishedAt": "2026-05-25T12:24:35.000Z",
+      "category": "politics",
+      "source": "NYT World",
+      "summary": "刚果埃博拉危机持续数月，病毒传播迅速，应对措施才开始成形。"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Pope Leo Has Released an Encyclical About A.I. Why Is That Important?",
+      "url": "https://www.nytimes.com/2026/05/25/world/europe/pope-leo-encyclical-ai.html",
+      "excerpt": "Leo XIV issued his thoughts about artificial intelligence in the modern world using a centuries-old form of papal communication called an encyclical.",
+      "publishedAt": "2026-05-25T09:40:09.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -4553,7 +4984,7 @@
       "title": "Israel’s President, Isaac Herzog, Denounces Israeli Violence",
       "url": "https://www.nytimes.com/2026/05/24/world/middleeast/israel-herzog-violence.html",
       "excerpt": "In a speech, Isaac Herzog, whose role is largely ceremonial, delivered a grave indictment of settler attacks in the West Bank and abuse of prisoners.",
-      "publishedAt": "2026-05-24T20:50:21.000Z",
+      "publishedAt": "2026-05-24T20:50:22.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -4604,49 +5035,22 @@
     },
     {
       "sourceId": "nyt-world",
-      "title": "These Are 5 of the Main Issues to Be Resolved in an Iran-U.S. Peace Deal",
-      "url": "https://www.nytimes.com/2026/05/24/world/middleeast/five-main-issues-iran-israel-nuclear.html",
-      "excerpt": "President Trump says the U.S. and Iran could be close to a peace deal. The big issues at stake include the fate of Iran’s nuclear program and reopening the Strait of Hormuz.",
-      "publishedAt": "2026-05-24T19:55:55.000Z",
+      "title": "A deal with the U.S. would be preliminary and focused on ending the war, an Iranian official says.",
+      "url": "https://www.nytimes.com/live/2026/05/25/world/iran-war-trump/a-deal-with-the-us-would-be-preliminary-and-focused-on-ending-war-iranian-official-says",
+      "excerpt": "",
+      "publishedAt": "2026-05-25T13:07:07.000Z",
       "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Israeli Leader Says He and Trump Agree On Blocking an Iranian Nuclear Weapon",
-      "url": "https://www.nytimes.com/2026/05/24/world/middleeast/iran-deal-israel-reaction.html",
-      "excerpt": "Analysts said Israel was worried that a potential agreement would not significantly degrade Iran’s nuclear and missile capabilities.",
-      "publishedAt": "2026-05-24T19:04:04.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Can Concrete Molds Revive Coral Reefs Ruined by Bombs and Climate Change?",
-      "url": "https://www.nytimes.com/2026/05/24/world/asia/can-concrete-molds-revive-coral-reefs-ruined-by-bombs-and-climate-change.html",
-      "excerpt": "In a devastated section of the Coral Triangle in the Pacific Ocean, a conservation group is trying to build an artificial reef.",
-      "publishedAt": "2026-05-25T03:48:45.000Z",
-      "category": "politics",
-      "source": "NYT World"
+      "source": "NYT World",
+      "summary": "伊朗官员表示，与美国的协议将是初步性的，主要目标是结束战争。"
     },
     {
       "sourceId": "nyt-world",
       "title": "Here’s the latest.",
       "url": "https://www.nytimes.com/live/2026/05/25/world/iran-war-trump/heres-the-latest",
       "excerpt": "",
-      "publishedAt": "2026-05-25T09:55:20.000Z",
+      "publishedAt": "2026-05-25T11:34:29.000Z",
       "category": "politics",
       "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Pope Leo Warns of Risks From A.I. in 42,300-Word Encyclical",
-      "url": "https://www.nytimes.com/2026/05/25/world/europe/pope-leo-encyclical.html",
-      "excerpt": "The document marks a powerful foray by the leader of the Roman Catholic church into the debate about the misuse or overuse of artificial intelligence.",
-      "publishedAt": "2026-05-25T10:08:21.000Z",
-      "category": "politics",
-      "source": "NYT World",
-      "summary": "教皇利奥在长达42,300字的通谕中警告人工智能带来的风险。这份文件标志着这位罗马天主教会领袖强力介入了关于人工智能滥用或过度使用的辩论。"
     },
     {
       "sourceId": "nyt-world",
@@ -4654,24 +5058,6 @@
       "url": "https://www.nytimes.com/2026/05/25/world/africa/baobab-tree-dying-madagascar-africa.html",
       "excerpt": "In a forest in Madagascar, the demise of a centuries-old baobab points to the fraying of a fragile ecosystem.",
       "publishedAt": "2026-05-25T09:04:16.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "Cubans Cook With Charcoal and Wood Fires to Survive During Energy Crisis",
-      "url": "https://www.nytimes.com/2026/05/25/world/americas/cuba-blackouts-fire-energy-oil.html",
-      "excerpt": "The U.S. oil blockade has left millions without cooking gas. In Santiago de Cuba, the cradle of the Cuban revolution, apartment tower residents resort to charcoal and firewood.",
-      "publishedAt": "2026-05-25T09:03:47.000Z",
-      "category": "politics",
-      "source": "NYT World"
-    },
-    {
-      "sourceId": "nyt-world",
-      "title": "A City in the Kill Zone",
-      "url": "https://www.nytimes.com/2026/05/25/world/europe/a-city-in-the-kill-zone.html",
-      "excerpt": "Little is left of Kostiantynivka, a city on the front lines. Rescuers risk their lives to ferry out the few who remain.",
-      "publishedAt": "2026-05-25T09:00:19.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -4713,6 +5099,15 @@
     },
     {
       "sourceId": "nyt-world",
+      "title": "These Are 5 of the Main Issues to Be Resolved in an Iran-U.S. Peace Deal",
+      "url": "https://www.nytimes.com/2026/05/24/world/middleeast/five-main-issues-iran-israel-nuclear.html",
+      "excerpt": "President Trump says the U.S. and Iran could be close to a peace deal. The big issues at stake include the fate of Iran’s nuclear program and reopening the Strait of Hormuz.",
+      "publishedAt": "2026-05-24T19:55:55.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
       "title": "Rubio Says U.S.-India Ties Are Strong, Despite Fury Over Trump’s Actions",
       "url": "https://www.nytimes.com/2026/05/24/us/politics/rubio-india-trump-visit.html",
       "excerpt": "In New Delhi, Secretary of State Marco Rubio tried to explain why President Trump has pushed aggressive trade and immigration policies affecting India and Indians in the United States.",
@@ -4726,6 +5121,15 @@
       "url": "https://www.nytimes.com/2026/05/24/world/asia/pakistan-train-bomb-attack-derailment.html",
       "excerpt": "The explosion was so powerful that several nearby buildings were damaged and a resident 15 miles away was jolted awake by the blast. A separatist group claimed responsibility.",
       "publishedAt": "2026-05-24T13:06:36.000Z",
+      "category": "politics",
+      "source": "NYT World"
+    },
+    {
+      "sourceId": "nyt-world",
+      "title": "Israeli Leader Says He and Trump Agree On Blocking an Iranian Nuclear Weapon",
+      "url": "https://www.nytimes.com/2026/05/24/world/middleeast/iran-deal-israel-reaction.html",
+      "excerpt": "Analysts said Israel was worried that a potential agreement would not significantly degrade Iran’s nuclear and missile capabilities.",
+      "publishedAt": "2026-05-24T19:04:04.000Z",
       "category": "politics",
       "source": "NYT World"
     },
@@ -4776,13 +5180,22 @@
     },
     {
       "sourceId": "npr-world",
+      "title": "Trump says U.S. and Iran nearing a peace deal. And, Pope Leo weighs in on AI's rise",
+      "url": "https://www.npr.org/2026/05/25/g-s1-124191/up-first-newsletter-iran-war-trump-ebola-california-chemical-tank-pope-leo-ai",
+      "excerpt": "President Trump says that a deal with Iran to end the war is largely negotiated. And, Pope Leo XIV weighed in today on the rise of AI during his first encyclical.",
+      "publishedAt": "2026-05-25T12:31:08.000Z",
+      "category": "politics",
+      "source": "NPR World",
+      "summary": "特朗普表示美伊和平协议已基本谈妥；教皇利奥十四世在其首份通谕中评论人工智能的崛起。"
+    },
+    {
+      "sourceId": "npr-world",
       "title": "U.S.-Iran peace deal emerging, while war threats still loom",
       "url": "https://www.npr.org/2026/05/25/nx-s1-5833690/u-s-iran-negotiations-updates",
       "excerpt": "President Trump and other administration officials are tempering expectations raised of an imminent agreement to end the war in Iran while Iranian officials have signaled there are still disagreements on key issues.",
       "publishedAt": "2026-05-25T10:16:45.000Z",
       "category": "politics",
-      "source": "NPR World",
-      "summary": "美伊和平协议初现端倪，但战争威胁依然存在。特朗普政府淡化了即将达成协议的预期，而伊朗官员则表示关键问题仍存在分歧。"
+      "source": "NPR World"
     },
     {
       "sourceId": "npr-world",
@@ -4857,13 +5270,33 @@
       "source": "NPR World"
     },
     {
-      "sourceId": "npr-world",
-      "title": "DR Congo Ebola cases rise amid distrust, armed conflict zone",
-      "url": "https://www.npr.org/2026/05/24/nx-s1-5833095/drc-ebola-africa",
-      "excerpt": "Africa races to contain a fast-spreading Ebola outbreak threatening 10 countries as infections spill from eastern Congo into Uganda.",
-      "publishedAt": "2026-05-24T17:18:33.000Z",
+      "sourceId": "dw-chinese",
+      "title": "习近平会见巴基斯坦总理谢里夫  互夸美伊调解角色",
+      "url": "https://www.dw.com/zh/习近平会见巴基斯坦总理谢里夫-互夸美伊调解角色/a-77286979?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "习近平周一在北京会见了巴基斯坦总理夏巴兹·谢里夫，表示“双方要继续保持密切沟通和协调，共同反对单边主义和冷战思维”。",
+      "publishedAt": "2026-05-25T12:43:00.000Z",
       "category": "politics",
-      "source": "NPR World"
+      "source": "DW 中文",
+      "summary": "习近平在北京会见巴基斯坦总理谢里夫，双方强调保持沟通协调，共同反对单边主义和冷战思维，并互相称赞在美伊冲突中的调解角色。"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "中国成为2025在德投资项目最多的国家",
+      "url": "https://www.dw.com/zh/中国成为2025在德投资项目最多的国家/a-77285547?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "2025年，德国的外国投资项目数量降至多年来的最低水平。从来源国看，中国超过美国，成为来德投资最多的国家。",
+      "publishedAt": "2026-05-25T11:35:00.000Z",
+      "category": "politics",
+      "source": "DW 中文",
+      "summary": "2025年德国外国投资项目数量降至多年最低，中国超越美国成为在德投资项目最多的国家。"
+    },
+    {
+      "sourceId": "dw-chinese",
+      "title": "古巴深陷经济危机 中国援助送大米",
+      "url": "https://www.dw.com/zh/古巴深陷经济危机-中国援助送大米/a-77285546?maca=chi-rss-chi-all-1127-rdf",
+      "excerpt": "古巴接收了中国援助的首批1.5万吨大米。这将有助于缓解古巴的粮食短缺问题。自今年1月美国推翻委内瑞拉总统马杜罗并切断委内瑞拉对古巴的石油出口以来，古巴的经济困境已进一步恶化。与此同时，美国加大了对古巴的政治施压。",
+      "publishedAt": "2026-05-25T11:29:00.000Z",
+      "category": "politics",
+      "source": "DW 中文"
     },
     {
       "sourceId": "dw-chinese",
@@ -4872,8 +5305,7 @@
       "excerpt": "中国神舟二十三号飞船于周日发射入轨。乘组三名成员之一黎家盈是中国第四位飞天的女航天员，也是进入中国空间站执行任务的首位香港航天员。",
       "publishedAt": "2026-05-25T10:26:00.000Z",
       "category": "politics",
-      "source": "DW 中文",
-      "summary": "中国神舟二十三号飞船发射，乘组包括香港首位航天员黎家盈，她是中国第四位飞天的女航天员，并将进入中国空间站执行任务。"
+      "source": "DW 中文"
     },
     {
       "sourceId": "dw-chinese",
@@ -4958,24 +5390,6 @@
     },
     {
       "sourceId": "dw-chinese",
-      "title": "德国住房危机加剧 移民尤其住不起",
-      "url": "https://www.dw.com/zh/德国住房危机加剧-移民尤其住不起/a-77228258?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "德国住房市场的危机正加剧社会不平等，尤其移民，他们在寻找可负担住房方面举步维艰。这对社会融合、教育及劳动力市场均产生了深远影响。",
-      "publishedAt": "2026-05-24T07:30:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
-      "title": "每周运动多少才够？新研究揭示“多多益善”",
-      "url": "https://www.dw.com/zh/每周运动多少才够？新研究揭示-多多益善/a-77249068?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "平均每星期进行两个半小时的运动，就可以明显降低心血管疾病风险吗？一项新的研究表明，人们还应该对自己“更狠一点”。",
-      "publishedAt": "2026-05-24T07:26:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
       "title": "美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？",
       "url": "https://www.dw.com/zh/美国还是伊朗：谁能在霍尔木兹封锁中撑得更久？/a-77273755?maca=chi-rss-chi-all-1127-rdf",
       "excerpt": "德黑兰正押注于：在长期制裁下被“锻炼出来”的经济，能够挺得过霍尔木兹海峡危机。华盛顿则疲于面对油价高企、通胀压力以及全球经济衰退风险上升的问题。",
@@ -4989,15 +5403,6 @@
       "url": "https://www.dw.com/zh/奖励-铁杆盟友？特朗普称将向波兰增兵五千/a-77273295?maca=chi-rss-chi-all-1127-rdf",
       "excerpt": "尽管美国正在缩减德国等地的驻欧美军规模，但是特朗普总统本周宣布，驻波兰的美军规模将增加5000，并强调这和波兰右翼民族主义政党去年赢得了总统大选有关。",
       "publishedAt": "2026-05-23T13:08:00.000Z",
-      "category": "politics",
-      "source": "DW 中文"
-    },
-    {
-      "sourceId": "dw-chinese",
-      "title": "中国山西煤矿瓦斯爆炸事故导致严重伤亡",
-      "url": "https://www.dw.com/zh/中国山西煤矿瓦斯爆炸事故导致严重伤亡/a-77272792?maca=chi-rss-chi-all-1127-rdf",
-      "excerpt": "周五晚间发生在山西沁源县的矿难事故，已经造成至少90人死亡。官方通报称，以对涉事企业负责人采取控制措施，习近平指示查明事故原因，依法严肃追责。",
-      "publishedAt": "2026-05-23T11:04:00.000Z",
       "category": "politics",
       "source": "DW 中文"
     },
@@ -5138,13 +5543,77 @@
     },
     {
       "sourceId": "aljazeera",
+      "title": "Could Brazilian oil emerge as one of the big winners of the Iran war?",
+      "url": "https://www.aljazeera.com/news/2026/5/25/could-brazilian-oil-emerge-as-one-of-the-big-winners-of-the-iran-war?traffic_source=rss",
+      "excerpt": "China and India are among those ramping up imports of Brazilian crude amid Strait of Hormuz disruptions.",
+      "publishedAt": "2026-05-25T13:00:15.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "巴西石油可能成为伊朗战争的受益者；中国和印度增加进口巴西原油，因霍尔木兹海峡中断。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "What are the biggest FIFA World Cup upsets in history?",
+      "url": "https://www.aljazeera.com/sports/2026/5/25/what-are-the-biggest-fifa-world-cup-upsets-in-history?traffic_source=rss",
+      "excerpt": "Nothing makes the news like an unfancied or low-ranked team pulling off a shock result at the football World Cup.",
+      "publishedAt": "2026-05-25T11:57:24.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Paraglider survives mid-air collision with plane over Austria",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/paraglider-survives-mid-air-collision-with-plane-over-austria?traffic_source=rss",
+      "excerpt": "Paraglider survives mid-air collision with plane over Austria",
+      "publishedAt": "2026-05-25T11:54:05.000Z",
+      "category": "politics",
+      "source": "Al Jazeera",
+      "summary": "一名滑翔伞运动员在奥地利上空与飞机空中相撞后幸存。"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Yamal in Spain’s World Cup squad, but no room for Real Madrid players",
+      "url": "https://www.aljazeera.com/sports/2026/5/25/yamal-in-spains-world-cup-squad-but-no-room-for-real-madrid-players?traffic_source=rss",
+      "excerpt": "Yamal, one of eight Barcelona players named in the 26-man squad, with seven Arsenal players picked by Luis de la Fuente.",
+      "publishedAt": "2026-05-25T11:49:10.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "The world urgently needs a US-Iran deal now",
+      "url": "https://www.aljazeera.com/opinions/2026/5/25/the-world-urgently-needs-a-us-iran-deal-now?traffic_source=rss",
+      "excerpt": "Without a deal between Washington and Tehran, the fallout from Strait of Hormuz closure could deepen global crises.",
+      "publishedAt": "2026-05-25T11:28:24.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "China’s Xi praises ‘unbreakable’ Pakistan ties as Sharif visits Beijing",
+      "url": "https://www.aljazeera.com/news/2026/5/25/chinas-xi-praises-unbreakable-pakistan-ties-as-sharif-visits-beijing?traffic_source=rss",
+      "excerpt": "Prime Minister Shehbaz Sharif says China and Pakistan are 'iron brother' countries.",
+      "publishedAt": "2026-05-25T11:23:26.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
+      "title": "Cattle market empties as fear grips Eid preparations in India’s West Bengal",
+      "url": "https://www.aljazeera.com/news/2026/5/25/cattle-market-empties-as-fear-grips-eid-preparations-in-indias-west-bengal?traffic_source=rss",
+      "excerpt": "Tensions rise in key state, won by BJP this month for first time, as political shift disrupts Eid al-Adha traditions.",
+      "publishedAt": "2026-05-25T11:23:26.000Z",
+      "category": "politics",
+      "source": "Al Jazeera"
+    },
+    {
+      "sourceId": "aljazeera",
       "title": "Trump’s war loop: Escalate, retreat, repeat",
       "url": "https://www.aljazeera.com/video/the-listening-post/2026/5/25/trumps-war-loop-escalate-retreat-repeat?traffic_source=rss",
       "excerpt": "Stuck in a quagmire of a war, Trump chafes at negative coverage while Iran digs its heels in.",
       "publishedAt": "2026-05-25T11:12:45.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "文章分析特朗普陷入伊朗战争泥潭的循环：升级、退缩、再重复。他因负面报道而烦躁，而伊朗则坚持其立场。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -5153,8 +5622,7 @@
       "excerpt": "Surveillance video caught the moment a powerful explosion surged through the tunnels of a coal mine in China.",
       "publishedAt": "2026-05-25T10:42:34.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "监控视频捕捉到中国一处煤矿发生剧烈爆炸的瞬间，爆炸冲击波穿过矿道。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -5163,8 +5631,7 @@
       "excerpt": "Israel carries out attacks on multiple villages and towns in southern Lebanon.",
       "publishedAt": "2026-05-25T10:10:16.000Z",
       "category": "politics",
-      "source": "Al Jazeera",
-      "summary": "以色列在黎巴嫩南部多个村镇发动袭击，造成三人死亡，并发布了更多疏散令。"
+      "source": "Al Jazeera"
     },
     {
       "sourceId": "aljazeera",
@@ -5231,9 +5698,9 @@
     },
     {
       "sourceId": "aljazeera",
-      "title": "Rubio says US will find ‘another way’ if Iran talks fail",
+      "title": "Trump says any deal with Iran will be ‘great and meaningful’",
       "url": "https://www.aljazeera.com/news/2026/5/25/rubio-says-us-will-find-another-way-if-iran-talks-fail?traffic_source=rss",
-      "excerpt": "US secretary of state says a 'pretty solid' deal is on the table in terms of opening up the Strait of Hormuz.",
+      "excerpt": "An agreement with Iran will be 'great and meaningful' or there will be 'no deal', US president says.",
       "publishedAt": "2026-05-25T07:33:05.000Z",
       "category": "politics",
       "source": "Al Jazeera"
@@ -5298,69 +5765,6 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/aje-onl-nf_venezuelan-prisoners-stage-protest-250526?traffic_source=rss",
       "excerpt": "Inmates in Venezuela's western Barinas prison staged a protest over alleged abuse.",
       "publishedAt": "2026-05-25T05:10:44.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Africa Day 2026: Has the continent achieved true liberation?",
-      "url": "https://www.aljazeera.com/news/2026/5/25/africa-day-2026-has-the-continent-achieved-true-liberation?traffic_source=rss",
-      "excerpt": "Africa Day 2026 spotlights power, debt and digital control as Africans redefine sovereignty.",
-      "publishedAt": "2026-05-25T03:51:13.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Mexico City paints record-breaking football mural ahead of World Cup",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/aje-onl-nf_mexico-city-unveils-record-breaking-mural-240526?traffic_source=rss",
-      "excerpt": "Mexico City unveiled a mural that earned a Guinness World Record ahead of the 2026 World Cup.",
-      "publishedAt": "2026-05-25T03:51:04.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Russia invites media to view deadly strike on college in Luhansk",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/russia-invites-media-to-view-deadly-strike-on-college-in-luhansk?traffic_source=rss",
-      "excerpt": "Russia provided a rare look at damage caused by a Ukrainian strike on a college in occupied Luhansk",
-      "publishedAt": "2026-05-25T03:40:25.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Death toll rises to four in Philippines building collapse; 17 missing",
-      "url": "https://www.aljazeera.com/news/2026/5/25/building-collapse-in-philippines-leaves-3-dead-17-missing?traffic_source=rss",
-      "excerpt": "Rescuers search for survivors after thermal scans indicate breathing and heartbeats beneath debris.",
-      "publishedAt": "2026-05-25T02:57:23.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Oil prices fall amid mixed signals on US-Iran peace deal",
-      "url": "https://www.aljazeera.com/economy/2026/5/25/oil-prices-fall-amid-mixed-signals-on-us-iran-peace-deal?traffic_source=rss",
-      "excerpt": "Japan's stock market surges to record high on hopes of an end to US-Israel war on Iran.",
-      "publishedAt": "2026-05-25T01:55:21.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "Syria holds legislative elections in former Kurdish-controlled areas",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/25/syria-holds-legislative-elections-in-former-kurdish-controlled-areas?traffic_source=rss",
-      "excerpt": "Al Jazeera’s Heidi Pett reports on the Syrian legislative elections in Hasakah and the town of Kobane.",
-      "publishedAt": "2026-05-25T01:29:00.000Z",
-      "category": "politics",
-      "source": "Al Jazeera"
-    },
-    {
-      "sourceId": "aljazeera",
-      "title": "LIVE: Iran says agreement with US ‘not imminent’ despite progress",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/5/24/live-trump-says-iran-deal-not-fully-negotiated-yet?traffic_source=rss",
-      "excerpt": "US president says any potential agreement with Tehran will be 'good and proper' as mediation efforts continue.",
-      "publishedAt": "2026-05-24T23:58:02.000Z",
       "category": "politics",
       "source": "Al Jazeera"
     },
