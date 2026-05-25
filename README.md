@@ -1,25 +1,42 @@
-# DailyBrief
+# 📰 DailyBrief
 
 DailyBrief 是一个每日自动更新的网页简报，聚合技术动态、AI 进展、每日论文、市场行情、财经新闻、国际要闻和社区讨论，并用 AI 生成更适合快速阅读的摘要与介绍。
 
-访问地址：[https://xb-bogger.github.io/DailyBrief/](https://xb-bogger.github.io/DailyBrief/)
+🌐 访问地址：[https://xb-bogger.github.io/DailyBrief/](https://xb-bogger.github.io/DailyBrief/)
 
-## 看什么
+## ✨ 看什么
 
-- **技术动态**：GitHub Trending、AI 媒体、X 热门 AI 讨论，帮助快速扫过当天技术圈重点。
-- **每日论文**：当前聚焦 arXiv `Cryptography and Security`，展示论文标题、第一作者及单位、关键词和中文介绍。
-- **市场行情**：跟踪美股、加密资产、港股、商品、外汇和宏观指标，并提供技术指标与 AI 点评。
-- **财经要点**：聚合 Bloomberg、WSJ、FT、BBC Business、Economist 等财经来源。
-- **时政观察**：聚合 BBC、Guardian、NYT、NPR、Al Jazeera、The Diplomat 等国际新闻源。
-- **社区讨论**：中文模式下关注 V2EX / LinuxDo，英文模式下切换到 Hacker News / Reddit 等来源。
+- 🧑‍💻 **技术动态**：GitHub Trending、AI 媒体、X 热门 AI 讨论，帮助快速扫过当天技术圈重点。
+- 📚 **每日论文**：当前聚焦 arXiv `Cryptography and Security`，展示论文标题、第一作者、领域方向、关键词和中文介绍。
+- 📈 **市场行情**：跟踪美股、加密资产、港股、商品、外汇和宏观指标，并提供技术指标与 AI 点评。
+- 💰 **财经要点**：聚合 Bloomberg、WSJ、FT、BBC Business、Economist 等财经来源。
+- 🌍 **时政观察**：聚合 BBC、Guardian、NYT、NPR、Al Jazeera、The Diplomat 等国际新闻源。
+- 💬 **社区讨论**：中文模式下关注 V2EX / LinuxDo，英文模式下切换到 Hacker News / Reddit 等来源。
 
-## 为什么做
+## 🧭 使用技巧
+
+- 点击任意新闻、论文或项目的**标题**，可以直接跳转到原始链接；论文标题会打开对应的 arXiv 页面。
+- “每日论文”内容较多时会自动分页，每页最多展示 15 篇，适合逐页浏览当天新论文。
+- 页面顶部的一级标签可以在技术、论文、市场、财经、时政和社区之间快速切换。
+- 点击“历史归档”可以查看过往每日简报，不只看今天的内容。
+- 摘要只用于快速判断是否值得深读；需要引用或确认细节时，请打开原文。
+
+## 🤔 为什么做
 
 每天的信息很多，但真正值得花时间看的内容有限。DailyBrief 的目标不是替代原文，而是先帮你完成一轮筛选：把来源、标题、摘要、论文关键词、市场信号和原文链接放在一个干净的静态网页里，方便你决定下一步读什么。
 
 网页是静态部署的，不需要登录，不需要数据库，也不依赖额外的阅读服务。
 
-## 相关文档
+## 🛠️ 未来待做
+
+- 📬 **邮箱订阅提醒**：每日简报生成后自动发送邮件，只推送入口和重点摘要。
+- 💬 **QQ / 微信 / Telegram 等社媒提醒**：生成后推送到个人账号、群聊或频道，减少手动打开网页的成本。
+- 🔔 **关键词订阅**：对特定公司、论文方向、资产或国际议题设置关注词，命中后高亮或单独提醒。
+- 📚 **更多论文方向**：在 `Cryptography and Security` 之外，继续扩展 AI、系统、软件工程、数据库等 arXiv 分类。
+- 🧠 **个性化排序**：根据阅读偏好调整栏目顺序、论文方向权重和市场关注列表。
+- 🗂️ **更强归档检索**：支持按日期、关键词、来源和论文方向检索历史简报。
+
+## 🔗 相关文档
 
 - English version: [README.en.md](README.en.md)
 - 原项目完整说明与部署文档： [README_origin.md](README_origin.md)

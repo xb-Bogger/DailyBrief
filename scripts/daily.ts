@@ -92,10 +92,8 @@ async function enrichPapers(articles: ArticleInput[]): Promise<void> {
       s.enabled !== false,
   );
   const enabledIds = new Set(subSources.map((s) => s.id));
-  const limit = MERGED_SUBGROUP_LIMITS["papers:cs-cr"] ?? 15;
   const papers = articles
-    .filter((a) => enabledIds.has(a.sourceId))
-    .slice(0, limit);
+    .filter((a) => enabledIds.has(a.sourceId));
   if (papers.length === 0) return;
 
   console.log(

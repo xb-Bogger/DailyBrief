@@ -12,7 +12,7 @@ type ApiPaper = {
   title?: string;
   summary?: string;
   publishedAt?: Date;
-  authors: Array<{ name: string; affiliation?: string }>;
+  authors: Array<{ name: string }>;
 };
 
 const HEADERS = {
@@ -27,6 +27,20 @@ function normalizeText(s: string): string {
 
 function absUrl(path: string): string {
   return path.startsWith("http") ? path : `https://arxiv.org${path}`;
+}
+
+function inferSecurityArea(title: string, abstract: string | undefined): string {
+  const text = `${title} ${abstract ?? ""}`.toLowerCase();
+  const rules: Array<[RegExp, string]> = [
+    [/\b(protocol|ake|key exchange|cryptograph|encryption|signature|zero-knowledge|commitment|zkp|mpc|post-quantum|lattice)\b/, "密码学协议"],
+    [/\b(software|program|static analysis|dynamic analysis|fuzz|vulnerab|patch|bug|code|binary|compiler|tamarin|threat model|threat modeling)\b/, "软件安全"],
+    [/\b(llm|large language model|generative ai|artificial intelligence|machine learning|neural|deep learning|reinforcement learning|adversarial|prompt injection)\b/, "AI 安全"],
+    [/\b(system|kernel|container|cloud|distributed|hardware|tee|trusted execution|firmware|side-channel|side channel|microarchitect)\b/, "系统安全"],
+    [/\b(network|web|internet|dns|tls|traffic|routing|botnet|phishing|malware|intrusion)\b/, "网络安全"],
+    [/\b(privacy|anonymous|anonymity|differential privacy|federated|data protection|tracking)\b/, "隐私保护"],
+    [/\b(blockchain|smart contract|ethereum|bitcoin|defi|crypto asset|consensus)\b/, "区块链安全"],
+  ];
+  return rules.find(([pattern]) => pattern.test(text))?.[1] ?? "安全研究";
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -79,26 +93,16 @@ function parseApiXml(xml: string): Map<string, ApiPaper> {
 
   $("entry").each((_, entry) => {
     const idUrl = normalizeText($(entry).find("id").first().text());
-    const id = idUrl.split("/abs/")[1]?.trim();
+    const id = idUrl.split("/abs/")[1]?.trim().replace(/v\d+$/, "");
     if (!id) return;
 
-    const authors: Array<{ name: string; affiliation?: string }> = [];
+    const authors: Array<{ name: string }> = [];
     $(entry)
       .find("author")
       .each((_, author) => {
         const name = normalizeText($(author).find("name").first().text());
-        const affiliation = normalizeText(
-          $(author)
-            .find("affiliation, arxiv\\:affiliation")
-            .first()
-            .text(),
-        );
         if (!name) return;
-        authors.push(
-          affiliation
-            ? { name, affiliation }
-            : { name },
-        );
+        authors.push({ name });
       });
 
     const published = normalizeText($(entry).find("published").first().text());
@@ -150,30 +154,31 @@ async function fetchAbsPageDetails(url: string): Promise<ApiPaper | undefined> {
 export async function fetchArxivRecent(
   sourceId: string,
   listUrl: string,
-  limit = 30,
+  limit = Number.POSITIVE_INFINITY,
 ): Promise<RawArticle[]> {
   const listed = parseFirstRecentBlock(await fetchText(listUrl), limit);
   const details = await fetchApiDetails(listed.map((p) => p.id));
-  if (details.size === 0) {
-    for (const p of listed) {
-      const detail = await fetchAbsPageDetails(p.url);
-      if (detail) details.set(p.id, detail);
-    }
+  for (const p of listed) {
+    if (details.has(p.id)) continue;
+    const detail = await fetchAbsPageDetails(p.url);
+    if (detail) details.set(p.id, detail);
   }
 
   return listed.map((p) => {
     const api = details.get(p.id);
     const firstAuthor = api?.authors[0] ?? (p.authors[0] ? { name: p.authors[0] } : undefined);
-    const affiliation = firstAuthor?.affiliation ?? "arXiv 未提供单位";
+    const title = api?.title || p.title;
+    const excerpt = api?.summary?.slice(0, 900);
+    const area = inferSecurityArea(title, excerpt);
     const authorLabel = firstAuthor
-      ? `第一作者: ${firstAuthor.name} · 单位: ${affiliation}`
-      : "第一作者: arXiv 未提供";
+      ? `第一作者: ${firstAuthor.name} · 方向: ${area}`
+      : `方向: ${area}`;
 
     return {
       sourceId,
-      title: api?.title || p.title,
+      title,
       url: p.url,
-      excerpt: api?.summary?.slice(0, 900),
+      excerpt,
       publishedAt: api?.publishedAt,
       category: "papers",
       meta: authorLabel,

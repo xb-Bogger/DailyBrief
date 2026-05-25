@@ -72,6 +72,10 @@ const TEXTS_ZH = {
   mdTodayKeywords: "今日关键词",
   mdImportance: "重要度",
   archiveLink: "← 历史归档",
+  paperPrevPage: "上一页",
+  paperNextPage: "下一页",
+  paperPageLabel: "第",
+  paperPageSuffix: "页",
 };
 
 const TEXTS_EN: typeof TEXTS_ZH = {
@@ -124,6 +128,10 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   mdTodayKeywords: "Keywords",
   mdImportance: "Importance",
   archiveLink: "← Archive",
+  paperPrevPage: "Prev",
+  paperNextPage: "Next",
+  paperPageLabel: "Page",
+  paperPageSuffix: "",
 };
 
 const STR = REPORT_LOCALE === "en" ? TEXTS_EN : TEXTS_ZH;
@@ -210,8 +218,9 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
-  "papers:cs-cr": 15,
 };
+
+const PAPER_PAGE_SIZE = 15;
 
 /**
  * Sources whose fetcher returns items already sorted by an engagement/heat
@@ -481,6 +490,34 @@ function renderArticleHtml(a: ArticleInput, showSource = false): string {
 </article>`;
 }
 
+function renderArticleListHtml(
+  items: ArticleInput[],
+  showSource: boolean,
+  category: Category,
+): string {
+  if (category !== "papers" || items.length <= PAPER_PAGE_SIZE) {
+    return items.map((a) => renderArticleHtml(a, showSource)).join("\n");
+  }
+  const pageCount = Math.ceil(items.length / PAPER_PAGE_SIZE);
+  const pages = Array.from({ length: pageCount }, (_, i) => {
+    const pageItems = items.slice(i * PAPER_PAGE_SIZE, (i + 1) * PAPER_PAGE_SIZE);
+    return `<div class="article-page${i === 0 ? " active" : ""}" data-article-page="${i + 1}">
+      ${pageItems.map((a) => renderArticleHtml(a, showSource)).join("\n")}
+    </div>`;
+  }).join("\n");
+  const buttons = Array.from({ length: pageCount }, (_, i) => {
+    const page = i + 1;
+    return `<button class="article-page-btn${i === 0 ? " active" : ""}" data-page-target="${page}">${page}</button>`;
+  }).join("");
+  return `${pages}
+    <nav class="article-pagination" data-page-count="${pageCount}">
+      <button class="article-page-step" data-page-step="-1" disabled>${STR.paperPrevPage}</button>
+      <span class="article-page-status">${STR.paperPageLabel} <span data-current-page>1</span> / ${pageCount}${STR.paperPageSuffix}</span>
+      <div class="article-page-buttons">${buttons}</div>
+      <button class="article-page-step" data-page-step="1">${STR.paperNextPage}</button>
+    </nav>`;
+}
+
 function renderSourceContent(
   category: Category,
   subId: string,
@@ -489,7 +526,7 @@ function renderSourceContent(
 ): string {
   const showSource = source.merged === true;
   return `<div class="source-content${isActive ? " active" : ""}" data-source-content="${escapeHtml(source.sourceId)}" data-sub="${escapeHtml(subId)}" data-cat="${category}">
-    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : source.items.map((a) => renderArticleHtml(a, showSource)).join("\n")}
+    ${source.items.length === 0 ? `<p class="empty">${STR.emptySource}</p>` : renderArticleListHtml(source.items, showSource, category)}
   </div>`;
 }
 
@@ -899,6 +936,8 @@ export function renderHtml(
   }
   .source-content { display: none; }
   .source-content.active { display: block; }
+  .article-page { display: none; }
+  .article-page.active { display: block; }
 
   /* ===== article cards in raw panels ===== */
   .article {
@@ -961,6 +1000,52 @@ export function renderHtml(
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
+  }
+  .article-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    margin: 1.2rem 0 0;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--rule);
+  }
+  .article-page-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+  .article-page-btn,
+  .article-page-step {
+    border: 1px solid var(--rule);
+    background: var(--bg-elevated);
+    color: var(--fg-soft);
+    border-radius: 999px;
+    font: inherit;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    padding: 0.32rem 0.65rem;
+    cursor: pointer;
+  }
+  .article-page-btn:hover,
+  .article-page-step:hover:not(:disabled) {
+    border-color: var(--muted);
+    color: var(--fg);
+  }
+  .article-page-btn.active {
+    background: var(--fg);
+    border-color: var(--fg);
+    color: var(--bg);
+  }
+  .article-page-step:disabled {
+    cursor: default;
+    opacity: 0.45;
+  }
+  .article-page-status {
+    color: var(--muted);
+    font-size: 0.78rem;
   }
 
   .empty {
@@ -1298,6 +1383,39 @@ export function renderHtml(
       });
       subContent.querySelectorAll('.source-content').forEach(function (p) {
         p.classList.toggle('active', p.dataset.sourceContent === src);
+      });
+    });
+  });
+  function setArticlePage(root, page) {
+    var pages = Array.prototype.slice.call(root.querySelectorAll('.article-page'));
+    if (pages.length === 0) return;
+    var pageCount = pages.length;
+    var target = Math.max(1, Math.min(pageCount, page));
+    pages.forEach(function (p) {
+      p.classList.toggle('active', Number(p.dataset.articlePage) === target);
+    });
+    root.querySelectorAll('.article-page-btn').forEach(function (b) {
+      b.classList.toggle('active', Number(b.dataset.pageTarget) === target);
+    });
+    root.querySelectorAll('.article-page-step').forEach(function (b) {
+      var step = Number(b.dataset.pageStep);
+      b.disabled = step < 0 ? target === 1 : target === pageCount;
+    });
+    var status = root.querySelector('[data-current-page]');
+    if (status) status.textContent = String(target);
+  }
+  document.querySelectorAll('.article-pagination').forEach(function (nav) {
+    var root = nav.closest('.source-content');
+    if (!root) return;
+    nav.querySelectorAll('.article-page-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        setArticlePage(root, Number(btn.dataset.pageTarget));
+      });
+    });
+    nav.querySelectorAll('.article-page-step').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var current = Number((root.querySelector('[data-current-page]') || {}).textContent || '1');
+        setArticlePage(root, current + Number(btn.dataset.pageStep));
       });
     });
   });
