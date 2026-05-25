@@ -41,11 +41,13 @@ const TEXTS_ZH = {
   subWorld: "国际要闻",
   subOverseasNews: "海外科技",
   subOverseas: "海外",
-  subCsCr: "Cryptography and Security",
+  subCsCr: "密码学与安全",
   subVla: "VLA模型",
   paperBatchTitle: "每日论文 · arXiv cs.CR 最新公告批次",
-  paperBatchNote:
-    "arXiv 通常在美东时间周日至周四 20:00 更新；周末无新公告。当前展示最新可用批次。",
+  paperBatchWeekdayNote:
+    "arXiv 通常在北京时间周一至周五上午更新。当前展示最新可用公告批次。",
+  paperBatchWeekendNote:
+    "周末 arXiv 通常无新公告。当前展示最近一次可用公告批次。",
   emptySource: "该源今日无内容。",
   emptyCategory: "该分类今日无内容。",
   emptyGroup: "该组今日无数据。",
@@ -105,8 +107,10 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subCsCr: "Cryptography and Security",
   subVla: "Embodied AI / VLA",
   paperBatchTitle: "Daily Papers · Latest arXiv cs.CR Announcement",
-  paperBatchNote:
-    "arXiv usually announces updates Sunday through Thursday at 20:00 US Eastern Time; there are no regular weekend announcements. This panel shows the latest available batch.",
+  paperBatchWeekdayNote:
+    "arXiv usually announces updates Monday through Friday morning in Beijing time. This panel shows the latest available announcement batch.",
+  paperBatchWeekendNote:
+    "arXiv usually has no regular weekend announcements. This panel shows the most recent available batch.",
   emptySource: "No content from this source today.",
   emptyCategory: "No content in this category today.",
   emptyGroup: "No data for this group today.",
@@ -596,9 +600,15 @@ function renderRawCategoryPanel(
 }
 
 function renderPapersPanel(subs: SubGroup[]): string {
+  const day = new Date().toLocaleDateString("en-US", {
+    timeZone: "Asia/Shanghai",
+    weekday: "short",
+  });
+  const weekend = day === "Sat" || day === "Sun";
+  const note = weekend ? STR.paperBatchWeekendNote : STR.paperBatchWeekdayNote;
   return `<section class="paper-batch-note">
     <h2>${STR.paperBatchTitle}</h2>
-    <p>${STR.paperBatchNote}</p>
+    <p>${note}</p>
   </section>
   ${renderRawCategoryPanel("papers", subs)}`;
 }
