@@ -605,12 +605,13 @@ function renderPapersPanel(subs: SubGroup[]): string {
     weekday: "short",
   });
   const weekend = day === "Sat" || day === "Sun";
-  const note = weekend ? STR.paperBatchWeekendNote : STR.paperBatchWeekdayNote;
-  return `<section class="paper-batch-note">
+  const note = weekend
+    ? `<section class="paper-batch-note">
     <h2>${STR.paperBatchTitle}</h2>
-    <p>${note}</p>
-  </section>
-  ${renderRawCategoryPanel("papers", subs)}`;
+    <p>${STR.paperBatchWeekendNote}</p>
+  </section>`
+    : "";
+  return `${note}${renderRawCategoryPanel("papers", subs)}`;
 }
 
 // ----- top-level renderer -----

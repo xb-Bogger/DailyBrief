@@ -34,6 +34,15 @@ function normalizeText(s: string): string {
   return s.replace(/\s+/g, " ").trim();
 }
 
+function truncateAtWord(s: string, maxChars: number): string {
+  const text = normalizeText(s);
+  if (text.length <= maxChars) return text;
+  const head = text.slice(0, maxChars).trimEnd();
+  const lastSpace = head.lastIndexOf(" ");
+  const cut = lastSpace > 0 ? head.slice(0, lastSpace) : "";
+  return `${cut.replace(/[.,;:!?-]+$/, "")}...`;
+}
+
 function absUrl(path: string): string {
   return path.startsWith("http") ? path : `https://arxiv.org${path}`;
 }
@@ -204,7 +213,7 @@ function toRawArticle(
 ): RawArticle {
   const firstAuthor = api?.authors[0] ?? (p.authors[0] ? { name: p.authors[0] } : undefined);
   const title = api?.title || p.title;
-  const excerpt = api?.summary?.slice(0, 900);
+  const excerpt = api?.summary ? truncateAtWord(api.summary, 900) : undefined;
   const listLabel = p.listId ? ` · 来源: ${p.listId}` : "";
   const authorLabel = firstAuthor
     ? `第一作者: ${firstAuthor.name} · 方向: ${area}${listLabel}`

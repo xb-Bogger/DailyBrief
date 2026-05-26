@@ -13,6 +13,7 @@ import { getModelTag } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
+  type PaperEnrichment,
   enrichPaperSummaries,
   enrichXViralSummaries,
 } from "../lib/ai/enrich";
@@ -31,6 +32,7 @@ import type { TradingSection } from "../lib/ai/pipeline";
 import { todayKey } from "../lib/utils";
 
 const OUTPUT_DIR = "daily_reports";
+const PAPER_ENRICH_BATCH_SIZE = 8;
 
 async function fetchAll(): Promise<ArticleInput[]> {
   const articles: ArticleInput[] = [];
@@ -99,14 +101,36 @@ async function enrichPapers(articles: ArticleInput[]): Promise<void> {
     `[daily] enriching ${papers.length} arXiv papers with ${REPORT_LOCALE} introductions...`,
   );
   const t0 = Date.now();
-  const enriched = await enrichPaperSummaries(
-    papers.map((a) => ({
-      url: a.url,
-      title: a.title,
-      excerpt: a.excerpt,
-      source: a.meta,
-    })),
-  );
+  const enriched = new Map<string, PaperEnrichment>();
+  for (let i = 0; i < papers.length; i += PAPER_ENRICH_BATCH_SIZE) {
+    const batch = papers.slice(i, i + PAPER_ENRICH_BATCH_SIZE);
+    const batchSummaries = await enrichPaperSummaries(
+      batch.map((a) => ({
+        url: a.url,
+        title: a.title,
+        excerpt: a.excerpt,
+        source: a.meta,
+      })),
+    );
+    for (const [url, item] of batchSummaries) enriched.set(url, item);
+  }
+
+  const missing = papers.filter((a) => !enriched.has(a.url));
+  if (missing.length > 0) {
+    console.warn(`[daily] retrying ${missing.length} papers missing introductions one-by-one...`);
+    for (const a of missing) {
+      const retry = await enrichPaperSummaries([
+        {
+          url: a.url,
+          title: a.title,
+          excerpt: a.excerpt,
+          source: a.meta,
+        },
+      ]);
+      for (const [url, item] of retry) enriched.set(url, item);
+    }
+  }
+
   for (const a of papers) {
     const p = enriched.get(a.url);
     if (!p) continue;
