@@ -23,11 +23,26 @@ const HEADERS = {
 };
 
 const VLA_RECENT_LISTS = [
-  { id: "cs.RO", url: "https://arxiv.org/list/cs.RO/recent" },
-  { id: "cs.CV", url: "https://arxiv.org/list/cs.CV/recent" },
-  { id: "cs.LG", url: "https://arxiv.org/list/cs.LG/recent" },
-  { id: "cs.AI", url: "https://arxiv.org/list/cs.AI/recent" },
-  { id: "cs.CL", url: "https://arxiv.org/list/cs.CL/recent" },
+  {
+    id: "cs.RO",
+    url: "https://arxiv.org/list/cs.RO/recent?skip=0&show=2000",
+  },
+  {
+    id: "cs.CV",
+    url: "https://arxiv.org/list/cs.CV/recent?skip=0&show=2000",
+  },
+  {
+    id: "cs.LG",
+    url: "https://arxiv.org/list/cs.LG/recent?skip=0&show=2000",
+  },
+  {
+    id: "cs.AI",
+    url: "https://arxiv.org/list/cs.AI/recent?skip=0&show=2000",
+  },
+  {
+    id: "cs.CL",
+    url: "https://arxiv.org/list/cs.CL/recent?skip=0&show=2000",
+  },
 ];
 
 function normalizeText(s: string): string {
@@ -45,6 +60,13 @@ function truncateAtWord(s: string, maxChars: number): string {
 
 function absUrl(path: string): string {
   return path.startsWith("http") ? path : `https://arxiv.org${path}`;
+}
+
+function fullRecentListUrl(url: string): string {
+  const parsed = new URL(url);
+  parsed.searchParams.set("skip", "0");
+  parsed.searchParams.set("show", "2000");
+  return parsed.toString();
 }
 
 function inferSecurityArea(title: string, abstract: string | undefined): string {
@@ -235,7 +257,10 @@ export async function fetchArxivRecent(
   listUrl: string,
   limit = Number.POSITIVE_INFINITY,
 ): Promise<RawArticle[]> {
-  const listed = parseFirstRecentBlock(await fetchText(listUrl), limit);
+  const listed = parseFirstRecentBlock(
+    await fetchText(fullRecentListUrl(listUrl)),
+    limit,
+  );
   const details = await hydratePaperDetails(listed);
 
   return listed.map((p) => {
