@@ -41,10 +41,10 @@ on:
   schedule:
     # GitHub Actions cron is UTC and not guaranteed to fire every time.
     # Default REPORT_TZ/REPORT_HOUR is Asia/Shanghai 09:00, so UTC 01:xx
-    # is the primary BJ 09:00 window. UTC 02-04 are a catchup window
+    # is the primary BJ 09:00 window. UTC 02-03 are a catchup window
     # (BJ 10:00-12:00) in case GitHub drops the whole target hour.
     - cron: '0,10,20,30,40,50 1 * * *'
-    - cron: '15,45 2-4 * * *'
+    - cron: '15,45 2-3 * * *'
   workflow_dispatch:
 
 permissions:
@@ -132,7 +132,8 @@ jobs:
           #   1. day matches AND
           #   2. exact hour didn't match AND
           #   3. we're past today's earliest REPORT_HOUR AND
-          #   4. today's report doesn't yet exist on gh-pages
+          #   4. we're still inside the catchup window AND
+          #   5. today's report doesn't yet exist on gh-pages
           # Once today's report is published, this branch self-suppresses on
           # subsequent gate runs — no double-builds per day.
           catchup_match=false
@@ -146,8 +147,11 @@ jobs:
             done
             # Catch up only after the target hour. Do not publish early:
             # arXiv's latest announcement is expected around BJ 09:00.
+            # Also cap catchup before 13:00 local time so delayed GitHub
+            # cron jobs do not unexpectedly publish in the afternoon.
             catchup_threshold=$earliest_hour
-            if [ "$NOW_HOUR" -ge "$catchup_threshold" ]; then
+            catchup_deadline=$((earliest_hour + 4))
+            if [ "$NOW_HOUR" -ge "$catchup_threshold" ] && [ "$NOW_HOUR" -lt "$catchup_deadline" ]; then
               TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
               CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
               HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
@@ -161,6 +165,8 @@ jobs:
               else
                 echo "Catchup check: today's report exists (HTTP $HTTP_CODE) — no action"
               fi
+            else
+              echo "Catchup window closed — current hour $NOW_HOUR is outside [$catchup_threshold, $catchup_deadline)"
             fi
           fi
 
@@ -180,7 +186,7 @@ jobs:
     needs: gate
     if: needs.gate.outputs.should-run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
