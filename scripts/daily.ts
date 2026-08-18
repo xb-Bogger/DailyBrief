@@ -8,6 +8,7 @@ import { fetchSource } from "../lib/sources/dispatch";
 import {
   generateDailyReport,
   type ArticleInput,
+  type DailyReport,
 } from "../lib/ai/pipeline";
 import { getModelTag } from "../lib/ai/llm";
 import {
@@ -33,6 +34,20 @@ import { todayKey } from "../lib/utils";
 
 const OUTPUT_DIR = "daily_reports";
 const PAPER_ENRICH_BATCH_SIZE = 8;
+
+/**
+ * getModelTag() throws on an unknown LLM_BACKEND. That's a config error,
+ * but we don't want a config typo to crash the whole pipeline before the
+ * digest try/catch can degrade — surface "unknown" and let the digest
+ * fallback path emit the real reason in its warn line.
+ */
+function safeModelTag(): string {
+  try {
+    return getModelTag();
+  } catch {
+    return "unknown";
+  }
+}
 
 async function fetchAll(): Promise<ArticleInput[]> {
   const articles: ArticleInput[] = [];
@@ -297,11 +312,30 @@ async function main() {
     console.warn(`[daily] trading section failed: ${msg}`);
   }
 
-  console.log(`[daily] generating digest with ${getModelTag()}…`);
+  console.log(`[daily] generating digest…`);
   const t0 = Date.now();
-  const { report } = await generateDailyReport(articles);
+  let report: DailyReport;
+  try {
+    console.log(`[daily] using model ${safeModelTag()}…`);
+    const r = await generateDailyReport(articles);
+    report = r.report;
+    console.log(`[daily] digest ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(
+      `[daily] LLM digest unavailable — publishing raw report without AI summary/digest. Reason: ${msg}`,
+    );
+    report = {
+      hero_headline: "",
+      daily_overview: "",
+      tech_briefs: [],
+      finance_briefs: [],
+      politics_briefs: [],
+      editor_note: "",
+      keywords: [],
+    };
+  }
   if (trading) report.trading = trading;
-  console.log(`[daily] digest ready in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 
   const dateDir = path.join(OUTPUT_DIR, date);
   fs.mkdirSync(dateDir, { recursive: true });
